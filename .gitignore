@@ -9,6 +9,6 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Generated analysis output (kept out of version control by default)
-reports/*.md
+# Generated analysis output is versioned so the repo is a complete record
+# of channel research. Keep secrets out (.env above), not analysis.
 !reports/.gitkeep

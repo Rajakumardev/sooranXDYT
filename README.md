@@ -13,7 +13,10 @@ scripts/youtube-mcp.sh            # loads .env, launches @kirbah/mcp-youtube
 .env.example                      # copy to .env and add your API key
 AGENTS.md                         # channel profile + working conventions
 .opencode/agents/youtube-seo.md   # the YouTube growth strategist agent
-.opencode/commands/               # /audit /ideas /keywords /channel-report
+.opencode/commands/               # /audit /ideas /keywords /channel-report /track
+CONTENT-PLAN.md                   # the 10-video Risk of Rain 2 plan
+KANBAN.md                         # production board for the series
+DASHBOARD.md                      # live channel + series metrics
 reports/                          # saved analysis output
 ```
 
@@ -72,12 +75,26 @@ Select the **youtube-seo** agent, then run a command:
 | `/audit <video-url-or-id>` | SEO + hook audit with rewritten title/description/tags |
 | `/ideas <topic-or-niche>` | Keyword-backed video ideas with titles and outlines |
 | `/keywords <seed>` | Expand a seed keyword into a cluster |
+| `/track` | Refresh `DASHBOARD.md` + `KANBAN.md` from live data |
 
 You can also just ask in plain language, e.g.:
 
 > Pull the stats for @sooranXD and tell me which titles are working.
 
 > Find 5 outlier channels in my niche and what formats they use.
+
+## Tracking
+
+Three repo files run the day-to-day operation:
+
+| File | Purpose |
+| --- | --- |
+| `CONTENT-PLAN.md` | The ordered 10-video Risk of Rain 2 plan: titles, difficulty, descriptions, tags, thumbnails, cadence |
+| `KANBAN.md` | Production board — move each video from Backlog → Recording → Editing → Packaging → Scheduled → Published → Reviewed |
+| `DASHBOARD.md` | Live metrics: channel snapshot, KPIs, publication log, cadence tracker, benchmarks |
+
+Run `/track` to pull live YouTube data and update the dashboard + board. Ask
+the agent to "move V3 to Packaging" and it will edit the board for you.
 
 ## Quota discipline
 
