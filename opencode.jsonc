@@ -1,0 +1,22 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  // YouTube growth / SEO workspace.
+  // The MCP server is started through a wrapper so the API key can live in
+  // .env (git-ignored) instead of being committed to this config file.
+  "mcp": {
+    "timeout": {
+      // First run downloads the package with npx, which can exceed 30s.
+      "startup": 60000
+    },
+    "servers": {
+      "youtube": {
+        "type": "local",
+        "command": ["bash", "scripts/youtube-mcp.sh"],
+        "cwd": ".",
+        "timeout": {
+          "startup": 60000
+        }
+      }
+    }
+  }
+}
