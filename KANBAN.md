@@ -1,57 +1,58 @@
 # SooranXD — Kanban Board
 
 Living production board for the channel. Move cards right as they progress.
-**Active series:** Warzone / Black Ops Royale **solo, no commentary** · **Cadence:** 5×/week (Mon–Fri).
+**Phase 1 series (Linux):** Black Ops 4 Zombies + Killing Floor 2, no commentary · **Cadence:** 3×/week (Mon/Wed/Fri).
 Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md`
 
 > **How to use:** a card is a single upload. Move it between columns by editing
-> this file (or ask the `youtube-seo` agent: "move W3 to Packaging"). Each card
-> shows `ID · theme · scheduled date`.
+> this file (or ask the `youtube-seo` agent: "move Z3 to Packaging").
 > **Stage key:** 💡 Backlog → 📝 Planned → 🎬 Recording → ✂️ Editing → 🎨 Packaging → 📅 Scheduled → 🚀 Published → 📊 Reviewed
 
 ---
 
 ## 🅿️ Parked / dropped
 
-- **KILLING FLOOR 2 series** — parked on skill. Gate: clear **Hell on Earth solo** with 2–3 perks. Format when ready: `Killing Floor 2: Hell on Earth [map] Solo [perk] w/[boss] (No Commentary)`. Practice off-camera meanwhile.
-- **RISK OF RAIN 2 / longplay** — **dropped** (not the creator's interest; not a BR). Plan archived at `reports/2026-10-03-ror2-10-video-plan.md`.
+- **WARZONE / BATTLEFIELD BR — Phase 2.** Blocked by hardware: Linux + 3050 Ti can't run them (Ricochet / EA anti-cheat). Reopen when a **PS5 or decent Windows PC** is available. Plan already researched.
+- **RISK OF RAIN 2 / longplay** — dropped (not the creator's interest). Archived: `reports/2026-10-03-ror2-10-video-plan.md`.
+- **THE FINALS / APEX / FORTNITE / PUBG** — dropped; anti-cheat blocked on Linux.
 
 ---
 
 ## 💡 Backlog & Ideas
 
-- **[cleanup] `eXFAFQxc6rc`** — off-series RoR2 upload. Decide: unlist or leave dormant. (Not a Warzone card.)
-- **[idea] 20+ kill record attempt** — recurring "highest kill game" series hook.
-- **[idea] No-loadout / pistol-start win** — challenge variant.
-- **[idea] New-season / new-weapon reactions** — ride each Warzone patch with a "first game with X" upload.
-- **[idea] Shorts** — 30–60 s clutch kills cut from each match, posted on off-days.
+- **[cleanup] `eXFAFQxc6rc`** — off-series RoR2 upload. Decide: unlist or leave.
+- **[idea] BO4 map completion** — one upload per map (IX → Tag der Toten).
+- **[idea] BO4 high-round progression** — 30 → 50 → 70 → 100 as a series arc.
+- **[idea] Left 4 Dead 2** — native Linux, huge evergreen co-op niche (optional third series).
+- **[idea] Back 4 Blood** — EAC Linux-supported co-op zombie FPS (optional).
+- **[idea] Shorts** — 30–60 s best-round / clutch clips from each session.
 
 ---
 
 ## 📝 Planned (title locked)
 
-- [ ] **W2 · Sniper** — `VS Recon Is a Monster in Warzone Solo (No Commentary)` · Mon Oct 12
-- [ ] **W3 · LMG** — `Warzone Solo — SAKIN LMG, [X] Kills (No Commentary)` · Tue Oct 13
-- [ ] **W4 · High-kill Verdansk** — `Warzone Solo — [X] Kills on Verdansk (No Commentary)` · Wed Oct 14
-- [ ] **W5 · Rebirth win** — `Warzone Solo Win — Rebirth Island (No Commentary)` · Thu Oct 15
-- [ ] **W6 · Avalon win** — `Warzone Solo Win — Avalon ([X] Kills) No Commentary` · Fri Oct 16
-- [ ] **W7 · Rush SMG** — `Warzone Solo — DS20 Mirage Rush, [X] Kills (No Commentary)` · Mon Oct 19
-- [ ] **W8 · Meta weapon** — `Warzone Solo — VOYAK KT-3, [X] Kills (No Commentary)` · Tue Oct 20
-- [ ] **W9 · Challenge** — `Warzone Solo — No Loadout Win (No Commentary)` · Wed Oct 21
-- [ ] **W10 · Record attempt** — `Warzone Solo — My Highest Kill Game Yet (No Commentary)` · Thu Oct 22
+- [ ] **Z2 · BO4 Blood of the Dead** — `Black Ops 4 Zombies — Blood of the Dead, Round 40 (No Commentary)` · Mon Oct 12
+- [ ] **Z3 · BO4 Classified** — `Black Ops 4 Zombies — Classified, Round 50 (No Commentary)` · Wed Oct 14
+- [ ] **Z4 · BO4 Voyage of Despair** — `Black Ops 4 Zombies — Voyage of Despair, Round 40 (No Commentary)` · Fri Oct 16
+- [ ] **Z5 · BO4 Ancient Evil** — `Black Ops 4 Zombies — Ancient Evil, Round 40 (No Commentary)` · Mon Oct 19
+- [ ] **K1 · KF2 Commando** — `Killing Floor 2: Hell on Earth [map] Solo Commando (No Commentary)` · Wed Oct 21
+- [ ] **K2 · KF2 SWAT** — `Killing Floor 2: Hell on Earth [map] Solo SWAT (No Commentary)` · Fri Oct 23
+- [ ] **K3 · KF2 Sharpshooter** — `Killing Floor 2: Hell on Earth [map] Solo Sharpshooter (No Commentary)` · Mon Oct 26
+- [ ] **K4 · KF2 Gunslinger** — `Killing Floor 2: Hell on Earth [map] Solo Gunslinger (No Commentary)` · Wed Oct 28
+- [ ] **K5 · KF2 Support** — `Killing Floor 2: Hell on Earth [map] Solo Support (No Commentary)` · Fri Oct 30
 
 ---
 
 ## 🎬 Recording
 
-- [ ] **W1 · Series opener (meta AR)** — `Warzone Solo — [Meta AR], [X] Kills (No Commentary)` · Fri Oct 9
-  - _Next action:_ record 2–3 solo matches, pick the best, cut the cold open. Swap `[Meta AR]` + kill count for the real match.
+- [ ] **Z1 · BO4 IX** — `Black Ops 4 Zombies — IX, Round 50 (No Commentary)` · Fri Oct 9
+  - _Next action:_ confirm BO4 runs via Proton/Battle.net, then record an IX round-50 run; cut the cold open.
 
 ---
 
 ## ✂️ Editing
 
-_(empty — move cards here once recorded; trim + cold open + chapters)_
+_(empty — move cards here once recorded; long runs split into parts)_
 
 ---
 
@@ -63,7 +64,7 @@ _(thumbnails / titles / descriptions / tags / chapters being built)_
 
 ## 📅 Scheduled
 
-_(ready to publish, queued to the Mon–Fri slot)_
+_(ready to publish, queued to the Mon/Wed/Fri slot)_
 
 ---
 

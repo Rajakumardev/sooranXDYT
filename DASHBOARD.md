@@ -14,29 +14,30 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Videos | 35 |
 | Created | 2019-05-27 |
 | Region / language | India (IN) / English (`en`) |
-| Active series | **Warzone / Black Ops Royale — solo, no commentary** |
-| Parked | Killing Floor 2 (skill gate: Hell on Earth solo) |
-| Dropped | Risk of Rain 2 / longplay |
+| Platform | **Linux + RTX 3050 Ti laptop** |
+| Active series | **Black Ops 4 Zombies** + **Killing Floor 2** (no commentary) |
+| Parked (Phase 2) | Warzone / Battlefield BR — needs PS5 or Windows PC |
+| Dropped | Risk of Rain 2 / longplay · The Finals / Apex / Fortnite / PUBG (anti-cheat blocked) |
 
 ## North-star KPIs
 
-| KPI | Baseline (CoD era) | Target | Current |
+| KPI | Baseline (CoD era) | Phase-1 target | Current |
 | --- | --- | --- | --- |
-| Views / video | ~10–50 | **≥ 500** | _n/a (0 series videos live)_ |
-| Views / video / day | ~0–3 | **≥ 30** | _n/a_ |
-| Like ratio | volatile (1–9%) | **≥ 0.8%** | _n/a_ |
-| Subscribers | 20 | **+50 in 90 days** | 20 |
-| Cadence compliance | — | **5 / week (Mon–Fri)** | — |
+| Views / video | ~10–50 | **≥ 300** | _n/a (0 series videos live)_ |
+| Views / video / day | ~0–3 | **≥ 15** | _n/a_ |
+| Like ratio | volatile (1–9%) | **≥ 0.6%** | _n/a_ |
+| Subscribers | 20 | **+30 in 90 days** | 20 |
+| Cadence compliance | — | **3 / week (Mon/Wed/Fri)** | — |
 | Contains chapters | 0 / 35 | **100%** of new | — |
 
 ## Pipeline (from `KANBAN.md`)
 
 | Stage | Count |
 | --- | --- |
-| 🅿️ Parked / dropped | 2 (KF2, RoR2) |
-| 💡 Backlog | 5 ideas |
-| 📝 Planned | 9 (W2–W10) |
-| 🎬 Recording | 1 (W1) |
+| 🅿️ Parked / dropped | 3 groups (BR, RoR2, Finals/Apex) |
+| 💡 Backlog | 6 ideas |
+| 📝 Planned | 9 (Z2–Z5, K1–K5) |
+| 🎬 Recording | 1 (Z1) |
 | ✂️ Editing | 0 |
 | 🎨 Packaging | 0 |
 | 📅 Scheduled | 0 |
@@ -47,53 +48,55 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
 Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 
-| ID | Theme / weapon | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
+| ID | Series / map-perk | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 | 11 | | | 1 | | | 0 | Unlist pending |
-| W1 | Meta AR — opener | _sched 2026-10-09_ | | | | | | | | |
-| W2 | VS Recon sniper | _sched 2026-10-12_ | | | | | | | | |
-| W3 | SAKIN LMG | _sched 2026-10-13_ | | | | | | | | |
-| W4 | High-kill Verdansk | _sched 2026-10-14_ | | | | | | | | |
-| W5 | Rebirth Island win | _sched 2026-10-15_ | | | | | | | | |
-| W6 | Avalon win | _sched 2026-10-16_ | | | | | | | | |
-| W7 | DS20 Mirage rush | _sched 2026-10-19_ | | | | | | | | |
-| W8 | VOYAK KT-3 | _sched 2026-10-20_ | | | | | | | | |
-| W9 | No-loadout win | _sched 2026-10-21_ | | | | | | | | |
-| W10 | Kill-record attempt | _sched 2026-10-22_ | | | | | | | | |
+| Z1 | BO4 IX | _sched 2026-10-09_ | | | | | | | | |
+| Z2 | BO4 Blood of the Dead | _sched 2026-10-12_ | | | | | | | | |
+| Z3 | BO4 Classified | _sched 2026-10-14_ | | | | | | | | |
+| Z4 | BO4 Voyage of Despair | _sched 2026-10-16_ | | | | | | | | |
+| Z5 | BO4 Ancient Evil | _sched 2026-10-19_ | | | | | | | | |
+| K1 | KF2 Commando | _sched 2026-10-21_ | | | | | | | | |
+| K2 | KF2 SWAT | _sched 2026-10-23_ | | | | | | | | |
+| K3 | KF2 Sharpshooter | _sched 2026-10-26_ | | | | | | | | |
+| K4 | KF2 Gunslinger | _sched 2026-10-28_ | | | | | | | | |
+| K5 | KF2 Support | _sched 2026-10-30_ | | | | | | | | |
 
 ## Cadence tracker
 
-Fixed slots: **Mon–Fri**, publish for US/EU afternoon.
+Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 | Week | Mon | Tue | Wed | Thu | Fri | On cadence? |
 | --- | --- | --- | --- | --- | --- | --- |
-| W0 (Oct 9) | — | — | — | — | W1 | |
-| W1 (Oct 12–16) | W2 | W3 | W4 | W5 | W6 | |
-| W2 (Oct 19–22) | W7 | W8 | W9 | W10 | — | |
+| W0 (Oct 9) | — | — | — | — | Z1 | |
+| W1 (Oct 12–16) | Z2 | — | Z3 | — | Z4 | |
+| W2 (Oct 19–23) | Z5 | — | K1 | — | K2 | |
+| W3 (Oct 26–30) | K3 | — | K4 | — | K5 | |
 
-## Benchmark reference (Warzone solo no-commentary)
+## Benchmark reference (Phase-1 niches)
 
-| Channel / video | Metric | Value |
+| Video / channel | Metric | Value |
 | --- | --- | --- |
-| **Ultra No Commentary** *(growth model)* | subs / videos / age | **13,200 / 360 / since Aug 2025** |
-| Marshal No Commentary | subs / best video | 404,000 / 2.57M views |
-| Nxheart No Commentary | best video | 2.40M views (23-kill solo) |
-| NoAnnoyingCommentarySO | subs / subs-per-video | 10,200 / 13.4 |
-| _Floor (daily uploaders)_ | subs / views per new upload | 1–12 / 0–800 |
+| MKIceAndFire — BO4 Classified (no commentary) | views | **5.94M** (2,036/day) |
+| MKIceAndFire — BO4 Voyage of Despair | views | 2.62M |
+| samuel the 17th — Round 100 every BO1 map | views | 2.43M (1.74% LR) |
+| Psych0Gamers — KF2 Hell on Earth Sanitarium Solo Sharp | views | 1.56M |
+| Psych0Gamers — channel efficiency | subs / videos | 47,300 / 364 (130 subs/video) |
+| _Floor (recent BO4 no-commentary uploaders)_ | views per upload | 5–18 |
 | _SooranXD (current)_ | subs / views | 20 / 3,468 |
 
 ## Review checkpoints
 
-- **After 10 uploads (~2 weeks):** compare vs. targets. If views/video < 500, fix packaging (thumbnail, weapon/kill hook) and game sense — don't switch games.
-- **After 30 uploads:** if trending toward Ultra No Commentary's trajectory, keep scaling volume; if flat, vary the hook (challenge runs, record attempts, new-patch weapons).
-- **Reopen KF2** once Hell on Earth solo is clearable with 2–3 perks.
+- **After 10 uploads (~3–4 weeks):** compare vs. targets. If views/video < 300, fix packaging + game sense (thumbnail, round/perk hook, cleaner runs) before changing games.
+- **After ~10 uploads:** decide whether to double down on BO4 Zombies or KF2 based on which is growing.
+- **Phase 2 trigger:** when a PS5 or decent Windows PC is available, activate the Warzone / Battlefield BR plan.
 
 ## Quota log (YouTube Data API, 10,000 units/day)
 
 | Date | Rough units | Notes |
 | --- | --- | --- |
 | 2026-10-03 | ~4,100 | Baseline + audits + competitor analysis |
-| 2026-10-07 | ~2,000 | BR niche research (Warzone/Apex/Fortnite/PUBG) |
+| 2026-10-07 | ~3,200 | BR research + Linux-compat research + Phase-1 niche sizing |
 
 ---
 

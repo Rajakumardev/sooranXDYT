@@ -17,8 +17,9 @@ commands, and saved analysis. Treat it as an operating system for channel growth
 | Country | IN (India) |
 | Primary language | `en` (English) |
 | Category | Gaming (YouTube category ID `20`) |
-| Niche | FPS / shooter — **active direction: Warzone / Black Ops Royale solo BR**. Killing Floor 2 parked (skill gate). Legacy catalogue: CoD (MW 2019, MWII, Black Ops Cold War) + Shatterline |
-| Format | **"No Commentary" solo battle royale matches** (Warzone), plus short highlight clips. Legacy format: TDM/Domination multiplayer matches. Not walkthroughs or longplay |
+| Platform | Linux + RTX 3050 Ti laptop — **anti-cheat games (Warzone, Battlefield, Apex, Fortnite, PUBG, The Finals) do not run** |
+| Niche | FPS / shooter, no commentary. **Phase 1 (current): Killing Floor 2 + Black Ops 4 Zombies.** Phase 2 (after a PS5 / Windows PC): Warzone / Battlefield BR. Legacy: CoD multiplayer + Shatterline |
+| Format | **"No Commentary" PvE FPS gameplay** — KF2 Hell on Earth solo per-class, BO4 Zombies per-map rounds. Not walkthroughs, not longplay |
 | Branding keywords | `live gaming`, `pc`, `shatterline`, `Call of duty`, `Modern warfare` |
 | Channel description | _empty_ |
 | Audience | _TODO (confirm: Indian PC/console FPS players? English-speaking global?)_ |

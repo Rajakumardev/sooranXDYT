@@ -1,161 +1,157 @@
-# SooranXD — Content Plan: Warzone Solo (No Commentary)
+# SooranXD — Content Plan (Phase 1: Linux-friendly no-commentary FPS)
 
-- **Created:** 2026-10-03 · **Updated:** 2026-10-07
-- **Series:** Warzone / **Black Ops Royale** solo, no commentary (BR — not walkthroughs, not longplay)
-- **Cadence:** **5×/week, Mon–Fri**
-- **Parked:** Killing Floor 2 (skill gate) · **Dropped:** Risk of Rain 2 / longplay (not the creator's interest)
-- **Tracker:** `KANBAN.md` · **Metrics:** `DASHBOARD.md` · **Evidence:** `reports/2026-10-03-competitor-analysis-niche-choice.md`
-- _Archived RoR2 plan:_ `reports/2026-10-03-ror2-10-video-plan.md`
+- **Updated:** 2026-10-07
+- **Constraint:** Linux + **RTX 3050 Ti laptop** — Warzone / Battlefield / Apex / Fortnite / PUBG / The Finals are **all blocked by anti-cheat**. BR is a **Phase 2** goal (after a PS5 or a decent Windows PC).
+- **Phase 1 games:** **Killing Floor 2** (native Linux) + **Black Ops 4 Zombies** (Battle.net via Proton). Optional third: **Back 4 Blood** (EAC, Linux-supported).
+- **Cadence:** 3×/week (Mon / Wed / Fri)
+- **Tracker:** `KANBAN.md` · **Metrics:** `DASHBOARD.md`
 
-## Why Warzone solo no-commentary
+## Why not BR yet (hardware reality, 2026-10)
 
-You like BR games; you don't want walkthroughs/longplay. That preference **and**
-the data point the same way — this is the one FPS corner with proven breakouts,
-unlike single-match TDM/Domination (your old format, which averaged ~3
-views/day on Galizma's 4,603-video channel).
+Verified anti-cheat status on Linux (`areweanticheatyet.com`, gamingonlinux):
 
-| Evidence (Oct 2026) | Channel | Subs | Videos | Notes |
-| --- | --- | --- | --- | --- |
-| **Recent, replicable model** | **Ultra No Commentary** | **13,200** | **360** | Created **Aug 2025** → 36.7 subs/video in ~14 months |
-| Breakout ceiling | Marshal No Commentary | 404,000 | 2,881 | 2.2M–2.6M views on solo videos |
-| Breakout video | Nxheart No Commentary | 39,800 | 1,681 | 2.40M views on a 23-kill solo |
-| Established | NoAnnoyingCommentary | 502,000 | 2,847 | Warzone solo runs |
-| The floor (avoid) | KRYNEXWZ / Anonymous Warzone / Prime | 1–12 | 6–88 | Daily uploads → 0–10 views |
+| Game | Linux status | Verdict |
+| --- | --- | --- |
+| Call of Duty: Warzone | Ricochet — unsupported | ❌ blocked |
+| Battlefield (2042/6) | EA anti-cheat — **Denied** | ❌ blocked |
+| Apex Legends | EAC + Hyperion — **Denied** (Linux removed) | ❌ blocked |
+| Fortnite | EAC — **Denied** | ❌ blocked |
+| PUBG: Battlegrounds | BattlEye — **Broken** | ❌ blocked |
+| The Finals | EAC not enabled for Linux | ❌ blocked (and heavy for a 3050 Ti) |
+| Valorant | Vanguard — **Denied** | ❌ blocked |
 
-**Interpretation:** there is a real, current-growth path (Ultra No Commentary:
-13K subs in ~14 months), a high ceiling (2.4M+), and a crowded floor of
-unchanging daily uploaders. The difference between the top and the floor is
-**packaging + game sense**, not volume alone.
+The BR genre is effectively dead on Linux — every major title blocks it. **So do
+not plan BR content now.** Grow the channel with what runs, then reinvest.
 
-## Format (lock this in)
+**What runs on Linux + a 3050 Ti (your Phase-1 pool):**
 
-| Element | Rule |
-| --- | --- |
-| Content | One **solo BR match**, start → win or death, trimmed (10–25 min) |
-| Commentary | **None** (channel brand) |
-| Cold open | First 15–20 s = best fight / win / clutch, then the match from drop |
-| Chapters | Drop, loadout, key fights, final circle |
-| Game | **Warzone / Black Ops Royale** only — do not spread across Apex/Fortnite/PUBG |
-| Quality cue | Put the platform/res in the title or thumbnail when true (PS5 / PC / 4K) |
+| Game | Linux | Why it fits |
+| --- | --- | --- |
+| **Killing Floor 2** | Native / Steam Deck-verified | Co-op wave FPS; runs maxed; proven no-commentary niche |
+| **Black Ops 4 Zombies** | Battle.net via Proton (GE) | CoD Zombies; PvE so no anti-cheat wall; active small-channel scene |
+| Left 4 Dead 2 | Native | Co-op zombie FPS; huge evergreen niche |
+| Back 4 Blood | EAC Linux-supported | Co-op zombie FPS; closer to L4D |
+| Halo: MCC / Halo Infinite | Supported | Co-op shooter campaigns |
 
-**Do not** mix in TDM/Domination (the old, dead format) or longplay.
+## Phase overview
 
-## Title formula
-
-```
-WARZONE SOLO — [WEAPON], [KILLS] KILLS ([MAP]) (No Commentary)
-```
-or the hook style the winners use:
-```
-[WEAPON] Is [HOOK] in Warzone Solo (No Commentary)
-```
-Rules: `Warzone` + `Solo` + `No Commentary` everywhere; the **weapon or kill
-count is the hook**; keep ≤ 60 chars; **only accurate numbers** — never invent
-kills or a win.
-
-Live-meta hooks seen in current uploads (swap for whatever is meta when you
-record): weapons **VS Recon, SAKIN LMG, DS20 Mirage, Ryden 45K, VOYAK KT-3,
-XM325, MCW, VST, AK-27**; maps **Verdansk, Avalon, Rebirth Island**.
-
-Example titles:
-- `Warzone Solo — SAKIN LMG, 18 Kills (Verdansk) No Commentary` (58)
-- `VS Recon Is a Long-Range Monster in Warzone Solo (No Commentary)` (64 → trim: `VS Recon Is a Monster in Warzone Solo (No Commentary)` 57)
-- `Warzone Solo — 20-Kill Win, Rebirth Island (No Commentary)` (60)
-
-## Cadence: 5×/week (Mon–Fri)
-
-BR is a **velocity game**, not an evergreen-search game — unlike longplay, recent
-uploads matter. The growing channel (Ultra No Commentary) publishes ~6×/week.
-
-- Publish **Mon–Fri**; use the weekend to record.
-- **Batch record 2–3 matches per session** (each is only 20–30 min to play;
-  editing = trim + cold open + chapters).
-- One match = one upload. Never two in a day.
-
-## First 10 uploads (2 weeks, Mon–Fri)
-
-Swap `[weapon]`/`[map]` for the live meta at record time; keep the structure.
-
-| # | Theme | Title skeleton | Date |
+| Phase | Trigger | Games | Format |
 | --- | --- | --- | --- |
-| 1 | Series opener, meta AR | `Warzone Solo — [Meta AR], [X] Kills (No Commentary)` | Fri Oct 9 |
-| 2 | Long-range sniper | `VS Recon Is a Monster in Warzone Solo (No Commentary)` | Mon Oct 12 |
-| 3 | LMG anchor | `Warzone Solo — SAKIN LMG, [X] Kills (No Commentary)` | Tue Oct 13 |
-| 4 | High-kill Verdansk | `Warzone Solo — [X] Kills on Verdansk (No Commentary)` | Wed Oct 14 |
-| 5 | Rebirth Island win | `Warzone Solo Win — Rebirth Island (No Commentary)` | Thu Oct 15 |
-| 6 | Avalon win | `Warzone Solo Win — Avalon ([X] Kills) No Commentary` | Fri Oct 16 |
-| 7 | Rush SMG | `Warzone Solo — DS20 Mirage Rush, [X] Kills (No Commentary)` | Mon Oct 19 |
-| 8 | Meta weapon | `Warzone Solo — VOYAK KT-3, [X] Kills (No Commentary)` | Tue Oct 20 |
-| 9 | No-loadout / zero-to-hero | `Warzone Solo — No Loadout Win (No Commentary)` | Wed Oct 21 |
-| 10 | Kill-record attempt | `Warzone Solo — My Highest Kill Game Yet (No Commentary)` | Thu Oct 22 |
+| **Phase 1 (now)** | Linux + 3050 Ti | KF2, BO4 Zombies (+ L4D2/B4B optional) | No-commentary FPS gameplay |
+| **Phase 2 (later)** | PS5 or decent Windows PC | Warzone / Battlefield BR | Solo BR no-commentary |
 
-**Off-brand cleanup:** `eXFAFQxc6rc` (the lone RoR2 upload) is off-series now —
-decide whether to unlist it or leave it dormant. (See `KANBAN.md`.)
+The Phase-1 audience and channel brand ("no-commentary FPS") carry straight into
+Phase 2 — nothing is wasted.
 
-## Description template (fill per match)
+---
+
+## Series A — Killer Floor 2 (no commentary)
+
+**Platform:** native Linux, runs maxed on a 3050 Ti.
+**Format:** solo run on a set **perk** (class) to the boss on **Hell on Earth**
+(drop to Suicidal/Hard until HoE is comfortable — always a *won* run).
+**Title formula (~60–70 chars; this niche tolerates longer):**
 
 ```
-Warzone solo match, no commentary — <weapon> <map>, full game from drop to <win / final circle>.
+Killing Floor 2: Hell on Earth [map] Solo [perk] (No Commentary)
+```
 
-<1–2 sentences: the loadout, the key fight, and the result.>
+**Perk progression (one upload each):** Commando → SWAT → Sharpshooter →
+Gunslinger → Support → Demolitionist → Berserker → Field Medic → Firebug.
 
-▶ Game: Call of Duty: Warzone (Black Ops Royale)
-▶ Mode: Solo Battle Royale
-▶ Map: <map>
-▶ Weapon: <weapon>
-▶ Kills: <n>   ▶ Result: <Won / Top X>
+**Skill gate:** the format only works if the run is clean — practice until you
+clear **Hell on Earth solo** with a couple of perks before making it the main
+series. Lower difficulties are fine to publish in the meantime.
+
+## Series B — Black Ops 4 Zombies (no commentary)
+
+**Platform:** Battle.net via Proton (Lutris + GE-Proton); Zombies is PvE, so no
+anti-cheat barrier. Runs easily on a 3050 Ti.
+**Format:** solo run to a target round on one map (long runs → split into parts).
+**Title formula:**
+
+```
+Black Ops 4 Zombies — [Map], Round [X] (No Commentary)
+```
+
+**Maps:** IX, Voyage of Despair, Blood of the Dead, Classified, Dead of the
+Night, Ancient Evil, Alpha Omega, Tag der Toten.
+
+**Why it fits:** active small-channel no-commentary scene (CODzPLAY, KitaZ,
+NiekJD, SeptimiuYT all uploading Oct 2026); CoD brand heritage; instantly
+playable (no skill gate to start).
+
+## First 10 uploads (3×/week: Mon / Wed / Fri)
+
+Start with **BO4 Zombies** (playable now), then **KF2** (once a clean HoE/Suicidal
+run is ready). Swap order freely.
+
+| # | Series | Title | Date |
+| --- | --- | --- | --- |
+| 1 | BO4 Zombies | `Black Ops 4 Zombies — IX, Round 50 (No Commentary)` | Fri Oct 9 |
+| 2 | BO4 Zombies | `Black Ops 4 Zombies — Blood of the Dead, Round 40 (No Commentary)` | Mon Oct 12 |
+| 3 | BO4 Zombies | `Black Ops 4 Zombies — Classified, Round 50 (No Commentary)` | Wed Oct 14 |
+| 4 | BO4 Zombies | `Black Ops 4 Zombies — Voyage of Despair, Round 40 (No Commentary)` | Fri Oct 16 |
+| 5 | BO4 Zombies | `Black Ops 4 Zombies — Ancient Evil, Round 40 (No Commentary)` | Mon Oct 19 |
+| 6 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Commando (No Commentary)` | Wed Oct 21 |
+| 7 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo SWAT (No Commentary)` | Fri Oct 23 |
+| 8 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Sharpshooter (No Commentary)` | Mon Oct 26 |
+| 9 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Gunslinger (No Commentary)` | Wed Oct 28 |
+| 10 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Support (No Commentary)` | Fri Oct 30 |
+
+**Round/kill counts and maps must be real** — never invent them.
+
+## Description template
+
+```
+<Primary keyword line: game + mode + map/round/perk>. No commentary.
+
+<1–2 sentences on the run: the build/perk, the key moment, the result.>
+
+▶ Game: <Killing Floor 2 / Black Ops 4>
+▶ Mode: <HoE Solo <perk> / Zombies <map>>
+▶ Result: <round reached / boss cleared>
 ▶ Commentary: None
 
 ⏱ Chapters
 00:00 Best moment
-00:15 Drop & loadout
-<add fights / final circle>
+00:15 Round 1 / start
+<key waves or rounds>
 
-Solo no-commentary Warzone series. Which weapon should I run next? 👇
+No-commentary FPS series. What should I run next? 👇
 
-#Warzone #CallOfDuty #NoCommentary #BattleRoyale #BlackOpsRoyale #Gaming
+#<game> #NoCommentary #FPS #<game-specific> #Gaming
 ```
-
-The first 150 characters (hook line) must contain the primary keyword
-(`Warzone solo no commentary`).
 
 ## Tags (10–14)
 
-**Core:** `warzone`, `warzone gameplay`, `warzone solo`, `warzone no commentary`, `warzone solo gameplay`, `call of duty warzone`, `black ops royale`, `battle royale gameplay`, `no commentary gameplay`
-**Add per video:** `warzone <weapon>`, `warzone <map>`, `warzone solo win`
+- **KF2:** `killing floor 2`, `killing floor 2 gameplay`, `killing floor 2 no commentary`, `killing floor 2 hell on earth`, `kf2 solo <perk>`, `killing floor 2 <map>`, `co op fps`, `no commentary gameplay`, `zombie shooter`
+- **BO4 Zombies:** `black ops 4 zombies`, `bo4 zombies`, `bo4 zombies no commentary`, `call of duty zombies`, `black ops 4 <map>`, `zombies high round`, `cod zombies gameplay`, `no commentary gameplay`, `zombie survival`
 
 ## Thumbnail system
 
-- **Subject:** the weapon or the operator in a strong pose / mid-fight, tight crop.
-- **Text overlay ≤4 words:** e.g. `SOLO WIN`, `[X] KILLS`, `NEW META`.
-- **Kill-count / result badge** in a corner when true.
-- **High contrast:** darken the frame, bright accent behind the text (CoD orange).
-- **Consistent frame** — same font/position every upload so the channel reads as a series.
+- **KF2:** the perk/weapon in frame, `HELL ON EARTH` badge, boss silhouette, dark + orange accent.
+- **BO4 Zombies:** the map's iconic scene + big `ROUND 50` badge, consistent font/position.
+- Same frame every upload so the two series read as one channel.
 
-## Per-video checklist
+## Phase 2 (hardware gate)
 
-1. Batch-record 2–3 solo matches.
-2. Pick the best (most kills / win / a clutch) → cut a 15–20 s cold open.
-3. Title from the formula (accurate weapon/kills); description + tags from templates.
-4. Build the thumbnail with the system above; add chapters (start `00:00`).
-5. Schedule to the next Mon–Fri slot (US/EU afternoon).
-6. After 48 h log CTR + AVD in `DASHBOARD.md`; after 30 days log views/likes.
-
-## KF2 (parked)
-
-Reopen only when you can clear **Hell on Earth solo** with 2–3 perks. Winning
-format then: `Killing Floor 2: Hell on Earth [map] Solo [perk] w/[boss] (No Commentary)`.
+When a **PS5 or a decent Windows PC** is available, activate the BR plan:
+Warzone / Battlefield solo no-commentary. That research and title formula are
+already done (see `reports/2026-10-03-competitor-analysis-niche-choice.md` and
+the Warzone benchmark data in `DASHBOARD.md`). Until then, **do not** plan or
+record BR.
 
 ## Measurement (see `DASHBOARD.md`)
 
-Review after ~10 uploads (2 weeks):
+Review after ~10 uploads (≈3–4 weeks):
 
-| Metric | Baseline (CoD era) | Target |
+| Metric | Baseline (CoD era) | Phase-1 target |
 | --- | --- | --- |
-| Views / video | ~10–50 | ≥ 500 |
-| Views / video / day | ~0–3 | ≥ 30 |
-| Like ratio | volatile | ≥ 0.8% |
-| Subscribers | 20 | +50 in 90 days |
+| Views / video | ~10–50 | ≥ 300 |
+| Views / video / day | ~0–3 | ≥ 15 |
+| Like ratio | volatile | ≥ 0.6% |
+| Subscribers | 20 | +30 in 90 days |
 
-If under target, the fix is packaging + game sense (thumbnails, weapon/map hook,
-higher-kill matches) — not switching games again.
+If under target, fix packaging + game sense (thumbnail, round/perk hook,
+cleaner runs) before changing games.

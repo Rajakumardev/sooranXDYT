@@ -14,7 +14,7 @@ scripts/youtube-mcp.sh            # loads .env, launches @kirbah/mcp-youtube
 AGENTS.md                         # channel profile + working conventions
 .opencode/agents/youtube-seo.md   # the YouTube growth strategist agent
 .opencode/commands/               # /audit /ideas /keywords /channel-report /track
-CONTENT-PLAN.md                   # the current Warzone solo no-commentary plan
+CONTENT-PLAN.md                   # current Phase-1 plan (KF2 + BO4 Zombies, no commentary)
 KANBAN.md                         # production board for the series
 DASHBOARD.md                      # live channel + series metrics
 reports/                          # saved analysis output
