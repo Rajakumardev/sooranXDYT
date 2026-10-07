@@ -17,8 +17,8 @@ commands, and saved analysis. Treat it as an operating system for channel growth
 | Country | IN (India) |
 | Primary language | `en` (English) |
 | Category | Gaming (YouTube category ID `20`) |
-| Niche | FPS / shooter gameplay — Call of Duty (MW 2019, MWII, Warzone 2, Black Ops Cold War) and Shatterline |
-| Format | "No Commentary" full-match multiplayer (TDM, Domination, Hardpoint, Kill Confirmed) + short highlight clips |
+| Niche | FPS / shooter — **active direction: Warzone / Black Ops Royale solo BR**. Killing Floor 2 parked (skill gate). Legacy catalogue: CoD (MW 2019, MWII, Black Ops Cold War) + Shatterline |
+| Format | **"No Commentary" solo battle royale matches** (Warzone), plus short highlight clips. Legacy format: TDM/Domination multiplayer matches. Not walkthroughs or longplay |
 | Branding keywords | `live gaming`, `pc`, `shatterline`, `Call of duty`, `Modern warfare` |
 | Channel description | _empty_ |
 | Audience | _TODO (confirm: Indian PC/console FPS players? English-speaking global?)_ |

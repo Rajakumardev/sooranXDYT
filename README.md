@@ -14,7 +14,7 @@ scripts/youtube-mcp.sh            # loads .env, launches @kirbah/mcp-youtube
 AGENTS.md                         # channel profile + working conventions
 .opencode/agents/youtube-seo.md   # the YouTube growth strategist agent
 .opencode/commands/               # /audit /ideas /keywords /channel-report /track
-CONTENT-PLAN.md                   # the 10-video Risk of Rain 2 plan
+CONTENT-PLAN.md                   # the current Warzone solo no-commentary plan
 KANBAN.md                         # production board for the series
 DASHBOARD.md                      # live channel + series metrics
 reports/                          # saved analysis output
@@ -89,7 +89,7 @@ Three repo files run the day-to-day operation:
 
 | File | Purpose |
 | --- | --- |
-| `CONTENT-PLAN.md` | The ordered 10-video Risk of Rain 2 plan: titles, difficulty, descriptions, tags, thumbnails, cadence |
+| `CONTENT-PLAN.md` | The current Warzone solo no-commentary plan: titles, cadence, descriptions, tags, thumbnails, first 10 uploads |
 | `KANBAN.md` | Production board — move each video from Backlog → Recording → Editing → Packaging → Scheduled → Published → Reviewed |
 | `DASHBOARD.md` | Live metrics: channel snapshot, KPIs, publication log, cadence tracker, benchmarks |
 

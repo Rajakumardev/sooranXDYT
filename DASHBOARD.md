@@ -3,7 +3,7 @@
 Single source of truth for channel and series performance.
 Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
-> **Last updated:** 2026-10-03 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
+> **Last updated:** 2026-10-07 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
 
 ## Channel snapshot
 
@@ -14,28 +14,29 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Videos | 35 |
 | Created | 2019-05-27 |
 | Region / language | India (IN) / English (`en`) |
-| Active series | Risk of Rain 2 (no-commentary full runs) |
-| Parked | Killing Floor 2 (skill gate: HoE solo) |
+| Active series | **Warzone / Black Ops Royale — solo, no commentary** |
+| Parked | Killing Floor 2 (skill gate: Hell on Earth solo) |
+| Dropped | Risk of Rain 2 / longplay |
 
 ## North-star KPIs
 
 | KPI | Baseline (CoD era) | Target | Current |
 | --- | --- | --- | --- |
-| Views / video (30-day) | ~10–50 | **≥ 300** | _n/a (0 plan videos live)_ |
-| Views / video / day | ~0–3 | **≥ 10** | _n/a_ |
-| Like ratio | volatile (1–9%) | **≥ 0.6%** | _n/a_ |
-| Subscribers | 20 | **+20 in 90 days** | 20 |
-| Cadence compliance | — | **2 / week (Tue + Sat)** | — |
+| Views / video | ~10–50 | **≥ 500** | _n/a (0 series videos live)_ |
+| Views / video / day | ~0–3 | **≥ 30** | _n/a_ |
+| Like ratio | volatile (1–9%) | **≥ 0.8%** | _n/a_ |
+| Subscribers | 20 | **+50 in 90 days** | 20 |
+| Cadence compliance | — | **5 / week (Mon–Fri)** | — |
 | Contains chapters | 0 / 35 | **100%** of new | — |
 
 ## Pipeline (from `KANBAN.md`)
 
 | Stage | Count |
 | --- | --- |
-| 🅿️ Parked | 1 (KF2 series) |
-| 💡 Backlog | 4 ideas |
-| 📝 Planned | 10 (+1 repackage) |
-| 🎬 Recording | 1 (V1) |
+| 🅿️ Parked / dropped | 2 (KF2, RoR2) |
+| 💡 Backlog | 5 ideas |
+| 📝 Planned | 9 (W2–W10) |
+| 🎬 Recording | 1 (W1) |
 | ✂️ Editing | 0 |
 | 🎨 Packaging | 0 |
 | 📅 Scheduled | 0 |
@@ -44,56 +45,55 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
 ## Publication log
 
-Fill after each upload: log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
+Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 
-| ID | Title | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
+| ID | Theme / weapon | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `eXFAFQxc6rc` | Risk of Rain 2 Gameplay No Commentary \| Roguelike Action *(pre-plan)* | 2026-10-02 | 11 | | | 1 | | | 0 | Repackage pending |
-| V1 | Commando · Rainstorm | _sched 2026-10-06_ | | | | | | | | |
-| V2 | Huntress · Monsoon | _sched 2026-10-10_ | | | | | | | | |
-| V3 | Engineer · Monsoon | _sched 2026-10-13_ | | | | | | | | |
-| V4 | Artificer · Monsoon | _sched 2026-10-17_ | | | | | | | | |
-| V5 | Mercenary · Monsoon | _sched 2026-10-20_ | | | | | | | | |
-| V6 | Railgunner · Monsoon | _sched 2026-10-24_ | | | | | | | | |
-| V7 | Bandit · Monsoon | _sched 2026-10-27_ | | | | | | | | |
-| V8 | Loader · Monsoon | _sched 2026-10-31_ | | | | | | | | |
-| V9 | Captain · Monsoon | _sched 2026-11-03_ | | | | | | | | |
-| V10 | Commando · Eclipse | _sched 2026-11-07_ | | | | | | | | |
+| `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 | 11 | | | 1 | | | 0 | Unlist pending |
+| W1 | Meta AR — opener | _sched 2026-10-09_ | | | | | | | | |
+| W2 | VS Recon sniper | _sched 2026-10-12_ | | | | | | | | |
+| W3 | SAKIN LMG | _sched 2026-10-13_ | | | | | | | | |
+| W4 | High-kill Verdansk | _sched 2026-10-14_ | | | | | | | | |
+| W5 | Rebirth Island win | _sched 2026-10-15_ | | | | | | | | |
+| W6 | Avalon win | _sched 2026-10-16_ | | | | | | | | |
+| W7 | DS20 Mirage rush | _sched 2026-10-19_ | | | | | | | | |
+| W8 | VOYAK KT-3 | _sched 2026-10-20_ | | | | | | | | |
+| W9 | No-loadout win | _sched 2026-10-21_ | | | | | | | | |
+| W10 | Kill-record attempt | _sched 2026-10-22_ | | | | | | | | |
 
 ## Cadence tracker
 
-Fixed slots: **Tuesday** and **Saturday**, publish for US/EU afternoon.
+Fixed slots: **Mon–Fri**, publish for US/EU afternoon.
 
-| Week | Tue | Sat | On cadence? |
-| --- | --- | --- | --- |
-| W1 (Oct 6–10) | V1 | V2 | |
-| W2 (Oct 13–17) | V3 | V4 | |
-| W3 (Oct 20–24) | V5 | V6 | |
-| W4 (Oct 27–31) | V7 | V8 | |
-| W5 (Nov 3–7) | V9 | V10 | |
+| Week | Mon | Tue | Wed | Thu | Fri | On cadence? |
+| --- | --- | --- | --- | --- | --- | --- |
+| W0 (Oct 9) | — | — | — | — | W1 | |
+| W1 (Oct 12–16) | W2 | W3 | W4 | W5 | W6 | |
+| W2 (Oct 19–22) | W7 | W8 | W9 | W10 | — | |
 
-## Benchmark reference (from competitor analysis)
+## Benchmark reference (Warzone solo no-commentary)
 
-| Video / channel | Views | Like ratio | Views/day |
-| --- | --- | --- | --- |
-| No commentary dog — RoR2 Commando part 1 | 386,953 | 0.46% | 181 |
-| Long Play TV — Rain World full playthrough | 114,484 | 1.74% | 69 |
-| fgw — RoR2 full playthrough | 40,797 | 0.60% | 23 |
-| BlueTricity — Railgunner Monsoon Mithrix kill | 31,748 | 1.07% | 19 |
-| Fake Acrid — Huntress Monsoon full run | 25,008 | 0.87% | 13 |
-| _SooranXD — current RoR2 upload_ | _11_ | _9.1%_ | _~11_ |
+| Channel / video | Metric | Value |
+| --- | --- | --- |
+| **Ultra No Commentary** *(growth model)* | subs / videos / age | **13,200 / 360 / since Aug 2025** |
+| Marshal No Commentary | subs / best video | 404,000 / 2.57M views |
+| Nxheart No Commentary | best video | 2.40M views (23-kill solo) |
+| NoAnnoyingCommentarySO | subs / subs-per-video | 10,200 / 13.4 |
+| _Floor (daily uploaders)_ | subs / views per new upload | 1–12 / 0–800 |
+| _SooranXD (current)_ | subs / views | 20 / 3,468 |
 
 ## Review checkpoints
 
-- **After 10 uploads (~5 weeks):** compare vs. targets above. If views/video < 300, the problem is packaging/distribution — fix thumbnails + titles first, not the niche.
-- **After 20–30 uploads:** if trending, start Phase C (Eclipse ladder) and reopen the KF2 series if the skill gate is met.
-- **Evergreen check:** 30-day views should still be climbing month over month (search-driven demand), not flat.
+- **After 10 uploads (~2 weeks):** compare vs. targets. If views/video < 500, fix packaging (thumbnail, weapon/kill hook) and game sense — don't switch games.
+- **After 30 uploads:** if trending toward Ultra No Commentary's trajectory, keep scaling volume; if flat, vary the hook (challenge runs, record attempts, new-patch weapons).
+- **Reopen KF2** once Hell on Earth solo is clearable with 2–3 perks.
 
 ## Quota log (YouTube Data API, 10,000 units/day)
 
 | Date | Rough units | Notes |
 | --- | --- | --- |
-| 2026-10-03 | ~4,100 | Baseline + audits + competitor analysis (many `searchVideos`) |
+| 2026-10-03 | ~4,100 | Baseline + audits + competitor analysis |
+| 2026-10-07 | ~2,000 | BR niche research (Warzone/Apex/Fortnite/PUBG) |
 
 ---
 

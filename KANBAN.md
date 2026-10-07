@@ -1,56 +1,57 @@
 # SooranXD — Kanban Board
 
 Living production board for the channel. Move cards right as they progress.
-**Series:** no-commentary full runs of co-op / survival shooters · **Active game:** Risk of Rain 2.
+**Active series:** Warzone / Black Ops Royale **solo, no commentary** · **Cadence:** 5×/week (Mon–Fri).
 Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md`
 
 > **How to use:** a card is a single upload. Move it between columns by editing
-> this file (or ask the `youtube-seo` agent: "move V3 to Packaging"). Each card
-> shows `ID · survivor · difficulty · scheduled date`.
+> this file (or ask the `youtube-seo` agent: "move W3 to Packaging"). Each card
+> shows `ID · theme · scheduled date`.
 > **Stage key:** 💡 Backlog → 📝 Planned → 🎬 Recording → ✂️ Editing → 🎨 Packaging → 📅 Scheduled → 🚀 Published → 📊 Reviewed
 
 ---
 
-## 🅿️ Parked
+## 🅿️ Parked / dropped
 
-- **KILLING FLOOR 2 series** — blocked on skill. Gate: clear **Hell on Earth solo** with 2–3 perks before publishing any KF2 run. Winning format to copy when ready: `Killing Floor 2: Hell on Earth [map] Solo [perk] w/[boss] (No Commentary)`. Practice off-camera meanwhile.
+- **KILLING FLOOR 2 series** — parked on skill. Gate: clear **Hell on Earth solo** with 2–3 perks. Format when ready: `Killing Floor 2: Hell on Earth [map] Solo [perk] w/[boss] (No Commentary)`. Practice off-camera meanwhile.
+- **RISK OF RAIN 2 / longplay** — **dropped** (not the creator's interest; not a BR). Plan archived at `reports/2026-10-03-ror2-10-video-plan.md`.
 
 ---
 
 ## 💡 Backlog & Ideas
 
-- **[idea] RoR2 all-survivors marathon** — one long supercut, "Every Survivor, One Video."
-- **[idea] RoR2 Eclipse 1→8 ladder** — a whole later phase (Phase C) once Monsoon series is established.
-- **[idea] RoR2 boss-focused shorts** — 30–60 s Mithrix/Voidling kills, cut from runs.
-- **[idea] After RoR2:** next shooter series candidates — Deep Rock Galactic, Helldivers 2, L4D2 (see `reports/2026-10-03-competitor-analysis-niche-choice.md` §6b).
+- **[cleanup] `eXFAFQxc6rc`** — off-series RoR2 upload. Decide: unlist or leave dormant. (Not a Warzone card.)
+- **[idea] 20+ kill record attempt** — recurring "highest kill game" series hook.
+- **[idea] No-loadout / pistol-start win** — challenge variant.
+- **[idea] New-season / new-weapon reactions** — ride each Warzone patch with a "first game with X" upload.
+- **[idea] Shorts** — 30–60 s clutch kills cut from each match, posted on off-days.
 
 ---
 
 ## 📝 Planned (title locked)
 
-- [ ] **REPACKAGE · existing RoR2** — `eXFAFQxc6rc` "Risk of Rain 2 Gameplay No Commentary | Roguelike Action" → new thumbnail (survivor + `FULL RUN`) + title `Risk of Rain 2 | Full Run (No Commentary)`. Do **before V1**.
-- [ ] **V2 · Huntress · Monsoon** — `Risk of Rain 2 | Huntress Monsoon Full Run (No Commentary)` · Sat Oct 10
-- [ ] **V3 · Engineer · Monsoon** — `Risk of Rain 2 | Engineer Monsoon Full Run (No Commentary)` · Tue Oct 13
-- [ ] **V4 · Artificer · Monsoon** — `Risk of Rain 2 | Artificer Monsoon Full Run (No Commentary)` · Sat Oct 17
-- [ ] **V5 · Mercenary · Monsoon** — `Risk of Rain 2 | Mercenary Monsoon Full Run (No Commentary)` · Tue Oct 20
-- [ ] **V6 · Railgunner · Monsoon** — `Risk of Rain 2 | Railgunner Monsoon Full Run (No Commentary)` · Sat Oct 24
-- [ ] **V7 · Bandit · Monsoon** — `Risk of Rain 2 | Bandit Monsoon Full Run (No Commentary)` · Tue Oct 27
-- [ ] **V8 · Loader · Monsoon** — `Risk of Rain 2 | Loader Monsoon Full Run (No Commentary)` · Sat Oct 31
-- [ ] **V9 · Captain · Monsoon** — `Risk of Rain 2 | Captain Monsoon Full Run (No Commentary)` · Tue Nov 3
-- [ ] **V10 · Commando · Eclipse** — `Risk of Rain 2 | Commando Eclipse Full Run (No Commentary)` · Sat Nov 7
+- [ ] **W2 · Sniper** — `VS Recon Is a Monster in Warzone Solo (No Commentary)` · Mon Oct 12
+- [ ] **W3 · LMG** — `Warzone Solo — SAKIN LMG, [X] Kills (No Commentary)` · Tue Oct 13
+- [ ] **W4 · High-kill Verdansk** — `Warzone Solo — [X] Kills on Verdansk (No Commentary)` · Wed Oct 14
+- [ ] **W5 · Rebirth win** — `Warzone Solo Win — Rebirth Island (No Commentary)` · Thu Oct 15
+- [ ] **W6 · Avalon win** — `Warzone Solo Win — Avalon ([X] Kills) No Commentary` · Fri Oct 16
+- [ ] **W7 · Rush SMG** — `Warzone Solo — DS20 Mirage Rush, [X] Kills (No Commentary)` · Mon Oct 19
+- [ ] **W8 · Meta weapon** — `Warzone Solo — VOYAK KT-3, [X] Kills (No Commentary)` · Tue Oct 20
+- [ ] **W9 · Challenge** — `Warzone Solo — No Loadout Win (No Commentary)` · Wed Oct 21
+- [ ] **W10 · Record attempt** — `Warzone Solo — My Highest Kill Game Yet (No Commentary)` · Thu Oct 22
 
 ---
 
 ## 🎬 Recording
 
-- [ ] **V1 · Commando · Rainstorm** — `Risk of Rain 2 | Commando Rainstorm Full Run (No Commentary)` · Tue Oct 6
-  - _Next action:_ confirm Monsoon is winnable → if yes, switch difficulty to Monsoon and title accordingly.
+- [ ] **W1 · Series opener (meta AR)** — `Warzone Solo — [Meta AR], [X] Kills (No Commentary)` · Fri Oct 9
+  - _Next action:_ record 2–3 solo matches, pick the best, cut the cold open. Swap `[Meta AR]` + kill count for the real match.
 
 ---
 
 ## ✂️ Editing
 
-_(empty — move cards here once recorded; split runs >45 min into parts)_
+_(empty — move cards here once recorded; trim + cold open + chapters)_
 
 ---
 
@@ -62,14 +63,13 @@ _(thumbnails / titles / descriptions / tags / chapters being built)_
 
 ## 📅 Scheduled
 
-_(ready to publish, queued to the Tue/Sat slot)_
+_(ready to publish, queued to the Mon–Fri slot)_
 
 ---
 
 ## 🚀 Published (measure 24h / 7d / 30d)
 
-- [ ] **PRE-SERIES · `eXFAFQxc6rc`** *(old packaging; pending repackage)* — published 2026-10-02 · views: 11
-  - Log CTR / AVD / retention after repackage in `DASHBOARD.md`.
+- [ ] **OUT-OF-SERIES · `eXFAFQxc6rc`** — RoR2, published 2026-10-02 · views: 11 · off-series (pending unlist decision).
 
 ---
 
