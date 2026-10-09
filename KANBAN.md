@@ -35,7 +35,6 @@ Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md`
 - [ ] **Z3 · BO4 Classified** — `Black Ops 4 Zombies — Classified, Round 50 (No Commentary)` · Wed Oct 14
 - [ ] **Z4 · BO4 Voyage of Despair** — `Black Ops 4 Zombies — Voyage of Despair, Round 40 (No Commentary)` · Fri Oct 16
 - [ ] **Z5 · BO4 Ancient Evil** — `Black Ops 4 Zombies — Ancient Evil, Round 40 (No Commentary)` · Mon Oct 19
-- [ ] **K1 · KF2 Commando** — `Killing Floor 2: Hell on Earth [map] Solo Commando (No Commentary)` · Wed Oct 21
 - [ ] **K2 · KF2 SWAT** — `Killing Floor 2: Hell on Earth [map] Solo SWAT (No Commentary)` · Fri Oct 23
 - [ ] **K3 · KF2 Sharpshooter** — `Killing Floor 2: Hell on Earth [map] Solo Sharpshooter (No Commentary)` · Mon Oct 26
 - [ ] **K4 · KF2 Gunslinger** — `Killing Floor 2: Hell on Earth [map] Solo Gunslinger (No Commentary)` · Wed Oct 28
@@ -58,7 +57,10 @@ _(empty — move cards here once recorded; long runs split into parts)_
 
 ## 🎨 Packaging
 
-_(thumbnails / titles / descriptions / tags / chapters being built)_
+- [ ] **K1 · KF2 Commando — Burning Paris (Short, 4 waves)** — recorded 2026-10-09 20:17, **16:27**, 1080p60, ends in **VICTORY**. Raw: `/home/rk/2026-10-09 20-17-56.mp4` (4.2 GB).
+  - Confirm **difficulty** (HUD doesn't show it) → title must be accurate (do **not** claim Hell on Earth; this is a 4-wave Short game).
+  - Tasks: cold open (boss kill + VICTORY), trim trader menus/dead time, thumbnail, title, description + tags, chapters.
+  - Target slot: **Fri Oct 9**.
 
 ---
 

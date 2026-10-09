@@ -36,10 +36,10 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | --- | --- |
 | 🅿️ Parked / dropped | 3 groups (BR, RoR2, Finals/Apex) |
 | 💡 Backlog | 6 ideas |
-| 📝 Planned | 9 (Z2–Z5, K1–K5) |
+| 📝 Planned | 8 (Z2–Z5, K2–K5) |
 | 🎬 Recording | 1 (Z1) |
 | ✂️ Editing | 0 |
-| 🎨 Packaging | 0 |
+| 🎨 Packaging | 1 (K1 — KF2 Burning Paris Commando) |
 | 📅 Scheduled | 0 |
 | 🚀 Published (series) | 0 |
 | 📊 Reviewed | 0 |
@@ -51,7 +51,8 @@ Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 | ID | Series / map-perk | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 | 11 | | | 1 | | | 0 | Unlist pending |
-| Z1 | BO4 IX | _sched 2026-10-09_ | | | | | | | | |
+| **K1** | KF2 Commando — Burning Paris (Short, 4 waves, victory) | _sched 2026-10-09_ | | | | | | | | Recorded 16:27, 1080p60; confirm difficulty |
+| Z1 | BO4 IX | _sched 2026-10-12_ | | | | | | | | |
 | Z2 | BO4 Blood of the Dead | _sched 2026-10-12_ | | | | | | | | |
 | Z3 | BO4 Classified | _sched 2026-10-14_ | | | | | | | | |
 | Z4 | BO4 Voyage of Despair | _sched 2026-10-16_ | | | | | | | | |
