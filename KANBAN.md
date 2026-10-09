@@ -57,9 +57,11 @@ _(empty — move cards here once recorded; long runs split into parts)_
 
 ## 🎨 Packaging
 
-- [ ] **K1 · KF2 Commando — Burning Paris (Short, 4 waves)** — recorded 2026-10-09 20:17, **16:27**, 1080p60, ends in **VICTORY**. Raw: `/home/rk/2026-10-09 20-17-56.mp4` (4.2 GB).
-  - Confirm **difficulty** (HUD doesn't show it) → title must be accurate (do **not** claim Hell on Earth; this is a 4-wave Short game).
-  - Tasks: cold open (boss kill + VICTORY), trim trader menus/dead time, thumbnail, title, description + tags, chapters.
+- [ ] **K1 · KF2 Commando — Burning Paris (solo, Normal, Short 4+Final)** — recorded 2026-10-09, **16:27**, 1080p60, ends in **VICTORY**. Raw: `/home/rk/2026-10-09 20-17-56.mp4` (4.2 GB).
+  - **Title (final):** `Killing Floor 2: Burning Paris Commando Solo (No Commentary)`
+  - **Chapters:** 00:00 cold open · 00:20 Wave 1 · 02:45 Wave 2 · 05:10 Wave 3 · 08:15 Wave 4 · 12:30 Final (boss) · 15:50 Victory
+  - **Trim:** inventory/perk menus ~1:45, ~4:15, ~11:15; end "New item" popup.
+  - Remaining: cold open (last ~20s), thumbnail, upload.
   - Target slot: **Fri Oct 9**.
 
 ---

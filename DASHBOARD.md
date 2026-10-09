@@ -51,7 +51,7 @@ Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 | ID | Series / map-perk | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 | 11 | | | 1 | | | 0 | Unlist pending |
-| **K1** | KF2 Commando — Burning Paris (Short, 4 waves, victory) | _sched 2026-10-09_ | | | | | | | | Recorded 16:27, 1080p60; confirm difficulty |
+| **K1** | KF2 Burning Paris — Commando (solo, Normal, victory) | _sched 2026-10-09_ | | | | | | | | Recorded 16:27, 1080p60; packaging |
 | Z1 | BO4 IX | _sched 2026-10-12_ | | | | | | | | |
 | Z2 | BO4 Blood of the Dead | _sched 2026-10-12_ | | | | | | | | |
 | Z3 | BO4 Classified | _sched 2026-10-14_ | | | | | | | | |
