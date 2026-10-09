@@ -62,6 +62,7 @@ _(empty — move cards here once recorded; long runs split into parts)_
   - **Chapters:** 00:00 cold open · 00:20 Wave 1 · 02:45 Wave 2 · 05:10 Wave 3 · 08:15 Wave 4 · 12:30 Final (boss) · 15:50 Victory
   - **Trim:** inventory/perk menus ~1:45, ~4:15, ~11:15; end "New item" popup.
   - Remaining: cold open (last ~20s), thumbnail, upload.
+  - **Thumbnail:** draft at `/home/rk/sooranxd-thumbnails/thumb_draft2.jpg` (COMMANDO + VICTORY, Burning Paris/Eiffel Tower, cropped clean, 1280×720). Candidates in same folder.
   - Target slot: **Fri Oct 9**.
 
 ---
