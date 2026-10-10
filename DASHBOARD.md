@@ -93,9 +93,11 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 ## Open issues
 
-- **K1 description has no chapters** — add the chapter list (`00:00` cold open · `00:20` Wave 1 · `02:45` Wave 2 · `05:10` Wave 3 · `08:15` Wave 4 · `12:30` Final (boss) · `15:50` Victory). Also add `▶ Result: Victory` to the metadata block.
-- **K1 views low so far** — 5 views / ~18 h (6.6/day vs ≥15 target). Re-check at 48 h; if flat, the lever is the thumbnail/title or promotion, not the game.
-- **BO4 Zombies series not started** — Z1 (IX) was due Fri Oct 9; move to Mon Oct 12 so both series run.
+- **🔴 TOPIC HAS NEAR-ZERO DEMAND (biggest problem).** Search "Killing Floor 2 Burning Paris Commando": the **#1 video has 2,774 views in 11 years** (~0.7/day). Other HoE variants: 107, 23, 15 views lifetime. K1's map+perk keyword space is a dead end — even ranking #1 barely moves the needle.
+- **Channel is dormant with 21 subs** — YouTube has almost no audience to test against, so impressions are near zero. It takes a catalogue + consistency, not one upload.
+- **K1 description has no chapters** — add the chapter list; add `▶ Result: Victory`.
+- **K1 is the weakest content variant** — Normal + Short (4 waves) vs the niche's HoE + Long (10 waves). Even those only get ~100–3,000 views.
+- **BO4 Zombies series not started** — Z1 (IX) was due Fri Oct 9; move to Mon Oct 12.
 - **`eXFAFQxc6rc` (RoR2)** — off-series; 23 views. Decide unlist vs leave.
 
 ## Quota log (YouTube Data API, 10,000 units/day)
