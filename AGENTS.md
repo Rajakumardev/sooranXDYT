@@ -5,6 +5,10 @@ This repository is a workspace for growing the **SooranXD** YouTube channel
 It is not a software project; the "code" here is OpenCode configuration, agents,
 commands, and saved analysis. Treat it as an operating system for channel growth.
 
+> **Start here:** `MEMORY.md` — compacted project memory (decisions, evidence,
+> current state, next actions). `DASHBOARD.md` — live numbers. `CONTENT-PLAN.md`
+> — the current plan. `KANBAN.md` — the production board.
+
 ## Channel
 
 | Field | Value |

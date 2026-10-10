@@ -12,6 +12,7 @@ opencode.jsonc                    # registers the local `youtube` MCP server
 scripts/youtube-mcp.sh            # loads .env, launches @kirbah/mcp-youtube
 .env.example                      # copy to .env and add your API key
 AGENTS.md                         # channel profile + working conventions
+MEMORY.md                         # compacted project memory (start here)
 .opencode/agents/youtube-seo.md   # the YouTube growth strategist agent
 .opencode/commands/               # /audit /ideas /keywords /channel-report /track
 CONTENT-PLAN.md                   # current Phase-1 plan (KF2 + BO4 Zombies, no commentary)
