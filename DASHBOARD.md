@@ -15,8 +15,8 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Created | 2019-05-27 |
 | Region / language | India (IN) / English (`en`) |
 | Platform | **Linux + RTX 3050 Ti laptop** |
-| Active series | **Black Ops 4 Zombies** + **Killing Floor 2** (no commentary) |
-| Parked (Phase 2) | Warzone / Battlefield BR — needs PS5 or Windows PC |
+| Active series | **KF2 / BO4 Zombies** — stalled: K1 got **6 views** (near-zero topic demand) |
+| Recommended pivot | **Warzone / Black Ops Royale solo no-commentary on Windows** — only FPS path with a proven small-channel model |
 | Dropped | Risk of Rain 2 / longplay · The Finals / Apex / Fortnite / PUBG (anti-cheat blocked) |
 
 ## North-star KPIs
@@ -93,7 +93,8 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 ## Open issues
 
-- **🔴 TOPIC HAS NEAR-ZERO DEMAND (biggest problem).** Search "Killing Floor 2 Burning Paris Commando": the **#1 video has 2,774 views in 11 years** (~0.7/day). Other HoE variants: 107, 23, 15 views lifetime. K1's map+perk keyword space is a dead end — even ranking #1 barely moves the needle.
+- **🔴 DIRECTION DECISION — Warzone on Windows (recommended).** CoD *multiplayer* no-commentary is dead (~3 views/day), but **Warzone / Black Ops Royale solo no-commentary** has a proven small-channel model (Ultra No Commentary: 13.2K subs in 14 months, ~1 upload/day) and a 2.6M-view ceiling (Marshal). Requires Windows (Ricochet blocks Linux). 3050 Ti runs it ~64–90 FPS at 1080p optimized. _Pending creator's Windows switch._
+- **🔴 TOPIC HAS NEAR-ZERO DEMAND (KF2).** "KF2 Burning Paris Commando" #1 result has 2,774 views in 11 years; K1 got 6. KF2 map+perk long-form is a dead end.
 - **Channel is dormant with 21 subs** — YouTube has almost no audience to test against, so impressions are near zero. It takes a catalogue + consistency, not one upload.
 - **K1 description has no chapters** — add the chapter list; add `▶ Result: Victory`.
 - **K1 is the weakest content variant** — Normal + Short (4 waves) vs the niche's HoE + Long (10 waves). Even those only get ~100–3,000 views.
