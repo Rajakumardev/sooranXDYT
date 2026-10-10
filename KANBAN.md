@@ -57,13 +57,7 @@ _(empty — move cards here once recorded; long runs split into parts)_
 
 ## 🎨 Packaging
 
-- [ ] **K1 · KF2 Commando — Burning Paris (solo, Normal, Short 4+Final)** — recorded 2026-10-09, **16:27**, 1080p60, ends in **VICTORY**. Raw: `/home/rk/2026-10-09 20-17-56.mp4` (4.2 GB).
-  - **Title (final):** `Killing Floor 2: Burning Paris Commando Solo (No Commentary)`
-  - **Chapters:** 00:00 cold open · 00:20 Wave 1 · 02:45 Wave 2 · 05:10 Wave 3 · 08:15 Wave 4 · 12:30 Final (boss) · 15:50 Victory
-  - **Trim:** inventory/perk menus ~1:45, ~4:15, ~11:15; end "New item" popup.
-  - Remaining: cold open (last ~20s), thumbnail, upload.
-  - **Thumbnail:** draft at `/home/rk/sooranxd-thumbnails/thumb_draft2.jpg` (COMMANDO + VICTORY, Burning Paris/Eiffel Tower, cropped clean, 1280×720). Candidates in same folder.
-  - Target slot: **Fri Oct 9**.
+_(empty — K1 shipped; move the next recording here)_
 
 ---
 
@@ -75,7 +69,10 @@ _(ready to publish, queued to the Mon/Wed/Fri slot)_
 
 ## 🚀 Published (measure 24h / 7d / 30d)
 
-- [ ] **OUT-OF-SERIES · `eXFAFQxc6rc`** — RoR2, published 2026-10-02 · views: 11 · off-series (pending unlist decision).
+- [ ] **`IK5br0lhOBA` · K1 — KF2 Burning Paris Commando (solo, Normal, victory)** — published **2026-10-09 17:56** · 16:16 · **5 views, 2 likes** at ~18 h · on cadence.
+  - **Fix:** add chapters + `▶ Result: Victory` to the description (currently missing).
+  - Re-check at 48 h / 7 d / 30 d.
+- [ ] **OUT-OF-SERIES · `eXFAFQxc6rc`** — RoR2, published 2026-10-02 · views: 23 · off-series (pending unlist decision).
 
 ---
 
