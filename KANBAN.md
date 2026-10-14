@@ -13,28 +13,42 @@ Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md` · Decision: `reports/2026-10
 
 ## ⛔ Blocked on the creator
 
-- **[tooling] `youtube` MCP needs the API key.** Launcher is fixed
-  (`scripts/youtube-mcp.mjs`, cross-platform) and verified — it starts the server
-  and lists all 8 tools. Still needed: paste `YOUTUBE_API_KEY=...` into `.env`
-  (git-ignored, already created) and **restart OpenCode**. Until then no live
-  YouTube data → the demand check in `CONTENT-PLAN.md` can't run.
+- ~~**[tooling] `youtube` MCP needs the API key.**~~ ✅ **DONE 2026-10-14** — key in
+  `.env`, launcher verified, live data flowing (SooranXD: 21 subs / 3,492 views /
+  36 videos). Demand check run: `reports/2026-10-14-phase2-demand-check.md`.
 - **[verify in-game, 5 min] Does the Solos playlist still exist in Season 5?**
   Solos arrived in Season 3; Season 5 (2026-10-13) replaced *Gauntlet* with
-  *Rapid Royale*. Check the mode list before recording.
+  *Rapid Royale*. Check the mode list before recording — Series A depends on it.
 - **[capture] Benchmark BF6 on this laptop once.** 1080p low + DLSS/FSR
   Performance, target a stable 60 fps, then record one throwaway match and check
   for dropped frames (the K2a VOD is the reference: exactly 60.000 fps).
+  **Close Valorant / Riot Vanguard first** — Javelin refuses to run with it open.
+
+---
+
+## 🔧 High-value side quest (elevated by the data)
+
+- [ ] **Fix the CoD attestation → unlock Black Ops 7 Zombies.**
+  The demand check found `NoAnnoyingCommentary Z` getting **4,121–80,892 views per
+  Zombies map upload, every map** — exactly the BO4-per-map series this channel
+  planned, but on the current CoD. That is the best-fitting lane available
+  (PvE, per-map, no voice) if it can be unlocked.
+  - _Steps:_ ASUS BIOS update for **G513IE** (installed: `G513IE.329`, 2023-01) →
+    TPM re-provision (`tpm.msc`) → retry the attestation wizard.
+  - _Evidence:_ TPM 2.0 ✅, Secure Boot ✅, UEFI ✅; the only failing value is a
+    failed **TPM AIK enrollment** (`0x80072EE7` = name not resolved).
 
 ---
 
 ## 🅿️ Parked / dropped
 
-- **CALL OF DUTY (Warzone / BO4 Zombies) — parked.** Installed (168.5 GB) but
-  won't launch: the attestation wizard reports "BIOS outdated". Audit found TPM
-  2.0 + Secure Boot + UEFI all fine; the abnormal value is a failed TPM **AIK
-  enrollment** (`0x80072EE7`, name not resolved). Cheapest fixes: update the
-  BIOS (G513IE.329 is from 2023-01 → check ASUS support), re-provision the TPM,
-  retry. Side quest only — not worth blocking the channel.
+- **CALL OF DUTY (Warzone / Black Ops 7 Zombies / BO4 Zombies) — parked, but
+  now worth fixing.** Installed (168.5 GB) but won't launch: the attestation
+  wizard reports "BIOS outdated". Audit found TPM 2.0 + Secure Boot + UEFI all
+  fine; the abnormal value is a failed TPM **AIK enrollment** (`0x80072EE7`, name
+  not resolved). **Demand check result:** BO7 Zombies no-commentary is the
+  highest-ceiling lane measured for this channel's format (4,121–80,892 per map
+  upload) → see 🔧 High-value side quest above.
 - **KILLING FLOOR 2 / BO4 ZOMBIES (Phase 1) — closed.** K1 = 6 views; KF2
   map+perk long-form is a proven dead keyword. K2a is kept as a bridge upload only.
 - **RISK OF RAIN 2 / longplay** — dropped (not the creator's interest). Archived:
@@ -47,8 +61,12 @@ Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md` · Decision: `reports/2026-10
 
 ## 💡 Backlog & Ideas
 
-- **[idea] REDSEC Solos win hunt** — a series arc toward the first solo win
-  (80-player lobbies, no redeploys: the win is a genuine milestone).
+- **[idea] BO7 Zombies per-map series** — **highest-ceiling lane measured**
+  (4,121–80,892 views per map upload by a 66.7K-sub channel). Blocked on the CoD
+  attestation fix; start the day it launches.
+- **[idea] REDSEC win hunt** — a series arc toward the first solo win
+  (80-player lobbies, no redeploys: the win is a genuine milestone) and the
+  strongest hook in the data (win-framed median 49,485 vs 28,020).
 - **[idea] Class/Training-Path series** — one upload per class: Assault →
   Engineer → Support → Recon; then Hazmat Breacher / Pointman / Provisioner /
   Mechanized Infantry. Natural per-video variety without new maps.
@@ -66,11 +84,26 @@ Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md` · Decision: `reports/2026-10
 
 ---
 
-## 📝 Planned (titles lock after the demand check)
+## 📝 Planned (titles locked from measured demand)
 
-_Empty on purpose — the demand check (`CONTENT-PLAN.md` §Demand check) runs first,
-then the first 10 uploads get real titles based on measured view counts. The
-working-title table lives in `CONTENT-PLAN.md`._
+Deliberate concentration: **8 of 10 are REDSEC Solos.** The niche rewards a
+catalogue at one consistent, searchable pattern — the leaders have 1,300–3,700
+uploads and reuse near-identical titles on every video.
+
+- [ ] **R1 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` · Mon
+- [ ] **R2 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` · Wed — **promote the first win to this slot, whenever it happens**
+- [ ] **R3 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` · Fri — only if kills ≥ 10
+- [ ] **R4 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` · Mon
+- [ ] **R5 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` · Wed
+- [ ] **R6 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` · Fri
+- [ ] **R7 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` · Mon
+- [ ] **R8 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` · Wed
+- [ ] **R9 · Delta Force** — `DELTA FORCE SOLO OPERATIONS GAMEPLAY (NO COMMENTARY)` · Fri — Series-B test (3/10 results in the niche are no-commentary; expect low)
+- [ ] **R10 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` · Mon
+
+_Specs for all of them:_ one match per upload, **20–36 min**, no commentary,
+audio ≈ −14 LUFS, chapters every upload, thumbnail = result badge (`WIN` /
+`[X] KILLS`) + class icon over the final-circle moment.
 
 ---
 

@@ -15,6 +15,11 @@
 > dead. The previous plan's premise — "BR is blocked until a PS5 / decent
 > Windows PC" — is obsolete: this laptop already runs the whole BR pool. The one
 > thing that does *not* run is **Call of Duty** (attestation rejects the BIOS).
+>
+> **Demand is now measured, not assumed** (`reports/2026-10-14-phase2-demand-check.md`):
+> `Battlefield REDSEC Solos no commentary` has a median of **28,020 views**, the
+> win-framed variant **49,485**, and the closest no-name channels pull
+> **100–400** on the same format and length. Titles below are locked from that data.
 
 ## What changed and why (evidence)
 
@@ -53,43 +58,69 @@ Ultra No Commentary, 13.2K subs in 14 months, ~1 upload/day).
 redeploys, **no defibrillators**, a **faster circle** than Duos/Quads, and
 **no tanks**. A win is a real, honest "I did this alone" result — never inflate it.
 
-**Title formula (primary keyword first, ≤70 chars — this niche tolerates length):**
+**Title formula — matched to the pattern that actually ranks** (measured 2026-10-14; see `reports/2026-10-14-phase2-demand-check.md`):
 
 ```
-Battlefield REDSEC SOLO — [X] KILLS, [WIN / TOP N] (No Commentary)
+BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)
 ```
 
-Variants to test across the first 10 uploads:
+The no-commentary leaders in this niche (`NoAnnoyingCommentary` 503K subs,
+`Marshal No Commentary` 404K) all use **upper-case, keyword-first, near-identical
+titles on every upload** — the catalogue does the work, not the wordplay. So:
 
-- `Battlefield REDSEC Solos — [X] Kill Win (No Commentary)`
-- `Battlefield REDSEC SOLO — [CLASS] Only, [X] Kills (No Commentary)`
-- `REDSEC Solos — No Commentary Full Match, [X] Kills`
+| Situation | Title |
+| --- | --- |
+| Won the match | `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` |
+| Won with ≥10 kills | `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` |
+| Good run, no win | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` |
 
-In-game terms that are themselves searchable and usable verbatim in titles/tags:
-`REDSEC`, `Solos`, `Fort Lyndon`, class + training path names (`Recon`,
-`Assault`, `Hazmat Breacher`, `Pointman`, `Provisioner`, `Mechanized Infantry`),
-POIs (`Golf Course`, `Marina`, `Area 22B`, `Downtown`, `Tech Centre`,
-`Defense Complex 3`), `NXC circle`, `Second Chance`, `Rapid Royale`.
+**"WIN" is the highest-converting framing in the data:** the win-framed query has
+a median of **49,485 views vs 28,020** for general Solos lookups. Only ever say
+"win" when the VOD shows the win. Kill counts must be read off the end screen.
 
-**Round/kill/placement numbers must be real** — read them off the end-of-match
-screen, never invent them.
+**Length:** 20–36 min is the niche norm (Marshal 21–24 min, NoAnnoyingCommentary
+22–43 min, Threatty 22, DeeV 22). Keep one match per upload and **do not split
+runs into parts**.
 
-## Series B — Delta Force (second series)
+Searchable in-game terms, usable verbatim in titles/tags: `REDSEC`, `Solos`,
+`Fort Lyndon`, class + training path names (`Recon`, `Assault`, `Hazmat Breacher`,
+`Pointman`, `Provisioner`, `Mechanized Infantry`), POIs (`Golf Course`, `Marina`,
+`Area 22B`, `Downtown`, `Tech Centre`, `Defense Complex 3`), `NXC circle`,
+`Second Chance`, `Rapid Royale`.
+
+## Series B — Delta Force (variety, not a growth bet)
 
 **Format:** one **Operations** run (extraction) per upload, solo queue; or a
 **Warfare** 24v24 match as filler. Also installed & ready: **Arena Breakout:
 Infinite**, **PUBG**.
 
+**Measured caveat — demoted on 2026-10-14.** In the demand check, **only 3 of 10**
+results for `Delta Force Operations solo no commentary` were actually
+no-commentary; the traction (Nuisance 257K, ImMadness 32.9K) belongs to
+**commentary** channels, and the no-commentary examples sit at 119–5,300 views.
+Run it for variety once Series A is measured — not as a parallel growth bet.
+
 **Title formula:**
 
 ```
-Delta Force — Solo Operations, [map/mode], [X] Kills (No Commentary)
+DELTA FORCE SOLO OPERATIONS GAMEPLAY (NO COMMENTARY)
 ```
 
-**Why second:** it diversifies the channel without competing with Series A —
-extraction tension reads differently from BR survival — and 95.5 GB is already on
-disk. Do **not** start it until Series A has 4–5 uploads measured, so we can
-attribute growth to one series at a time.
+## Series C — Black Ops 7 Zombies (blocked, but highest ceiling)
+
+**Not recordable today** — CoD won't launch (attestation rejects the BIOS; see
+`reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md` §4).
+
+**Why it matters anyway:** `NoAnnoyingCommentary Z` (66.7K subs, 1,345 videos) is
+running **exactly** the series this channel planned for BO4 — one upload per
+Zombies map, no commentary — and getting **4,121–80,892 views per upload**, every
+map, at 27–370 views/day. That is ~1,000× the KF2 ceiling, and it is the closest
+match to SooranXD's existing PvE, per-map, no-voice skill set.
+
+**Therefore:** the BIOS/attestation fix is worth real effort. If it works,
+`BLACK OPS 7 ZOMBIES: [MAP] GAMEPLAY! (NO COMMENTARY)` may be the single best
+series available to this channel. Fix order: BIOS update → TPM re-provision →
+retry attestation.
 
 ## Capture setup (both series)
 
@@ -152,46 +183,61 @@ No-commentary FPS series — what should I run next? 👇
   `delta force solo`, `extraction shooter`, `delta force gameplay`,
   `no commentary gameplay`, `fps gameplay`
 
-## First 10 uploads
+## First 10 uploads (titles locked from measured demand)
 
-Order, not exact dates. Titles are **locked only after the demand check** (§ below).
-Workable starting point:
+Order, not exact dates. Slot: Mon / Wed / Fri. **Record the win as soon as it
+happens — a first solo win is the hook that outperforms everything else.**
 
-| # | Series | Working title | Slot |
+| # | Series | Title | Notes |
 | --- | --- | --- | --- |
-| 1 | REDSEC | `Battlefield REDSEC SOLO — First Win (No Commentary)` | Mon |
-| 2 | REDSEC | `Battlefield REDSEC SOLO — [X] Kills (No Commentary)` | Wed |
-| 3 | REDSEC | `Battlefield REDSEC SOLO — Recon Only, [X] Kills (No Commentary)` | Fri |
-| 4 | REDSEC | `Battlefield REDSEC SOLOS — Top 5, No Commentary` | Mon |
-| 5 | REDSEC | `Battlefield REDSEC SOLO — [X] Kill Win on Fort Lyndon (No Commentary)` | Wed |
-| 6 | REDSEC | `Battlefield REDSEC SOLO — Support Only (No Commentary)` | Fri |
-| 7 | Delta Force | `Delta Force — Solo Operations, [map] (No Commentary)` | Mon |
-| 8 | REDSEC | `Battlefield REDSEC SOLO — [X] Kills (No Commentary)` | Wed |
-| 9 | Delta Force | `Delta Force — Solo Operations, [map] (No Commentary)` | Fri |
-| 10 | REDSEC | `Battlefield REDSEC SOLO — [X] Kill Win (No Commentary)` | Mon |
+| 1 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` | First upload; any clean run |
+| 2 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` | **As soon as a win lands — promote it** |
+| 3 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` | Only if kills ≥10 |
+| 4 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` | Class/POI variety, same title pattern |
+| 5 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` |  |
+| 6 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` |  |
+| 7 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` |  |
+| 8 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` |  |
+| 9 | Delta Force | `DELTA FORCE SOLO OPERATIONS GAMEPLAY (NO COMMENTARY)` | First Series-B test |
+| 10 | REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` |  |
 
-**Only 5 of these are recordable right now** and the cadence requires ~3 recordings
-per week — check that the backlog stays ahead of the schedule before promising slots.
+Deliberate choice: **8 of 10 are REDSEC Solos.** The data says the win is to
+concentrate on one format and build a catalogue (the leaders here have 1,300–3,700
+uploads), not to sample four games.
 
-## Demand check — do this before locking titles
+**Recordable right now:** all of them — provided the Solos playlist exists in
+Season 5 (§ Blocked) and the capture test passes.
 
-The MCP is repaired but needs `YOUTUBE_API_KEY` in `.env` (see the pivot report
-§5). Then run the six queries in the pivot report §6 (~600 quota units) and pick
-the title formula from real numbers, the way the 2026-10-03 competitor analysis
-did (uploads per video + views/day).
+## Measured demand (done — 2026-10-14)
+
+Full tables + sources: `reports/2026-10-14-phase2-demand-check.md` (6
+`searchVideos` queries, 60 videos, 27 channels, ~704 quota units).
+
+| Finding | Numbers |
+| --- | --- |
+| The format works; the old game didn't | `REDSEC Solos no commentary` median **28,020** vs K1's **6** |
+| Win-framing is 1.8× | win query median **49,485** vs **28,020** |
+| Fresh BF6 floor | past-month BF6 no-commentary min **5,965** |
+| **Comparable small-channel floor** | **100–400 views** (TAPFPS 9 subs → 100; DeeV 2.7K → 347; WanTeD 629 → 362) |
+| Proven ceiling | **716,824** (NoAnnoyingCommentary, same format, 23:42) |
+| Niche length | **20–36 min**, one match per upload |
+| No-commentary like rate | **1.2–2.3%** |
+| Delta Force | only **3/10** no-commentary — traction is commentary channels |
+| BO7 Zombies (blocked) | **4,121–80,892** per map upload — the best available lane if CoD is fixed |
 
 ## Measurement (see `DASHBOARD.md`)
 
 Review after **5 REDSEC uploads** (~2 weeks):
 
-| Metric | K1 baseline (KF2) | Phase-2 target |
-| --- | --- | --- |
-| Views / video | 6 | **≥ 300** |
-| Views / video / day | ~0.5 | **≥ 15** |
-| Like ratio | 40% on 5 views (noise) | **≥ 0.6%** |
-| Chapters present | 0 / 36 | **100%** |
-| Subs | 21 | **+30 in 90 days** |
+| Metric | K1 baseline (KF2) | Phase-2 target | Comparable no-name channel (measured) |
+| --- | --- | --- | --- |
+| Views / video | 6 | **≥ 300** | 100–400 |
+| Views / video / day | ~0.5 | **≥ 15** | 1.2–3.6 |
+| Like ratio | 40% on 5 views (noise) | **≥ 1%** | 2.0–3.6% |
+| Length | 16:16 | **20–36 min** | 20–22 min |
+| Chapters present | 0 / 36 | **100%** | — |
+| Subs | 21 | **+30 in 90 days** | — |
 
 If a series is under target after 5 uploads, change the **hook and packaging**
-first (thumbnail result badge, kill count in the title, shorter cut), then the
-game — in that order.
+first (a win in the title, the result on the thumbnail, tighter 20-min cut), then
+the game — in that order.

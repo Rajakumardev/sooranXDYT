@@ -43,7 +43,8 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-10 | **Recommended: switch to Windows and do Warzone / Black Ops Royale solo no-commentary** (pending creator's switch). |
 | 2026-10-14 | Recorded **KF2 Elysium, solo Commando, Normal, 7 waves, Patriarch down, victory** (21:34, 1080p60). Reviewed: clean VOD but **Normal ≠ the HoE brand promise** and same perk as K1 → bridge upload only. Audited this PC while here: **the Windows boot already runs the Phase-2 pool** (CoD 2025 `cod25` 168 GB, Battlefield 6 118 GB, Delta Force, PUBG, Arena Breakout — BF6 profile written today) → **the hardware/OS gate for Phase 2 is open; the plan is what's stale.** |
 | 2026-10-14 | **PHASE 2 LAUNCHED:** pivot to **Battlefield REDSEC Solos** (lead) + **Delta Force** (second). CoD **parked** — attestation/BIOS block (TPM 2.0 + Secure Boot + UEFI are all fine; TPM AIK enrollment failed, `0x80072EE7`). Research: `reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md`; plan/board rewritten. |
-| 2026-10-14 | **`youtube` MCP repaired** for Windows: new `scripts/youtube-mcp.mjs` launcher (verified — starts the server, lists 8 tools), `opencode.jsonc` rewired, `.env` created. **Blocked only on the API key + an OpenCode restart.** |
+| 2026-10-14 | **`youtube` MCP repaired** for Windows: new `scripts/youtube-mcp.mjs` launcher (verified — starts the server, lists 8 tools), `opencode.jsonc` rewired, `.env` created. |
+| 2026-10-14 | **Demand check run** (~704 units, `reports/2026-10-14-phase2-demand-check.md`): `REDSEC Solos no commentary` median **28,020** views, win-framed **49,485**, comparable no-name channels **100–400**, ceiling **716,824**, niche length **20–36 min**, no-commentary like rate **1.2–2.3%**. Delta Force demoted (**3/10** no-commentary). **BO7 Zombies no-commentary = 4,121–80,892 per map** → the CoD attestation fix became high-value. Titles locked; 8 of the first 10 uploads are REDSEC Solos. |
 
 ## 4. Key evidence (the "why" behind decisions)
 
@@ -55,6 +56,10 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 - **Anti-cheat reality on Linux:** Warzone, Battlefield, Apex, Fortnite, PUBG, The Finals, Valorant all **blocked**. Windows needed for Warzone. **On this Windows boot the block disappears** — PUBG (BattlEye) and BF6 (Javelin, needs Secure Boot, which is ON) both run natively.
 - **BF6 / REDSEC (verified 2026-10-14):** BF6 sold **7M in 3 days** and **outsold Black Ops 7** — first Battlefield to beat a CoD launch. Free-to-play **REDSEC** BR launched 2025-10-28; **Battle Royale Solos** (80 players, no redeploys, no defibs, faster circle, no tanks) arrived in the **Season 3 Blastpoint** update (May 2026) — before that, Duos/Quads only with no backfill, so solo BR was impossible. **Season 5 shipped 2026-10-13** (Rapid Royale replaces Gauntlet; Nevada maps; Dead Space PvE event). Sources: EA's *Battle Royale Solos Mode Guide* (2026-06-01) + Wikipedia.
 - **BF6 gotcha:** Javelin anti-cheat will not run while the **Valorant launcher / Riot Vanguard** is open — and Valorant was started on this machine today.
+- **REDSEC Solos demand is measured (2026-10-14), not assumed:** `Battlefield REDSEC Solos no commentary` median **28,020** views (9/10 results are no-commentary); the win-framed query median **49,485** (1.8×); fresh BF6 BR no-commentary uploads this past month floor at **5,965**; the **comparable small channels** (9–2,720 subs, same 20–22 min format) get **100–400**; the ceiling is **716,824** (NoAnnoyingCommentary, 503K subs, 80–384 views/day). Niche length **20–36 min**, no-commentary like rate **1.2–2.3%**. **WIN is the highest-converting framing.**
+- **The winners reuse one plain title pattern.** NoAnnoyingCommentary (503K subs, 2,854 videos, 176 subs/video) and Marshal (404K, 2,888 videos) both ship near-identical upper-case, keyword-first titles on every upload — the catalogue does the work, not wordplay. Channel leaders here have **1,300–3,700 uploads**.
+- **Delta Force is weaker for no-commentary:** only **3/10** results were no-commentary; the traction (257K, 32.9K) is commentary channels. Variety only.
+- **BO7 Zombies no-commentary is the best-fitting lane measured:** NoAnnoyingCommentary Z (66.7K subs, 1,345 videos) gets **4,121–80,892 views per map upload, every map**, at 27–370 views/day — the same per-map PvE series the channel planned for BO4, ~1,000× the KF2 ceiling. `Black Ops 7 Zombies` is the CoD installed here (the `cod25` content).
 
 ## 5. Current state & open items
 
@@ -83,11 +88,10 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 
 ## 7. Next actions
 
-1. **Creator (blocks the rest):** paste `YOUTUBE_API_KEY=...` into `.env`, **restart OpenCode** → the `youtube` MCP comes up (already verified working).
-2. **Then (agent):** run the **demand check** — 6 `searchVideos` queries from `CONTENT-PLAN.md` (~600 quota units) → lock the first 10 titles with real view data.
-3. **Then (creator):** confirm Solos exists in-game, benchmark BF6, record the first REDSEC Solos match (close Valorant/Riot Vanguard first).
-4. Optional, while that happens: publish K2a as a cadence bridge; add chapters to K1; decide on the RoR2 video.
-5. Side quest only: BIOS update → retry CoD attestation.
+1. **Creator (unblocks Series A):** confirm the **Solos** playlist exists in Season 5, benchmark BF6, record the first REDSEC Solos match — **close Valorant/Riot Vanguard first**. Target 20–36 min, 1080p60, ≈ −14 LUFS, one match per upload.
+2. **Creator (unlocks the best lane):** ASUS **BIOS update** for G513IE → TPM re-provision → retry the CoD attestation. BO7 Zombies no-commentary is the highest-ceiling, best-fitting series measured (4,121–80,892 per map).
+3. **Agent:** `/track` at 24 h / 7 d on R1; add chapters to K1; decide the RoR2 video; keep `DASHBOARD.md` current.
+4. Optional, in parallel: publish K2a as a cadence bridge (packaging ready).
 
 ## 8. Useful IDs
 
