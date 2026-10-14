@@ -1,0 +1,5 @@
+[0:v]scale=1280:720,setsar=1[bg];
+[bg]drawbox=x=0:y=470:w=1280:h=250:color=black@0.62:t=fill[v1];
+[v1]drawtext=fontfile='C\:/Windows/Fonts/ariblk.ttf':text='PATRIARCH DOWN':fontcolor=0xFFC400:fontsize=88:x=46:y=482:borderw=5:bordercolor=black@0.9[v2];
+[v2]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='KILLING FLOOR 2 - ELYSIUM - SOLO COMMANDO':fontcolor=white:fontsize=31:x=50:y=595:borderw=3:bordercolor=black@0.9[v3];
+[v3]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='NORMAL - 7 WAVES - VICTORY':fontcolor=0x9EF01A:fontsize=33:x=50:y=645:borderw=4:bordercolor=black@0.9[out]

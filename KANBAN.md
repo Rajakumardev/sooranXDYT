@@ -51,7 +51,11 @@ Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md`
 
 ## ✂️ Editing
 
-_(empty — move cards here once recorded; long runs split into parts)_
+- [ ] **K2a · KF2 Elysium — solo Commando (Normal, 7 waves, Patriarch down, victory)** · recorded **2026-10-14 14:37–14:59** · 21:34 @ 1080p60.
+  - **Review:** `reports/2026-10-14-kf2-elysium-run-review.md` · **Thumbnail:** `thumbnails/2026-10-14-kf2-elysium-commando.png` (ready)
+  - **Title (locked):** `Killing Floor 2: Elysium Solo Commando — Patriarch Down (No Commentary)`
+  - _Next action:_ trim the ~45 s post-match tail, raise audio ~+5 dB (source is −19.5 LUFS), paste the description + chapters from the review, publish on the next Mon/Wed/Fri slot.
+  - _Note:_ **Normal**, not Hell on Earth — this run must **not** carry the `Hell on Earth` keyword. It occupies the K2 slot as a cadence-bridge; the planned K2 (SWAT/HoE) is still open.
 
 ---
 

@@ -16,7 +16,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | Channel ID | `UCFrZFDmccrELUQSJlUToW9Q` |
 | Snapshot (2026-10-10) | **21 subs · 3,478 views · 36 videos** |
 | Created | 2019-05-27 · India (IN) · English (`en`) · Gaming (`20`) |
-| Platform | **Linux + RTX 3050 Ti laptop** (can dual-boot Windows) |
+| Platform | **Linux + RTX 3050 Ti laptop** (can dual-boot Windows). **2026-10-14: the Windows partition already has CoD HQ (168 GB), Battlefield 6 (118 GB), Delta Force, PUBG, Arena Breakout installed and in use** |
 | Brand format | **No commentary** FPS. Not walkthroughs, not longplay (creator disinterest) |
 | Legacy catalogue | CoD (MW 2019, MWII, BOCW) + Shatterline, mostly 2022–23 |
 | Best ever video | `5ki4NepDl20` CoD MW2 TDM — 1,283 views (2023) |
@@ -41,6 +41,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-09 | Recorded & edited **K1**: KF2 Burning Paris, Commando, solo, Normal, Short (4+Final), **victory**. Built thumbnail, title, description. |
 | 2026-10-10 | **K1 published** (`IK5br0lhOBA`) → **6 views, dead.** Diagnosed: topic has near-zero search demand + dormant channel. |
 | 2026-10-10 | **Recommended: switch to Windows and do Warzone / Black Ops Royale solo no-commentary** (pending creator's switch). |
+| 2026-10-14 | Recorded **KF2 Elysium, solo Commando, Normal, 7 waves, Patriarch down, victory** (21:34, 1080p60). Reviewed: clean VOD but **Normal ≠ the HoE brand promise** and same perk as K1 → bridge upload only. Audited this PC while here: **the Windows boot already runs the Phase-2 pool** (CoD 2025 `cod25` 168 GB, Battlefield 6 118 GB, Delta Force, PUBG, Arena Breakout — BF6 profile written today) → **the hardware/OS gate for Phase 2 is open; the plan is what's stale.** |
 
 ## 4. Key evidence (the "why" behind decisions)
 
@@ -56,6 +57,9 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 - **Active series:** KF2 / BO4 Zombies — **stalled** (K1 = 6 views).
 - **Recommended direction:** Warzone / Black Ops Royale solo no-commentary on Windows.
 - **Open items:**
+  - **Phase 2 is unblocked (2026-10-14):** CoD 2025 (Warzone) + Battlefield 6 + Delta Force + PUBG + Arena Breakout are installed on this Windows boot → rewrite `CONTENT-PLAN.md` / `KANBAN.md` and launch the BR solo no-commentary series.
+  - **[tooling] `youtube` MCP is DOWN on Windows:** `opencode.jsonc` starts it with `["bash","scripts/youtube-mcp.sh"]`, but there is no `bash` on PATH and **no `.env`** (so no `YOUTUBE_API_KEY`). No `tools.youtube.*` exist in-session → no live API data. Fix with a Windows launcher (or Git's `bash.exe`) + `.env`.
+  - **K2a** KF2 Elysium solo Commando (Normal, victory) recorded 2026-10-14 — packaging is ready (`reports/2026-10-14-kf2-elysium-run-review.md`); publish as a cadence bridge.
   - K1 (`IK5br0lhOBA`) description is **missing chapters** — add them.
   - `eXFAFQxc6rc` (RoR2, off-series, 23 views) — decide unlist vs leave.
   - BO4 Zombies series never started (Z1 due Oct 9).
@@ -68,6 +72,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 - **No walkthroughs / no longplay** (creator does not enjoy them).
 - **Brand = no commentary** — game audio only.
 - **Don't claim 4K** from a 1080p source (upscaling adds no detail).
+- **Difficulty honesty:** the `Hell on Earth` keyword/title formula requires an **HoE** run — never attach it to Normal/Suicidal VODs.
 - Prefer fixing **packaging + game sense** before switching games again.
 
 ## 7. Next actions
