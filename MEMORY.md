@@ -24,12 +24,12 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 ## 2. How this workspace works
 
 - **Agent:** `youtube-seo` (`.opencode/agents/youtube-seo.md`). Data first, no fabricated metrics.
-- **Tools:** `youtube` MCP (Code Mode `tools.youtube.*`). `searchVideos` = 100 units, `getChannelTopVideos` = 101; batch IDs; ~10k units/day.
+- **Tools:** `youtube` MCP (Code Mode `tools.youtube.*`) — launched by **`scripts/youtube-mcp.mjs`** (cross-platform; the old bash wrapper cannot run on Windows). `searchVideos` = 100 units, `getChannelTopVideos` = 101; batch IDs; ~10k units/day. Needs `YOUTUBE_API_KEY` in `.env`.
 - **Commands:** `/channel-report`, `/audit`, `/ideas`, `/keywords`, `/track`.
 - **Trackers:** `CONTENT-PLAN.md`, `KANBAN.md`, `DASHBOARD.md`.
 - **Reports:** `reports/*.md` (now versioned).
 - **Remote:** `https://github.com/Rajakumardev/sooranXDYT` — agent commits & pushes to `main` frequently, without asking.
-- **Editing:** Kdenlive; `ffmpeg` available for frames/thumbnails.
+- **Editing:** Windows boot right now; `ffmpeg` (winget Gyan.FFmpeg 9.0.2) + OBS 32.2.2 + Kdenlive available for frames/thumbnails/cuts.
 
 ## 3. Decision timeline
 
@@ -42,6 +42,8 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-10 | **K1 published** (`IK5br0lhOBA`) → **6 views, dead.** Diagnosed: topic has near-zero search demand + dormant channel. |
 | 2026-10-10 | **Recommended: switch to Windows and do Warzone / Black Ops Royale solo no-commentary** (pending creator's switch). |
 | 2026-10-14 | Recorded **KF2 Elysium, solo Commando, Normal, 7 waves, Patriarch down, victory** (21:34, 1080p60). Reviewed: clean VOD but **Normal ≠ the HoE brand promise** and same perk as K1 → bridge upload only. Audited this PC while here: **the Windows boot already runs the Phase-2 pool** (CoD 2025 `cod25` 168 GB, Battlefield 6 118 GB, Delta Force, PUBG, Arena Breakout — BF6 profile written today) → **the hardware/OS gate for Phase 2 is open; the plan is what's stale.** |
+| 2026-10-14 | **PHASE 2 LAUNCHED:** pivot to **Battlefield REDSEC Solos** (lead) + **Delta Force** (second). CoD **parked** — attestation/BIOS block (TPM 2.0 + Secure Boot + UEFI are all fine; TPM AIK enrollment failed, `0x80072EE7`). Research: `reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md`; plan/board rewritten. |
+| 2026-10-14 | **`youtube` MCP repaired** for Windows: new `scripts/youtube-mcp.mjs` launcher (verified — starts the server, lists 8 tools), `opencode.jsonc` rewired, `.env` created. **Blocked only on the API key + an OpenCode restart.** |
 
 ## 4. Key evidence (the "why" behind decisions)
 
@@ -50,16 +52,20 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 - **KF2 map+perk long-form is a dead keyword:** top result for "KF2 Burning Paris Commando" = **2,774 views in 11 years**; K1 got 6. Even HoE variants get ~100–3,000 lifetime.
 - **BO4 Zombies:** ceiling is huge (MKIceAndFire 5.94M), but small-channel floor = **5–18 views**.
 - **Hardware:** RTX 3050 Ti laptop runs Warzone ~43 FPS Ultra / ~64 Balanced / **73–93 optimized-low** at 1080p. 4 GB VRAM → low textures.
-- **Anti-cheat reality on Linux:** Warzone, Battlefield, Apex, Fortnite, PUBG, The Finals, Valorant all **blocked**. Windows needed for Warzone.
+- **Anti-cheat reality on Linux:** Warzone, Battlefield, Apex, Fortnite, PUBG, The Finals, Valorant all **blocked**. Windows needed for Warzone. **On this Windows boot the block disappears** — PUBG (BattlEye) and BF6 (Javelin, needs Secure Boot, which is ON) both run natively.
+- **BF6 / REDSEC (verified 2026-10-14):** BF6 sold **7M in 3 days** and **outsold Black Ops 7** — first Battlefield to beat a CoD launch. Free-to-play **REDSEC** BR launched 2025-10-28; **Battle Royale Solos** (80 players, no redeploys, no defibs, faster circle, no tanks) arrived in the **Season 3 Blastpoint** update (May 2026) — before that, Duos/Quads only with no backfill, so solo BR was impossible. **Season 5 shipped 2026-10-13** (Rapid Royale replaces Gauntlet; Nevada maps; Dead Space PvE event). Sources: EA's *Battle Royale Solos Mode Guide* (2026-06-01) + Wikipedia.
+- **BF6 gotcha:** Javelin anti-cheat will not run while the **Valorant launcher / Riot Vanguard** is open — and Valorant was started on this machine today.
 
 ## 5. Current state & open items
 
-- **Active series:** KF2 / BO4 Zombies — **stalled** (K1 = 6 views).
-- **Recommended direction:** Warzone / Black Ops Royale solo no-commentary on Windows.
+- **Active series (Phase 2):** **Battlefield REDSEC Solos** (lead) + **Delta Force** (second). Plan/board freshly rewritten 2026-10-14.
+- **Closed:** KF2 / BO4 Zombies (K1 = 6 views, dead keyword). K2a kept as a cadence bridge only.
+- **Parked:** Call of Duty — installed but won't launch (attestation/BIOS).
 - **Open items:**
-  - **Phase 2 is unblocked (2026-10-14):** CoD 2025 (Warzone) + Battlefield 6 + Delta Force + PUBG + Arena Breakout are installed on this Windows boot → rewrite `CONTENT-PLAN.md` / `KANBAN.md` and launch the BR solo no-commentary series.
-  - **[tooling] `youtube` MCP is DOWN on Windows:** `opencode.jsonc` starts it with `["bash","scripts/youtube-mcp.sh"]`, but there is no `bash` on PATH and **no `.env`** (so no `YOUTUBE_API_KEY`). No `tools.youtube.*` exist in-session → no live API data. Fix with a Windows launcher (or Git's `bash.exe`) + `.env`.
-  - **K2a** KF2 Elysium solo Commando (Normal, victory) recorded 2026-10-14 — packaging is ready (`reports/2026-10-14-kf2-elysium-run-review.md`); publish as a cadence bridge.
+  - **[creator, blocks everything] Add `YOUTUBE_API_KEY` to `.env` and restart OpenCode** → then run the demand check (6 queries, `CONTENT-PLAN.md`) before locking the first 10 titles.
+  - **[verify in-game] Does the Solos playlist still exist in Season 5?** (S5 replaced *Gauntlet* with *Rapid Royale*.)
+  - **[capture] BF6 benchmark + one test recording** at 1080p low + DLSS/FSR Performance; target a stable 60 fps and 0 dropped frames. Close Valorant/Vanguard first.
+  - **KF2 Elysium (K1's successor, "K2a") recorded 2026-10-14** — packaging ready (`reports/2026-10-14-kf2-elysium-run-review.md`); publish as a cadence bridge.
   - K1 (`IK5br0lhOBA`) description is **missing chapters** — add them.
   - `eXFAFQxc6rc` (RoR2, off-series, 23 views) — decide unlist vs leave.
   - BO4 Zombies series never started (Z1 due Oct 9).
@@ -68,19 +74,20 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 ## 6. Conventions & constraints
 
 - **Never fabricate metrics.** Cite the tool + numbers.
-- **Title:** primary keyword first; ≤60 chars; no clickbait the video can't deliver.
+- **Title:** primary keyword first; ≤60 chars (the FPS/BR niche tolerates up to ~70); no clickbait the video can't deliver.
 - **No walkthroughs / no longplay** (creator does not enjoy them).
-- **Brand = no commentary** — game audio only.
+- **Brand = no commentary** — game audio only (verify one desktop-audio track).
 - **Don't claim 4K** from a 1080p source (upscaling adds no detail).
-- **Difficulty honesty:** the `Hell on Earth` keyword/title formula requires an **HoE** run — never attach it to Normal/Suicidal VODs.
+- **Difficulty honesty:** the `Hell on Earth` keyword/title formula requires an **HoE** run — never attach it to Normal/Suicidal VODs. Same rule for placements/kills: read them off the end screen, never estimate.
 - Prefer fixing **packaging + game sense** before switching games again.
 
 ## 7. Next actions
 
-1. **Creator:** switch to Windows, install Warzone + OBS, run one optimized-settings FPS test.
-2. **Then:** rewrite `CONTENT-PLAN.md` + `KANBAN.md` for a Warzone launch (first 10 uploads, weapon/map rotation, 4–6×/week cadence, title formula `WARZONE SOLO — [WEAPON], [X] KILLS (No Commentary)`).
-3. **Fallback if no Windows:** BO4 Zombies on Linux via Proton.
-4. Add chapters to K1; decide on the RoR2 video.
+1. **Creator (blocks the rest):** paste `YOUTUBE_API_KEY=...` into `.env`, **restart OpenCode** → the `youtube` MCP comes up (already verified working).
+2. **Then (agent):** run the **demand check** — 6 `searchVideos` queries from `CONTENT-PLAN.md` (~600 quota units) → lock the first 10 titles with real view data.
+3. **Then (creator):** confirm Solos exists in-game, benchmark BF6, record the first REDSEC Solos match (close Valorant/Riot Vanguard first).
+4. Optional, while that happens: publish K2a as a cadence bridge; add chapters to K1; decide on the RoR2 video.
+5. Side quest only: BIOS update → retry CoD attestation.
 
 ## 8. Useful IDs
 

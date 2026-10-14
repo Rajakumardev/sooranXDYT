@@ -1,157 +1,197 @@
-# SooranXD — Content Plan (Phase 1: Linux-friendly no-commentary FPS)
+# SooranXD — Content Plan (Phase 2: Battlefield REDSEC Solos + Delta Force)
 
-- **Updated:** 2026-10-07
-- **Constraint:** Linux + **RTX 3050 Ti laptop** — Warzone / Battlefield / Apex / Fortnite / PUBG / The Finals are **all blocked by anti-cheat**. BR is a **Phase 2** goal (after a PS5 or a decent Windows PC).
-- **Phase 1 games:** **Killing Floor 2** (native Linux) + **Black Ops 4 Zombies** (Battle.net via Proton). Optional third: **Back 4 Blood** (EAC, Linux-supported).
+- **Updated:** 2026-10-14
+- **Constraint:** **none blocking.** The channel records on a **Windows** boot of
+  the ASUS ROG Strix G513IE (RTX 3050 Ti Laptop, 3,962 MB VRAM, 15.4 GB RAM,
+  1080p). The Phase-2 games are already installed and running (see below).
+- **Phase 2 games:** **Battlefield REDSEC Solos** (lead) · **Delta Force**
+  (second series). Bench options: Arena Breakout: Infinite, PUBG.
 - **Cadence:** 3×/week (Mon / Wed / Fri)
-- **Tracker:** `KANBAN.md` · **Metrics:** `DASHBOARD.md`
+- **Tracker:** `KANBAN.md` · **Metrics:** `DASHBOARD.md` · **Decision record:**
+  `reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md`
 
-## Why not BR yet (hardware reality, 2026-10)
+> **Changed on 2026-10-14.** Phase 1 (KF2 + BO4 Zombies on Linux) is closed:
+> K1 = 6 views, and the K2a review confirmed the KF2 map+perk keyword space is
+> dead. The previous plan's premise — "BR is blocked until a PS5 / decent
+> Windows PC" — is obsolete: this laptop already runs the whole BR pool. The one
+> thing that does *not* run is **Call of Duty** (attestation rejects the BIOS).
 
-Verified anti-cheat status on Linux (`areweanticheatyet.com`, gamingonlinux):
+## What changed and why (evidence)
 
-| Game | Linux status | Verdict |
-| --- | --- | --- |
-| Call of Duty: Warzone | Ricochet — unsupported | ❌ blocked |
-| Battlefield (2042/6) | EA anti-cheat — **Denied** | ❌ blocked |
-| Apex Legends | EAC + Hyperion — **Denied** (Linux removed) | ❌ blocked |
-| Fortnite | EAC — **Denied** | ❌ blocked |
-| PUBG: Battlegrounds | BattlEye — **Broken** | ❌ blocked |
-| The Finals | EAC not enabled for Linux | ❌ blocked (and heavy for a 3050 Ti) |
-| Valorant | Vanguard — **Denied** | ❌ blocked |
-
-The BR genre is effectively dead on Linux — every major title blocks it. **So do
-not plan BR content now.** Grow the channel with what runs, then reinvest.
-
-**What runs on Linux + a 3050 Ti (your Phase-1 pool):**
-
-| Game | Linux | Why it fits |
-| --- | --- | --- |
-| **Killing Floor 2** | Native / Steam Deck-verified | Co-op wave FPS; runs maxed; proven no-commentary niche |
-| **Black Ops 4 Zombies** | Battle.net via Proton (GE) | CoD Zombies; PvE so no anti-cheat wall; active small-channel scene |
-| Left 4 Dead 2 | Native | Co-op zombie FPS; huge evergreen niche |
-| Back 4 Blood | EAC Linux-supported | Co-op zombie FPS; closer to L4D |
-| Halo: MCC / Halo Infinite | Supported | Co-op shooter campaigns |
+| Fact | Evidence |
+| --- | --- |
+| Battlefield 6 / REDSEC installed & played here | Steam: Battlefield 6 **117.6 GB**, profile written **2026-10-14 14:59** |
+| Delta Force, PUBG, Arena Breakout installed | Steam library + manifests (Oct 13–14) |
+| CoD installed (168.5 GB) but **cannot launch** | attestation wizard "BIOS outdated"; see pivot report §4 |
+| REDSEC **Solos exists** (80 players, added Season 3) | [EA: Battle Royale Solos Mode Guide](https://www.ea.com/games/battlefield/redsec/news/battle-royale-solos-guide-tips-and-tricks) |
+| Season 5 landed **2026-10-13** (Rapid Royale, Nevada maps, Dead Space PvE) | [Battlefield 6 — Season 5](https://www.ea.com/games/battlefield/redsec/seasons/redsec-season-5) |
+| KF2 map+perk long-form is a dead keyword | K1 = 6 views; "Burning Paris Commando" #1 result = 2,774 views in 11 years |
 
 ## Phase overview
 
-| Phase | Trigger | Games | Format |
+| Phase | Games | Format | Status |
 | --- | --- | --- | --- |
-| **Phase 1 (now)** | Linux + 3050 Ti | KF2, BO4 Zombies (+ L4D2/B4B optional) | No-commentary FPS gameplay |
-| **Phase 2 (later)** | PS5 or decent Windows PC | Warzone / Battlefield BR | Solo BR no-commentary |
-
-The Phase-1 audience and channel brand ("no-commentary FPS") carry straight into
-Phase 2 — nothing is wasted.
+| 1 | KF2, BO4 Zombies | No-commentary PvE | **Closed** — keyword demand too low |
+| **2 (now)** | **Battlefield REDSEC Solos**, Delta Force | **Solo BR / extraction, no commentary** | **Active** |
+| Bench | Arena Breakout: Infinite, PUBG | Extraction / BR solo | Question if Series A or B underperforms |
 
 ---
 
-## Series A — Killer Floor 2 (no commentary)
+## Series A — Battlefield REDSEC Solos (lead)
 
-**Platform:** native Linux, runs maxed on a 3050 Ti.
-**Format:** solo run on a set **perk** (class) to the boss on **Hell on Earth**
-(drop to Suicidal/Hard until HoE is comfortable — always a *won* run).
-**Title formula (~60–70 chars; this niche tolerates longer):**
+**Format:** one full Solos match per upload — drop → circle → final circle →
+result. Win, or a clean high-placement run with kills. **No commentary, game
+audio only.**
+
+**Why this one:** it is the *only* mode here that is simultaneously (a) solo by
+design, (b) huge and growing — BF6 outsold Black Ops 7, the first Battlefield
+ever to do so — (c) free-to-play, (d) brand-new content (Season 5, 2026-10-13),
+and (e) provably viable for a small no-commentary channel (the Warzone analogue:
+Ultra No Commentary, 13.2K subs in 14 months, ~1 upload/day).
+
+**The mode's own rules give us the hooks.** Solos has **80 players**, no
+redeploys, **no defibrillators**, a **faster circle** than Duos/Quads, and
+**no tanks**. A win is a real, honest "I did this alone" result — never inflate it.
+
+**Title formula (primary keyword first, ≤70 chars — this niche tolerates length):**
 
 ```
-Killing Floor 2: Hell on Earth [map] Solo [perk] (No Commentary)
+Battlefield REDSEC SOLO — [X] KILLS, [WIN / TOP N] (No Commentary)
 ```
 
-**Perk progression (one upload each):** Commando → SWAT → Sharpshooter →
-Gunslinger → Support → Demolitionist → Berserker → Field Medic → Firebug.
+Variants to test across the first 10 uploads:
 
-**Skill gate:** the format only works if the run is clean — practice until you
-clear **Hell on Earth solo** with a couple of perks before making it the main
-series. Lower difficulties are fine to publish in the meantime.
+- `Battlefield REDSEC Solos — [X] Kill Win (No Commentary)`
+- `Battlefield REDSEC SOLO — [CLASS] Only, [X] Kills (No Commentary)`
+- `REDSEC Solos — No Commentary Full Match, [X] Kills`
 
-## Series B — Black Ops 4 Zombies (no commentary)
+In-game terms that are themselves searchable and usable verbatim in titles/tags:
+`REDSEC`, `Solos`, `Fort Lyndon`, class + training path names (`Recon`,
+`Assault`, `Hazmat Breacher`, `Pointman`, `Provisioner`, `Mechanized Infantry`),
+POIs (`Golf Course`, `Marina`, `Area 22B`, `Downtown`, `Tech Centre`,
+`Defense Complex 3`), `NXC circle`, `Second Chance`, `Rapid Royale`.
 
-**Platform:** Battle.net via Proton (Lutris + GE-Proton); Zombies is PvE, so no
-anti-cheat barrier. Runs easily on a 3050 Ti.
-**Format:** solo run to a target round on one map (long runs → split into parts).
+**Round/kill/placement numbers must be real** — read them off the end-of-match
+screen, never invent them.
+
+## Series B — Delta Force (second series)
+
+**Format:** one **Operations** run (extraction) per upload, solo queue; or a
+**Warfare** 24v24 match as filler. Also installed & ready: **Arena Breakout:
+Infinite**, **PUBG**.
+
 **Title formula:**
 
 ```
-Black Ops 4 Zombies — [Map], Round [X] (No Commentary)
+Delta Force — Solo Operations, [map/mode], [X] Kills (No Commentary)
 ```
 
-**Maps:** IX, Voyage of Despair, Blood of the Dead, Classified, Dead of the
-Night, Ancient Evil, Alpha Omega, Tag der Toten.
+**Why second:** it diversifies the channel without competing with Series A —
+extraction tension reads differently from BR survival — and 95.5 GB is already on
+disk. Do **not** start it until Series A has 4–5 uploads measured, so we can
+attribute growth to one series at a time.
 
-**Why it fits:** active small-channel no-commentary scene (CODzPLAY, KitaZ,
-NiekJD, SeptimiuYT all uploading Oct 2026); CoD brand heritage; instantly
-playable (no skill gate to start).
+## Capture setup (both series)
 
-## First 10 uploads (3×/week: Mon / Wed / Fri)
+The K2a VOD is the reference for what "clean" looks like: 1920×1080 @ **60.000
+fps** (zero dropped frames), NVENC, AAC stereo 48 kHz.
 
-Start with **BO4 Zombies** (playable now), then **KF2** (once a clean HoE/Suicidal
-run is ready). Swap order freely.
+| Setting | Value | Why |
+| --- | --- | --- |
+| Resolution / fps | **1920×1080, 60 fps** | Native panel; 4K from a 1080p source adds nothing |
+| Encoder | **NVENC H.264** (as K2a) | Offloads from the CPU, which also runs the game |
+| Game settings | 1080p **low/medium** + DLSS/FSR **Performance** | 4 GB VRAM — textures are the first thing to cut |
+| OBS "Record" resolution | = canvas, 60 fps, don't rescale | Avoids scaling artefacts |
+| Mic | **disabled** (desktop audio only) | Brand is no-commentary; verify one track |
+| Audio target | **≈ −14 LUFS**, true peak ≤ −1 dBTP | YouTube's reference; the K2a VOD is −19.5 and sounds quiet |
+| Close before recording | **Riot Vanguard / Valorant** | Battlefield's Javelin anti-cheat refuses to run with the Valorant launcher open |
 
-| # | Series | Title | Date |
-| --- | --- | --- | --- |
-| 1 | BO4 Zombies | `Black Ops 4 Zombies — IX, Round 50 (No Commentary)` | Fri Oct 9 |
-| 2 | BO4 Zombies | `Black Ops 4 Zombies — Blood of the Dead, Round 40 (No Commentary)` | Mon Oct 12 |
-| 3 | BO4 Zombies | `Black Ops 4 Zombies — Classified, Round 50 (No Commentary)` | Wed Oct 14 |
-| 4 | BO4 Zombies | `Black Ops 4 Zombies — Voyage of Despair, Round 40 (No Commentary)` | Fri Oct 16 |
-| 5 | BO4 Zombies | `Black Ops 4 Zombies — Ancient Evil, Round 40 (No Commentary)` | Mon Oct 19 |
-| 6 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Commando (No Commentary)` | Wed Oct 21 |
-| 7 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo SWAT (No Commentary)` | Fri Oct 23 |
-| 8 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Sharpshooter (No Commentary)` | Mon Oct 26 |
-| 9 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Gunslinger (No Commentary)` | Wed Oct 28 |
-| 10 | KF2 | `Killing Floor 2: Hell on Earth [map] Solo Support (No Commentary)` | Fri Oct 30 |
+Record in **separate matches**, not one long session, so an upload is always a
+single self-contained match with a clean result to put on the thumbnail.
 
-**Round/kill counts and maps must be real** — never invent them.
+## Thumbnail system
+
+- **REDSEC:** the match's own end screen / final-circle moment + a big result
+  badge (`WIN`, `[X] KILLS`) + the class icon. Red/dark accent to match REDSEC
+  branding.
+- **Delta Force:** the extraction moment + `EXTRACTED` / `LOST` badge.
+- Same font, size and corner position every upload so both series read as one
+  channel. Never ship a raw screenshot (34/35 legacy uploads did — the current
+  fix is `thumbnails/2026-10-14-kf2-elysium-commando.png` as the format model).
 
 ## Description template
 
 ```
-<Primary keyword line: game + mode + map/round/perk>. No commentary.
+<Primary keyword line: game + mode + result>. No commentary.
 
-<1–2 sentences on the run: the build/perk, the key moment, the result.>
+<1–2 sentences on the run: drop, the key fight, the result, honest numbers.>
 
-▶ Game: <Killing Floor 2 / Black Ops 4>
-▶ Mode: <HoE Solo <perk> / Zombies <map>>
-▶ Result: <round reached / boss cleared>
+▶ Game: <Battlefield REDSEC / Delta Force>
+▶ Mode: <Solos (80 players) / Operations>
+▶ Class: <Assault / Engineer / Support / Recon>
+▶ Result: <Win / Top N ... X kills>
 ▶ Commentary: None
 
 ⏱ Chapters
 00:00 Best moment
-00:15 Round 1 / start
-<key waves or rounds>
+00:00 Drop
+<key circles / engagements / final circle>
 
-No-commentary FPS series. What should I run next? 👇
+No-commentary FPS series — what should I run next? 👇
 
-#<game> #NoCommentary #FPS #<game-specific> #Gaming
+#Battlefield #REDSEC #NoCommentary #FPS #BattleRoyale
 ```
 
 ## Tags (10–14)
 
-- **KF2:** `killing floor 2`, `killing floor 2 gameplay`, `killing floor 2 no commentary`, `killing floor 2 hell on earth`, `kf2 solo <perk>`, `killing floor 2 <map>`, `co op fps`, `no commentary gameplay`, `zombie shooter`
-- **BO4 Zombies:** `black ops 4 zombies`, `bo4 zombies`, `bo4 zombies no commentary`, `call of duty zombies`, `black ops 4 <map>`, `zombies high round`, `cod zombies gameplay`, `no commentary gameplay`, `zombie survival`
+- **REDSEC:** `battlefield redsec`, `redsec solos`, `battlefield 6 battle royale`,
+  `bf6 redsec`, `redsec no commentary`, `battle royale solo no commentary`,
+  `battlefield 6 gameplay`, `fort lyndon`, `no commentary gameplay`, `fps gameplay`,
+  `redsec solos win`, `battlefield solo`
+- **Delta Force:** `delta force`, `delta force operations`, `delta force no commentary`,
+  `delta force solo`, `extraction shooter`, `delta force gameplay`,
+  `no commentary gameplay`, `fps gameplay`
 
-## Thumbnail system
+## First 10 uploads
 
-- **KF2:** the perk/weapon in frame, `HELL ON EARTH` badge, boss silhouette, dark + orange accent.
-- **BO4 Zombies:** the map's iconic scene + big `ROUND 50` badge, consistent font/position.
-- Same frame every upload so the two series read as one channel.
+Order, not exact dates. Titles are **locked only after the demand check** (§ below).
+Workable starting point:
 
-## Phase 2 (hardware gate)
+| # | Series | Working title | Slot |
+| --- | --- | --- | --- |
+| 1 | REDSEC | `Battlefield REDSEC SOLO — First Win (No Commentary)` | Mon |
+| 2 | REDSEC | `Battlefield REDSEC SOLO — [X] Kills (No Commentary)` | Wed |
+| 3 | REDSEC | `Battlefield REDSEC SOLO — Recon Only, [X] Kills (No Commentary)` | Fri |
+| 4 | REDSEC | `Battlefield REDSEC SOLOS — Top 5, No Commentary` | Mon |
+| 5 | REDSEC | `Battlefield REDSEC SOLO — [X] Kill Win on Fort Lyndon (No Commentary)` | Wed |
+| 6 | REDSEC | `Battlefield REDSEC SOLO — Support Only (No Commentary)` | Fri |
+| 7 | Delta Force | `Delta Force — Solo Operations, [map] (No Commentary)` | Mon |
+| 8 | REDSEC | `Battlefield REDSEC SOLO — [X] Kills (No Commentary)` | Wed |
+| 9 | Delta Force | `Delta Force — Solo Operations, [map] (No Commentary)` | Fri |
+| 10 | REDSEC | `Battlefield REDSEC SOLO — [X] Kill Win (No Commentary)` | Mon |
 
-When a **PS5 or a decent Windows PC** is available, activate the BR plan:
-Warzone / Battlefield solo no-commentary. That research and title formula are
-already done (see `reports/2026-10-03-competitor-analysis-niche-choice.md` and
-the Warzone benchmark data in `DASHBOARD.md`). Until then, **do not** plan or
-record BR.
+**Only 5 of these are recordable right now** and the cadence requires ~3 recordings
+per week — check that the backlog stays ahead of the schedule before promising slots.
+
+## Demand check — do this before locking titles
+
+The MCP is repaired but needs `YOUTUBE_API_KEY` in `.env` (see the pivot report
+§5). Then run the six queries in the pivot report §6 (~600 quota units) and pick
+the title formula from real numbers, the way the 2026-10-03 competitor analysis
+did (uploads per video + views/day).
 
 ## Measurement (see `DASHBOARD.md`)
 
-Review after ~10 uploads (≈3–4 weeks):
+Review after **5 REDSEC uploads** (~2 weeks):
 
-| Metric | Baseline (CoD era) | Phase-1 target |
+| Metric | K1 baseline (KF2) | Phase-2 target |
 | --- | --- | --- |
-| Views / video | ~10–50 | ≥ 300 |
-| Views / video / day | ~0–3 | ≥ 15 |
-| Like ratio | volatile | ≥ 0.6% |
-| Subscribers | 20 | +30 in 90 days |
+| Views / video | 6 | **≥ 300** |
+| Views / video / day | ~0.5 | **≥ 15** |
+| Like ratio | 40% on 5 views (noise) | **≥ 0.6%** |
+| Chapters present | 0 / 36 | **100%** |
+| Subs | 21 | **+30 in 90 days** |
 
-If under target, fix packaging + game sense (thumbnail, round/perk hook,
-cleaner runs) before changing games.
+If a series is under target after 5 uploads, change the **hook and packaging**
+first (thumbnail result badge, kill count in the title, shorter cut), then the
+game — in that order.

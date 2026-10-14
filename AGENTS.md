@@ -21,9 +21,9 @@ commands, and saved analysis. Treat it as an operating system for channel growth
 | Country | IN (India) |
 | Primary language | `en` (English) |
 | Category | Gaming (YouTube category ID `20`) |
-| Platform | Linux + RTX 3050 Ti laptop — **anti-cheat games (Warzone, Battlefield, Apex, Fortnite, PUBG, The Finals) do not run** |
-| Niche | FPS / shooter, no commentary. **Phase 1 (current): Killing Floor 2 + Black Ops 4 Zombies.** Phase 2 (after a PS5 / Windows PC): Warzone / Battlefield BR. Legacy: CoD multiplayer + Shatterline |
-| Format | **"No Commentary" PvE FPS gameplay** — KF2 Hell on Earth solo per-class, BO4 Zombies per-map rounds. Not walkthroughs, not longplay |
+| Platform | **Windows** boot of the ASUS ROG Strix G513IE — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2. The Linux boot exists but the BR/anti-cheat titles only run on Windows |
+| Niche | FPS / shooter, no commentary. **Phase 2 (current): Battlefield REDSEC Solos + Delta Force — solo, no commentary.** Phase 1 (closed): Killing Floor 2 + Black Ops 4 Zombies. Legacy: CoD multiplayer + Shatterline |
+| Format | **"No commentary" FPS gameplay** — one self-contained match/run per upload, real result stated on screen and in the title. Not walkthroughs, not longplay |
 | Branding keywords | `live gaming`, `pc`, `shatterline`, `Call of duty`, `Modern warfare` |
 | Channel description | _empty_ |
 | Audience | _TODO (confirm: Indian PC/console FPS players? English-speaking global?)_ |

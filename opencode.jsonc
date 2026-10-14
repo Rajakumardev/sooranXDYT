@@ -3,18 +3,20 @@
   // YouTube growth / SEO workspace.
   // The MCP server is started through a wrapper so the API key can live in
   // .env (git-ignored) instead of being committed to this config file.
+  // scripts/youtube-mcp.mjs is cross-platform: the old bash wrapper
+  // (scripts/youtube-mcp.sh) cannot start on Windows, where there is no bash.
   "mcp": {
     "timeout": {
       // First run downloads the package with npx, which can exceed 30s.
-      "startup": 60000
+      "startup": 180000
     },
     "servers": {
       "youtube": {
         "type": "local",
-        "command": ["bash", "scripts/youtube-mcp.sh"],
+        "command": ["node", "scripts/youtube-mcp.mjs"],
         "cwd": ".",
         "timeout": {
-          "startup": 60000
+          "startup": 180000
         }
       }
     }
