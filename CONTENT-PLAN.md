@@ -212,15 +212,46 @@ upload available to this channel. Full detail:
 The K2a VOD is the reference for what "clean" looks like: 1920×1080 @ **60.000
 fps** (zero dropped frames), NVENC, AAC stereo 48 kHz.
 
+> ### ⚠️ Measured capture risk on this laptop (2026-10-15)
+> Sampled with `scripts/gpu-sample.ps1` **while Delta Force was running**:
+> GPU utilisation **46%**, VRAM **2,777–3,123 MiB of 4,096**, free RAM **1.7 GB
+> of 15.4 GB**, and **committed memory 19.9 GB against a 21.3 GB commit limit
+> (93%)** with a system-managed pagefile of only **2.9 GB**.
+>
+> **The bottleneck is memory, not the GPU.** "Sticky" movement in heavy games on
+> this machine is the system running out of commit space and VRAM mid-fight, so:
+>
+> 1. **Enlarge the pagefile** (biggest single fix): fixed **16–24 GB** on C:
+>    (System → Advanced system settings → Performance → Advanced → Virtual
+>    memory). The drive has 355 GB free. Requires a reboot.
+> 2. **Free RAM before recording:** close Firefox (≈1 GB), Steam's webhelper
+>    windows (≈1.1 GB), and the Riot/Vanguard client. Target **≥5 GB free RAM**.
+> 3. **Textures Low + DLSS/FSR Performance at 1080p, effects off, cap 60 fps.**
+>    The 4 GB VRAM ceiling is the hard limit — texture quality is the lever.
+> 4. **Force the RTX 3050 Ti** for the game exe (Settings → System → Display →
+>    Graphics → High performance); the registry shows no explicit pin today.
+> 5. **Armoury Crate → Performance/Turbo.** Windows only has a *Balanced* power
+>    scheme installed, and GPU draw was swinging 46→82 W.
+>
+> **Verify before committing to a series:** run REDSEC with the sampler for ~3
+> minutes. If VRAM pins at ~4096 MiB or free RAM drops under ~1 GB, REDSEC cannot
+> hold a clean 60 fps on this hardware and **BO4 Zombies becomes Series A**
+> (2018 title, runs maxed, proven per-map demand).
+>
+> ```powershell
+> powershell -ExecutionPolicy Bypass -File scripts\gpu-sample.ps1 -Seconds 180
+> ```
+
 | Setting | Value | Why |
 | --- | --- | --- |
 | Resolution / fps | **1920×1080, 60 fps** | Native panel; 4K from a 1080p source adds nothing |
 | Encoder | **NVENC H.264** (as K2a) | Offloads from the CPU, which also runs the game |
-| Game settings | 1080p **low/medium** + DLSS/FSR **Performance** | 4 GB VRAM — textures are the first thing to cut |
+| Game settings | 1080p **low** + DLSS/FSR **Performance** | 4 GB VRAM — textures are the first thing to cut |
+| Frame cap | **60, in-game limiter + NVIDIA Reflex** | A hard cap gives consistent, non-stuttery footage |
 | OBS "Record" resolution | = canvas, 60 fps, don't rescale | Avoids scaling artefacts |
 | Mic | **disabled** (desktop audio only) | Brand is no-commentary; verify one track |
 | Audio target | **≈ −14 LUFS**, true peak ≤ −1 dBTP | YouTube's reference; the K2a VOD is −19.5 and sounds quiet |
-| Close before recording | **Riot Vanguard / Valorant** | Battlefield's Javelin anti-cheat refuses to run with the Valorant launcher open |
+| Close before recording | **Riot Vanguard / Valorant, Firefox, Steam browser windows** | Javelin blocks with Valorant open; the rest is RAM |
 
 Record in **separate matches**, not one long session, so an upload is always a
 single self-contained match with a clean result to put on the thumbnail.
