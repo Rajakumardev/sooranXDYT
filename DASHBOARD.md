@@ -15,8 +15,8 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Created | 2019-05-27 |
 | Live check | `getChannelStatistics` 2026-10-14 — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
 | Region / language | India (IN) / English (`en`) |
-| Platform | **Windows boot of the ASUS ROG Strix G513IE** — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2 |
-| Active series | **Phase 2:** Battlefield **REDSEC Solos** (lead) + **Delta Force** (second) — nothing recorded yet |
+| Platform | **Windows boot of the ASUS ROG Strix G513IE** — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2 · **355 GB free** |
+| Active series | **Phase 2:** Battlefield **REDSEC Solos** (A) + **Black Ops 4 Zombies** (B) · optional KF2 live events (C), Delta Force filler (D) · buy KF3 · watchlist ECC: REDLINE |
 | Recommended pivot | **Done** — Phase 2 activated 2026-10-14 (BF6/REDSEC Solos + Delta Force). Call of Duty **parked** (attestation/BIOS block) |
 | Dropped | Risk of Rain 2 / longplay · The Finals / Apex / Fortnite · **KF2 + BO4 Zombies (Phase 1 closed — K1 = 6 views)** |
 
@@ -83,7 +83,13 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | Niche video length | minutes | **20–36**, one match per upload |
 | No-commentary like rate | % | **1.2–2.3** |
 | `Delta Force Operations solo no commentary` | no-commentary share | **3/10** — traction is commentary channels |
-| `Black Ops 7 zombies no commentary` (NoAnnoyingCommentary Z, 66.7K subs) | views per map | **4,121–80,892** — best lane if CoD is unlocked |
+| `Black Ops 7 zombies no commentary` (NoAnnoyingCommentary Z, 66.7K subs) | views per map | **4,121–80,892** — CoD is now uninstalled, so out of reach |
+| **`Black Ops 4 zombies no commentary`** | median / max | **80,952** / 2,625,218 |
+| **Riverhawk — No Commentary (338 subs)**, BO4 IX per-map | views | **41,800** (50.7/day) — best small-channel signal in the project |
+| **KF2 `Abandon All Hope` weekly (2026 event)** — KotoGS, 2,720 subs | views | **36,588 in 32.9 days = 1,112/day** |
+| **KF3 `killing floor 3 no commentary`** — Royal Gaming, 14,200 subs | views | **114,049**; KF3's own past-month median **36,588** |
+| **ECC: REDLINE reveal week** (NetEase BR, revealed 2026-10-09) | views/day | **1,969–49,592** |
+| `delta force no commentary` | median / small-channel floor | 2,646 / 48–500 |
 | Battlefield 6 sales | units | **7M in 3 days** — first Battlefield to outsell a CoD |
 | Ultra No Commentary (Warzone analogue) | growth | **13.2K subs in 14 months**, ~1 upload/day |
 | _SooranXD (current)_ | subs / views / videos | 21 / 3,492 / 36 |
@@ -105,12 +111,15 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 ## Open issues
 
-- **🟢 DEMAND CONFIRMED — REDSEC Solos no-commentary works.** Measured 2026-10-14: median **28,020** views for the format, **49,485** for win-framed, comparable no-name channels at **100–400**, ceiling **716,824**. K1 had 6. The plan, board and titles are locked from this data.
-- **🟠 UNVERIFIED: does the Solos playlist still exist in Season 5?** Solos landed in Season 3; Season 5 (2026-10-13) replaced *Gauntlet* with *Rapid Royale*. Check the in-game mode list before recording — the whole Series-A plan assumes Solos.
-- **🟠 CAPTURE UNPROVEN on BF6.** 4 GB VRAM + 15.4 GB RAM is the floor of the BF6 spec. Benchmark at 1080p low + DLSS/FSR Performance, target a stable 60 fps, then check a test recording for dropped frames (K2a is the reference: exactly 60.000 fps).
-- **🟠 CoD is now the highest-value fix, not a side quest.** BO7 Zombies no-commentary runs **4,121–80,892 views per map upload** — the best-fitting lane for this channel's PvE/per-map/no-voice format. Attestation is the only blocker; TPM 2.0 + Secure Boot + UEFI all pass and the failing value is a TPM **AIK enrollment** error (`0x80072EE7`). Try: BIOS update (G513IE.329 is 2023-01) → TPM re-provision → retry.
-- **🟡 Battlefield 6 + Valorant conflict.** Javelin refuses to run while the Riot Vanguard/Valorant launcher is open — and Valorant was started on this machine today. Close it before recording.
-- **Phase 1 is closed (KF2/BO4 Zombies).** K1 = 6 views. K2a stays a bridge upload only.
+- **🟢 DEMAND CONFIRMED — REDSEC Solos (A) and BO4 Zombies (B).** REDSEC: median **28,020** / win-framed **49,485**. BO4: median **80,952**, with a **338-sub channel at 41,800**. K1 had 6. Titles are locked from this data.
+- **🔑 THE OPERATING RULE — name something live in every title** (season / update / event / launch). KF2 proves it in one game: `Burning Paris Commando (Normal)` = **6 views** vs the live `Abandon All Hope` weekly = **36,588 views in 33 days from a 2,720-sub channel**.
+- **🟠 UNVERIFIED: does the Solos playlist still exist in Season 5?** Solos landed in Season 3; Season 5 (2026-10-13) replaced *Gauntlet* with *Rapid Royale*. Check the in-game mode list before recording — Series A assumes Solos.
+- **🟠 CAPTURE UNPROVEN on BF6.** 4 GB VRAM + 15.4 GB RAM is the floor of the BF6 spec. Benchmark at 1080p low + DLSS/FSR Performance, target a stable 60 fps, then check a test recording for dropped frames.
+- **🟠 BO4 Zombies needs Battle.net + ~55 GB** (not installed). 355 GB free → uninstall KF2 (94.8 GB) first if the event series isn't needed.
+- **🟡 Call of Duty is out — twice over.** Attestation rejected the BIOS *and* the creator uninstalled the 168 GB to keep BF6. The BO7 per-map lane (4,121–80,892/upload) is now unreachable.
+- **🟡 Killing Floor 3 — buy on sale.** 14,200-sub channel → 114,049 on solo no-commentary; Halloween Horrors live. Tier above Delta Force.
+- **🟡 ECC: REDLINE — preregister, prepare, don't plan.** No release date; first PC test is China-domestic with a data wipe. Reveal-week demand is 1,969–49,592 views/day → a day-one upload on a global beta/launch is the highest-upside play available.
+- **🟡 Battlefield 6 + Valorant conflict.** Javelin refuses to run while the Riot Vanguard/Valorant launcher is open. Close it before recording.
 - **Channel is dormant with 21 subs** — impressions are near zero. The niche's leaders have **1,300–3,700 uploads**; this is a catalogue + consistency game, not a one-video hit.
 - **K1 description has no chapters** — add the chapter list; add `▶ Result: Victory`.
 - **`eXFAFQxc6rc` (RoR2)** — off-series; 23 views. Decide unlist vs leave.
@@ -122,7 +131,8 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | 2026-10-03 | ~4,100 | Baseline + audits + competitor analysis |
 | 2026-10-07 | ~3,200 | BR research + Linux-compat research + Phase-1 niche sizing |
 | 2026-10-10 | ~105 | `/track` (stats + top videos + details) |
-| 2026-10-14 | **~704** | Shape check (101) + **demand check** (6 searches = 600 + 3) → `reports/2026-10-14-phase2-demand-check.md` |
+| 2026-10-14 | **~704** | Shape check (101) + **REDSEC demand check** (600 + 3) → `reports/2026-10-14-phase2-demand-check.md` |
+| 2026-10-15 | **~402** | **BO4** demand check (≈402 incl. the 4-query game-pool ranking) → `reports/2026-10-15-bo4-zombies-demand-check.md`, `reports/2026-10-15-game-pool-ranking.md` |
 | 2026-10-14 | 0 | K2a review — done entirely from local files + KF2 logs |
 
 ---

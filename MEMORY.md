@@ -45,13 +45,19 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-14 | **PHASE 2 LAUNCHED:** pivot to **Battlefield REDSEC Solos** (lead) + **Delta Force** (second). CoD **parked** — attestation/BIOS block (TPM 2.0 + Secure Boot + UEFI are all fine; TPM AIK enrollment failed, `0x80072EE7`). Research: `reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md`; plan/board rewritten. |
 | 2026-10-14 | **`youtube` MCP repaired** for Windows: new `scripts/youtube-mcp.mjs` launcher (verified — starts the server, lists 8 tools), `opencode.jsonc` rewired, `.env` created. |
 | 2026-10-14 | **Demand check run** (~704 units, `reports/2026-10-14-phase2-demand-check.md`): `REDSEC Solos no commentary` median **28,020** views, win-framed **49,485**, comparable no-name channels **100–400**, ceiling **716,824**, niche length **20–36 min**, no-commentary like rate **1.2–2.3%**. Delta Force demoted (**3/10** no-commentary). **BO7 Zombies no-commentary = 4,121–80,892 per map** → the CoD attestation fix became high-value. Titles locked; 8 of the first 10 uploads are REDSEC Solos. |
+| 2026-10-15 | **CoD is out for good** (attestation + creator uninstalled the 168 GB to keep BF6) → **BO4 Zombies revived as Series B**. Measured: `Black Ops 4 zombies no commentary` median **80,952**; **338-sub channel → 41,800 views**; the old "5–18 views" note was **wrong**. 355 GB free. |
+| 2026-10-15 | **Game-pool ranking** (`reports/2026-10-15-game-pool-ranking.md`): KF2 back as **live-event runs only** (`Abandon All Hope` → 2,720-sub channel, 36,588 views/33 days, vs K1's 6); **KF3 = buy on sale** (14,200-sub channel → 114,049 on solo no-commentary; Halloween Horrors live); **ECC: REDLINE** (NetEase BR, revealed 2026-10-09, no release date) = watchlist, preregister. **Rule adopted: every title must name something live now.** |
 
 ## 4. Key evidence (the "why" behind decisions)
 
 - **CoD multiplayer no-commentary is dead:** Galizma (23.9K subs, 4,603 videos) ≈ **3 views/day** per match. SooranXD's legacy format.
 - **Warzone solo no-commentary works:** Ultra No Commentary = **13.2K subs in 14 months** (created Aug 2025, ~1 upload/day); Marshal = 404K subs, videos at **2.2–2.6M**.
 - **KF2 map+perk long-form is a dead keyword:** top result for "KF2 Burning Paris Commando" = **2,774 views in 11 years**; K1 got 6. Even HoE variants get ~100–3,000 lifetime.
-- **BO4 Zombies:** ceiling is huge (MKIceAndFire 5.94M), but small-channel floor = **5–18 views**.
+- **BO4 Zombies — the old "5–18 views" floor was WRONG (superseded 2026-10-15).** Measured: `Black Ops 4 zombies no commentary` median **80,952**; **Riverhawk — No Commentary (338 subs) → 41,800 views** on a plain per-map video; NoAnnoyingCommentary Z (66.8K subs) 81–266 views/day. BO4 is **Series B**. Ceiling: MKIceAndFire 5.94M.
+- **🔑 THE RULE — publish against what is LIVE NOW (the biggest finding of this cycle).** Demand tracks the current patch/season/event/launch, not the game. KF2 proof: K1 `Burning Paris Commando (Normal)` = **6 views**, while `KF2 Abandon All Hope: Firebug Solo Airship` (a 2026 weekly from the *Day of the Zed* update) = **36,588 views in 32.9 days from a 2,720-sub channel (1,112/day)**. Every title must name something that changed this month; refresh at every patch.
+- **KF3:** `killing floor 3 no commentary` median 441, but **Royal Gaming (14,200 subs) → 114,049 views** on plain `Killing Floor 3 Solo Gameplay (No Commentary)`; game's own past-month median **36,588**; Halloween Horrors live. → buy on sale (tier above Delta Force).
+- **ECC: REDLINE (NetEase BR):** revealed **2026-10-09**; Steam "Coming Soon", global preregistration open, **no release date**; first PC test 2026-10-15 is **China-domestic, limited, data-wipe**. Reveal-week YouTube demand already **1,969–49,592 views/day** → preregister; day-one upload on a global beta/launch is the highest-upside play available.
+- **Delta Force — filler:** `delta force no commentary` median 2,646; small-channel floor 48–500; the 1.7M outlier is MKIceAndFire's Black Hawk Down *campaign*.
 - **Hardware:** RTX 3050 Ti laptop runs Warzone ~43 FPS Ultra / ~64 Balanced / **73–93 optimized-low** at 1080p. 4 GB VRAM → low textures.
 - **Anti-cheat reality on Linux:** Warzone, Battlefield, Apex, Fortnite, PUBG, The Finals, Valorant all **blocked**. Windows needed for Warzone. **On this Windows boot the block disappears** — PUBG (BattlEye) and BF6 (Javelin, needs Secure Boot, which is ON) both run natively.
 - **BF6 / REDSEC (verified 2026-10-14):** BF6 sold **7M in 3 days** and **outsold Black Ops 7** — first Battlefield to beat a CoD launch. Free-to-play **REDSEC** BR launched 2025-10-28; **Battle Royale Solos** (80 players, no redeploys, no defibs, faster circle, no tanks) arrived in the **Season 3 Blastpoint** update (May 2026) — before that, Duos/Quads only with no backfill, so solo BR was impossible. **Season 5 shipped 2026-10-13** (Rapid Royale replaces Gauntlet; Nevada maps; Dead Space PvE event). Sources: EA's *Battle Royale Solos Mode Guide* (2026-06-01) + Wikipedia.
@@ -63,14 +69,15 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 
 ## 5. Current state & open items
 
-- **Active series (Phase 2):** **Battlefield REDSEC Solos** (lead) + **Delta Force** (second). Plan/board freshly rewritten 2026-10-14.
-- **Closed:** KF2 / BO4 Zombies (K1 = 6 views, dead keyword). K2a kept as a cadence bridge only.
-- **Parked:** Call of Duty — installed but won't launch (attestation/BIOS).
+- **Active series (Phase 2):** **Battlefield REDSEC Solos** (A) + **Black Ops 4 Zombies** (B). Optional: KF2 live events (C), Delta Force (D, filler). Buy: KF3. Watchlist: ECC: REDLINE.
+- **Closed as a format:** KF2 `map + perk + difficulty` titles (K1 = 6 views). BO4 was never the problem — it was shelved on a bad number and is now Series B.
+- **Parked:** Call of Duty — attestation block *and* the content is uninstalled (creator needed the space for BF6).
 - **Open items:**
-  - **[creator, blocks everything] Add `YOUTUBE_API_KEY` to `.env` and restart OpenCode** → then run the demand check (6 queries, `CONTENT-PLAN.md`) before locking the first 10 titles.
-  - **[verify in-game] Does the Solos playlist still exist in Season 5?** (S5 replaced *Gauntlet* with *Rapid Royale*.)
-  - **[capture] BF6 benchmark + one test recording** at 1080p low + DLSS/FSR Performance; target a stable 60 fps and 0 dropped frames. Close Valorant/Vanguard first.
-  - **KF2 Elysium (K1's successor, "K2a") recorded 2026-10-14** — packaging ready (`reports/2026-10-14-kf2-elysium-run-review.md`); publish as a cadence bridge.
+  - **[creator, 5 min] Confirm the Solos playlist still exists in Season 5** (S5 replaced *Gauntlet* with *Rapid Royale*).
+  - **[creator] Benchmark BF6 + one throwaway recording** at 1080p low + DLSS/FSR Performance; target stable 60 fps, 0 dropped frames. Close Valorant/Vanguard first.
+  - **[creator] Disk + installs:** **355 GB free**. Uninstall **KF2 (94.8 GB)** if the event series isn't wanted, then install **Battle.net + BO4 (~55 GB)**. Optionally buy **KF3** on sale.
+  - **[creator] Preregister ECC: REDLINE on Steam** → watch for a global beta.
+  - **KF2 Elysium ("K2a") recorded 2026-10-14** — packaging ready (`reports/2026-10-14-kf2-elysium-run-review.md`); cadence bridge only (it names no live event).
   - K1 (`IK5br0lhOBA`) description is **missing chapters** — add them.
   - `eXFAFQxc6rc` (RoR2, off-series, 23 views) — decide unlist vs leave.
   - BO4 Zombies series never started (Z1 due Oct 9).
@@ -88,10 +95,12 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 
 ## 7. Next actions
 
-1. **Creator (unblocks Series A):** confirm the **Solos** playlist exists in Season 5, benchmark BF6, record the first REDSEC Solos match — **close Valorant/Riot Vanguard first**. Target 20–36 min, 1080p60, ≈ −14 LUFS, one match per upload.
-2. **Creator (unlocks the best lane):** ASUS **BIOS update** for G513IE → TPM re-provision → retry the CoD attestation. BO7 Zombies no-commentary is the highest-ceiling, best-fitting series measured (4,121–80,892 per map).
-3. **Agent:** `/track` at 24 h / 7 d on R1; add chapters to K1; decide the RoR2 video; keep `DASHBOARD.md` current.
-4. Optional, in parallel: publish K2a as a cadence bridge (packaging ready).
+1. **Creator (unblocks Series A):** confirm the **Solos** playlist exists in Season 5, benchmark BF6, record the first REDSEC Solos match — **close Valorant/Riot Vanguard first**. Target 20–40 min, 1080p60, ≈ −14 LUFS, one match per upload.
+2. **Creator (unblocks Series B):** uninstall **KF2** if unwanted (94.8 GB) → install **Battle.net + BO4** (~55 GB) → record **IX** first.
+3. **Creator (calendar):** every upload must name something live — check the current BF6 season/event and the current KF2 weekly before recording; refresh at each patch.
+4. **Creator (upside):** preregister **ECC: REDLINE**; buy **KF3** on sale.
+5. **Agent:** `/track` at 24 h / 7 d on R1; add chapters to K1; decide the RoR2 video; keep `DASHBOARD.md` current.
+6. Optional, in parallel: publish K2a as a cadence bridge (packaging ready).
 
 ## 8. Useful IDs
 
