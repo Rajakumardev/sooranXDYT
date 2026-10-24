@@ -3,31 +3,31 @@
 Single source of truth for channel and series performance.
 Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
-> **Last updated:** 2026-10-14 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
+> **Last updated:** 2026-10-24 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
 
 ## Channel snapshot
 
 | Metric | Value |
 | --- | --- |
-| Subscribers | 21 |
-| Total views | 3,492 |
+| Subscribers | 20 (−1 since 2026-10-14) |
+| Total views | 3,508 (+4 since 2026-10-21) |
 | Videos | 36 |
 | Created | 2019-05-27 |
-| Live check | `getChannelStatistics` 2026-10-14 — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
+| Live check | `getChannelStatistics` **2026-10-24** — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
 | Region / language | India (IN) / English (`en`) |
 | Platform | **Windows boot of the ASUS ROG Strix G513IE** — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2 · **355 GB free** |
 | Active series | **Phase 2:** Battlefield **REDSEC Solos** (A) + **Black Ops 4 Zombies** (B) · optional KF2 live events (C), Delta Force filler (D) · buy KF3 · watchlist ECC: REDLINE |
 | Recommended pivot | **Done** — Phase 2 activated 2026-10-14 (BF6/REDSEC Solos + Delta Force). Call of Duty **parked** (attestation/BIOS block) |
-| Dropped | Risk of Rain 2 / longplay · The Finals / Apex / Fortnite · **KF2 + BO4 Zombies (Phase 1 closed — K1 = 6 views)** |
+| Dropped | Risk of Rain 2 / longplay · The Finals / Apex / Fortnite · **KF2 + BO4 Zombies (Phase 1 closed — K1 = 20 views)** |
 
 ## North-star KPIs
 
 | KPI | Baseline (CoD era) | Phase-2 target | Current |
 | --- | --- | --- | --- |
-| Views / video | ~10–50 | **≥ 300** | **6** (K1, weakest keyword yet) |
-| Views / video / day | ~0–3 | **≥ 15** | **~0.5** (K1) |
-| Like ratio | volatile (1–9%) | **≥ 0.6%** | 40% (2 likes / 5 views — too small to judge) |
-| Subscribers | 20 | **+30 in 90 days** | 21 |
+| Views / video | ~10–50 | **≥ 300** | **24** (K1, refreshed 2026-10-24) |
+| Views / video / day | ~0–3 | **≥ 15** | **1.60** (K1) |
+| Like ratio | volatile (1–9%) | **≥ 0.6%** | **12.5%** (3 likes / 24 views — still too small to judge) |
+| Subscribers | 20 | **+30 in 90 days** | **20** (−1) |
 | Cadence compliance | — | **3 / week (Mon/Wed/Fri)** | **1** total (K1, Fri Oct 9) |
 | Contains chapters | 0 / 35 | **100%** of new | **0 / 1** (K1 missing) |
 | Phase-2 recordings | — | **1st BF6 REDSEC match** | **0** — blocked on the capture test + demand check |
@@ -53,8 +53,8 @@ Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 
 | ID | Series / map-perk | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `IK5br0lhOBA` (**K1**) | KF2 Burning Paris — Commando (solo, Normal, victory) | 2026-10-09 17:56 | 5 | | | 2 | — | — | +1 | Phase 1; 6 views total; **missing chapters** |
-| `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 | 23 | | | 1 | | | 0 | Off-series; unlist pending |
+| `IK5br0lhOBA` (**K1**) | KF2 Burning Paris — Commando (solo, Normal, victory) | 2026-10-09 17:56 | 5 | — | — | 3 | — | — | +1 | **24 views / 3 likes / 0 comments in 15.0 days (1.60/day), 12.5% like rate.** Was 20 views at 2026-10-21 → **+4 in 3 days (1.33/day)**, i.e. *accelerating*, not decaying. **Missing chapters** |
+| `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 11:17 | 23 | — | — | 1 | — | — | 0 | **25 views / 1 like in 22.5 days (1.11/day), 4.0% like rate.** **Flat since ~10-21** (read 23 on 10-21 in this file, 25 in `MEMORY.md` — the 25 reading wins, so ≈0 growth in 3 days). Off-series; unlist pending |
 | **K2a** | KF2 Elysium — Commando (solo, Normal, 7 waves, Patriarch down) | _editing_ | | | | | | | | Recorded 2026-10-14; packaging ready; cadence bridge only |
 | **R1** | Battlefield REDSEC Solos — _first match_ | _not yet_ | | | | | | | | Phase 2 opener; titles lock after the demand check |
 
@@ -86,7 +86,13 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | `Black Ops 7 zombies no commentary` (NoAnnoyingCommentary Z, 66.7K subs) | views per map | **4,121–80,892** — CoD is now uninstalled, so out of reach |
 | **`Black Ops 4 zombies no commentary`** | median / max | **80,952** / 2,625,218 |
 | **Riverhawk — No Commentary (338 subs)**, BO4 IX per-map | views | **41,800** (50.7/day) — best small-channel signal in the project |
+| **BO4 — refreshed 2026-10-23** (past year, 15 videos / 11 channels) | views range | **7–3,481**. Leader NoAnnoyingCommentary Z (66.9K) **8,136 / 7,893**; SeptimiuYT (5.9K) **3,481**; small channels **28–314** (thestactic 166 → 91–145; CODzPLAY 173 → 78; FireWolfxReborn 82 → 28). **The 41,800 does not reproduce — one-off, not a floor.** BO4 = cheap test, not a growth bet |
 | **KF2 `Abandon All Hope` weekly (2026 event)** — KotoGS, 2,720 subs | views | **36,588 in 32.9 days = 1,112/day** |
+| **KF2 — refreshed 2026-10-21** (KotoGS, 2,720 subs) | views | Elysium **29,982 / 25d (1,184/day)** · Halloween Cemetery **16,442 / 21d (775/day)** · Halloween Farm **6,601 / 14d (465/day)** |
+| **KF2 small-channel floor** (Yapierce, **167 subs**) | views | **324–4,437** on Hell on Earth solo runs (Airship 4,437; Infernal Realm 551; Spillway 324) |
+| **KF2 — same map as K1** (CODENAMERUS 75hz, **76 subs**) | views | **464** on `Solo Swat Burning Paris` (no commentary, 31 days) — **23× K1 on 3.8× the subs** |
+| **SooranXD K1**, refreshed 2026-10-21 | views | **20 in 11.3 days (1.78/day)** · 3 likes (15%) · 0 comments |
+| **RoR2 control** (`eXFAFQxc6rc`, off-series) | views | **25 in 18.5 days (1.35/day)** — an unrelated game performs the same as K1 → at 20 subs, *game choice is not the variable* |
 | **KF3 `killing floor 3 no commentary`** — Royal Gaming, 14,200 subs | views | **114,049**; KF3's own past-month median **36,588** |
 | **ECC: REDLINE reveal week** (NetEase BR, revealed 2026-10-09) | views/day | **1,969–49,592** |
 | `delta force no commentary` | median / small-channel floor | 2,646 / 48–500 |
@@ -98,7 +104,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 | Video / channel | Metric | Value |
 | --- | --- | --- |
-| SooranXD K1 (KF2 Burning Paris, no commentary) | views | **6** |
+| SooranXD K1 (KF2 Burning Paris, no commentary) | views | **20** in 11.3 days (1.78/day) — was recorded as "6" (day-1 reading) |
 | "KF2 Burning Paris Commando" #1 search result | views | 2,774 **in 11 years** |
 | MKIceAndFire — BO4 Classified (no commentary) | views | 5.94M |
 | Psych0Gamers — KF2 Hell on Earth Sanitarium Solo Sharp | views | 1.56M |
@@ -111,8 +117,8 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 ## Open issues
 
-- **🟢 DEMAND CONFIRMED — REDSEC Solos (A) and BO4 Zombies (B).** REDSEC: median **28,020** / win-framed **49,485**. BO4: median **80,952**, with a **338-sub channel at 41,800**. K1 had 6. Titles are locked from this data.
-- **🔑 THE OPERATING RULE — name something live in every title** (season / update / event / launch). KF2 proves it in one game: `Burning Paris Commando (Normal)` = **6 views** vs the live `Abandon All Hope` weekly = **36,588 views in 33 days from a 2,720-sub channel**.
+- **🟢 DEMAND CONFIRMED — REDSEC Solos (A) and BO4 Zombies (B).** REDSEC: median **28,020** / win-framed **49,485**. BO4: median **80,952**, with a **338-sub channel at 41,800**. K1 is at **20 views (1.78/day)** as of 2026-10-21. Titles are locked from this data.
+- **🔑 THE OPERATING RULE — name something live in every title** (season / update / event / launch). KF2 proves it in one game: `Burning Paris Commando (Normal)` = **20 views in 11.3 days** vs the live `Abandon All Hope` weekly = **36,588 views in 33 days from a 2,720-sub channel**.
 - **🟠 CAPTURE UNPROVEN — and now diagnosed.** Sampled 2026-10-15 with a game running: GPU only **46%**, but **VRAM 2.8–3.1 GB of 4 GB**, free RAM **1.7 GB of 15.4 GB**, and **commit 19.9 GB of a 21.3 GB limit (93%)** on a **2.9 GB** pagefile. The bottleneck is **memory, not GPU**. Fix order: pagefile → 16–24 GB fixed; close Firefox/Steam webhelpers/Riot client; textures Low + DLSS Performance, cap 60; force the RTX for the exe; Armoury Crate Performance/Turbo. Verify with `scripts/gpu-sample.ps1` (~3 min in-match) before committing REDSEC as Series A.
 - **🟠 UNVERIFIED: does the Solos playlist still exist in Season 5?** Solos landed in Season 3; Season 5 (2026-10-13) replaced *Gauntlet* with *Rapid Royale*. Check the in-game mode list before recording — Series A assumes Solos.
 - **🟠 BO4 Zombies needs Battle.net + ~55 GB** (not installed). 355 GB free → uninstall KF2 (94.8 GB) first if the event series isn't needed.
@@ -120,7 +126,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 - **🟡 Killing Floor 3 — buy on sale.** 14,200-sub channel → 114,049 on solo no-commentary; Halloween Horrors live. Tier above Delta Force.
 - **🟡 ECC: REDLINE — preregister, prepare, don't plan.** No release date; first PC test is China-domestic with a data wipe. Reveal-week demand is 1,969–49,592 views/day → a day-one upload on a global beta/launch is the highest-upside play available.
 - **🟡 Battlefield 6 + Valorant conflict.** Javelin refuses to run while the Riot Vanguard/Valorant launcher is open. Close it before recording.
-- **Channel is dormant with 21 subs** — impressions are near zero. The niche's leaders have **1,300–3,700 uploads**; this is a catalogue + consistency game, not a one-video hit.
+- **Channel is dormant with 20 subs** — impressions are near zero. The niche's leaders have **1,300–3,700 uploads**; this is a catalogue + consistency game, not a one-video hit.
 - **K1 description has no chapters** — add the chapter list; add `▶ Result: Victory`.
 - **`eXFAFQxc6rc` (RoR2)** — off-series; 23 views. Decide unlist vs leave.
 

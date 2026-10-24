@@ -151,7 +151,7 @@ _(empty — slots stay Mon / Wed / Fri)_
 
 ## 🚀 Published (measure 24h / 7d / 30d)
 
-- [ ] **`IK5br0lhOBA` · K1 — KF2 Burning Paris Commando (solo, Normal, victory)** — published **2026-10-09 17:56** · 16:16 · **6 views**.
+- [ ] **`IK5br0lhOBA` · K1 — KF2 Burning Paris Commando (solo, Normal, victory)** — published **2026-10-09 17:56** · 16:16 · **20 views in 11.3 days (1.78/day), 3 likes (15%)**, 0 comments.
   - **Diagnosis:** not "KF2 is dead" — the *keyword* was dead (map + perk + difficulty, no live event).
   - **Fix:** add chapters + `▶ Result: Victory` to the description (still missing).
 - [ ] **OUT-OF-SERIES · `eXFAFQxc6rc`** — RoR2, published 2026-10-02 · views: 23 · off-series (pending unlist decision).

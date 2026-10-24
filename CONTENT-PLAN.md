@@ -15,7 +15,7 @@
   `reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md`
 
 > **Changed on 2026-10-14.** Phase 1 (KF2 + BO4 Zombies on Linux) is closed:
-> K1 = 6 views, and the K2a review confirmed the KF2 map+perk keyword space is
+> K1 = 20 views in 11.3 days (1.78/day), and the K2a review confirmed the KF2 map+perk keyword space is
 > dead. The previous plan's premise — "BR is blocked until a PS5 / decent
 > Windows PC" — is obsolete: this laptop already runs the whole BR pool. The one
 > thing that does *not* run is **Call of Duty** (attestation rejects the BIOS).
@@ -25,7 +25,7 @@
 > `reports/2026-10-15-bo4-zombies-demand-check.md` (BO4 Zombies).
 > `Battlefield REDSEC Solos no commentary` median **28,020 views** (win-framed
 > **49,485**); `Black Ops 4 zombies no commentary` median **80,952** with a
-> **338-sub channel pulling 41,800**. Compare **K1 = 6 views**. Titles below are
+> **338-sub channel pulling 41,800**. Compare **K1 = 20 views**. Titles below are
 > locked from that data.
 >
 > **2026-10-15 update.** CoD is out (attestation + disk) — **BO4 Zombies replaces
@@ -40,7 +40,7 @@ in the game.** Same game, same format, opposite outcome:
 
 | Game | Stale keyword | Live event/season keyword |
 | --- | --- | --- |
-| KF2 | K1 `Burning Paris Commando (Normal)` = **6 views** | `Abandon All Hope` weekly → **2,720-sub channel: 36,588 views in 33 days (1,112/day)** |
+| KF2 | K1 `Burning Paris Commando (Normal)` = **20 views / 11.3d** (was logged as 6 at 24 h) | `Abandon All Hope` weekly → **2,720-sub channel: 36,588 views in 33 days (1,112/day)** |
 | BF6 | — | Season 5 live (2026-10-13) → past-month no-commentary floor **5,965** |
 | KF3 | — | Halloween Horrors live → **14,200-sub channel: 114,049 views** |
 | ECC: REDLINE | — | reveal week → **1,969–49,592 views/day** |
@@ -59,7 +59,7 @@ themselves are the calendar.
 | CoD installed (168.5 GB) but **cannot launch** | attestation wizard "BIOS outdated"; see pivot report §4 |
 | REDSEC **Solos exists** (80 players, added Season 3) | [EA: Battle Royale Solos Mode Guide](https://www.ea.com/games/battlefield/redsec/news/battle-royale-solos-guide-tips-and-tricks) |
 | Season 5 landed **2026-10-13** (Rapid Royale, Nevada maps, Dead Space PvE) | [Battlefield 6 — Season 5](https://www.ea.com/games/battlefield/redsec/seasons/redsec-season-5) |
-| KF2 map+perk long-form is a dead keyword | K1 = 6 views; "Burning Paris Commando" #1 result = 2,774 views in 11 years |
+| KF2 map+perk long-form is a dead keyword | K1 = 20 views in 11.3 days; "Burning Paris Commando" #1 result = 2,774 views in 11 years |
 
 ## Phase overview
 

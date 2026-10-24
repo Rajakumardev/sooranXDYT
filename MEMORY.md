@@ -14,7 +14,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | --- | --- |
 | Name / handle | SooranXD / `@sooranxd` |
 | Channel ID | `UCFrZFDmccrELUQSJlUToW9Q` |
-| Snapshot (2026-10-10) | **21 subs · 3,478 views · 36 videos** |
+| Snapshot (2026-10-24) | **20 subs · 3,508 views · 36 videos** |
 | Created | 2019-05-27 · India (IN) · English (`en`) · Gaming (`20`) |
 | Platform | **Linux + RTX 3050 Ti laptop** (can dual-boot Windows). **2026-10-14: the Windows partition already has CoD HQ (168 GB), Battlefield 6 (118 GB), Delta Force, PUBG, Arena Breakout installed and in use** |
 | Brand format | **No commentary** FPS. Not walkthroughs, not longplay (creator disinterest) |
@@ -39,7 +39,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-03 | Competitor analysis (FPS vs longplay). First recommended RoR2 longplay, then added KF2/L4D2 as options. |
 | 2026-10-07 | Pivoted to Warzone → found **Linux blocks all big BRs** (Ricochet/EA/EAC) → pivoted Phase 1 to **KF2 + BO4 Zombies**, Phase 2 = Warzone/BF after hardware. |
 | 2026-10-09 | Recorded & edited **K1**: KF2 Burning Paris, Commando, solo, Normal, Short (4+Final), **victory**. Built thumbnail, title, description. |
-| 2026-10-10 | **K1 published** (`IK5br0lhOBA`) → **6 views, dead.** Diagnosed: topic has near-zero search demand + dormant channel. |
+| 2026-10-10 | **K1 published** (`IK5br0lhOBA`) → **6 views at 24 h**. **Refreshed 2026-10-21: 20 views / 11.3 days (1.78/day), 3 likes (15%), 0 comments** — slow, but the "6 views, dead" verdict was a day-1 snapshot. |
 | 2026-10-10 | **Recommended: switch to Windows and do Warzone / Black Ops Royale solo no-commentary** (pending creator's switch). |
 | 2026-10-14 | Recorded **KF2 Elysium, solo Commando, Normal, 7 waves, Patriarch down, victory** (21:34, 1080p60). Reviewed: clean VOD but **Normal ≠ the HoE brand promise** and same perk as K1 → bridge upload only. Audited this PC while here: **the Windows boot already runs the Phase-2 pool** (CoD 2025 `cod25` 168 GB, Battlefield 6 118 GB, Delta Force, PUBG, Arena Breakout — BF6 profile written today) → **the hardware/OS gate for Phase 2 is open; the plan is what's stale.** |
 | 2026-10-14 | **PHASE 2 LAUNCHED:** pivot to **Battlefield REDSEC Solos** (lead) + **Delta Force** (second). CoD **parked** — attestation/BIOS block (TPM 2.0 + Secure Boot + UEFI are all fine; TPM AIK enrollment failed, `0x80072EE7`). Research: `reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md`; plan/board rewritten. |
@@ -47,6 +47,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-14 | **Demand check run** (~704 units, `reports/2026-10-14-phase2-demand-check.md`): `REDSEC Solos no commentary` median **28,020** views, win-framed **49,485**, comparable no-name channels **100–400**, ceiling **716,824**, niche length **20–36 min**, no-commentary like rate **1.2–2.3%**. Delta Force demoted (**3/10** no-commentary). **BO7 Zombies no-commentary = 4,121–80,892 per map** → the CoD attestation fix became high-value. Titles locked; 8 of the first 10 uploads are REDSEC Solos. |
 | 2026-10-15 | **CoD is out for good** (attestation + creator uninstalled the 168 GB to keep BF6) → **BO4 Zombies revived as Series B**. Measured: `Black Ops 4 zombies no commentary` median **80,952**; **338-sub channel → 41,800 views**; the old "5–18 views" note was **wrong**. 355 GB free. |
 | 2026-10-15 | **Game-pool ranking** (`reports/2026-10-15-game-pool-ranking.md`): KF2 back as **live-event runs only** (`Abandon All Hope` → 2,720-sub channel, 36,588 views/33 days, vs K1's 6); **KF3 = buy on sale** (14,200-sub channel → 114,049 on solo no-commentary; Halloween Horrors live); **ECC: REDLINE** (NetEase BR, revealed 2026-10-09, no release date) = watchlist, preregister. **Rule adopted: every title must name something live now.** |
+| 2026-10-24 | **Analytics refresh:** channel **3,508 views / 20 subs / 36 videos**. **K1 = 24 views in 15.0 days (1.60/day, +4 in the 3 days since 10-21)** — still accelerating, not decaying. **RoR2 (`eXFAFQxc6rc`) = 25 views in 22.5 days (1.11/day) and flat since ~10-21.** K1 now leads on velocity but is 1 view behind cumulatively — the "RoR2 control" claim that game choice is irrelevant still holds, but K1 is quietly outrunning it. |
 
 ## 4. Key evidence (the "why" behind decisions)
 
@@ -54,7 +55,8 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 - **Warzone solo no-commentary works:** Ultra No Commentary = **13.2K subs in 14 months** (created Aug 2025, ~1 upload/day); Marshal = 404K subs, videos at **2.2–2.6M**.
 - **KF2 map+perk long-form is a dead keyword:** top result for "KF2 Burning Paris Commando" = **2,774 views in 11 years**; K1 got 6. Even HoE variants get ~100–3,000 lifetime.
 - **BO4 Zombies — the old "5–18 views" floor was WRONG (superseded 2026-10-15).** Measured: `Black Ops 4 zombies no commentary` median **80,952**; **Riverhawk — No Commentary (338 subs) → 41,800 views** on a plain per-map video; NoAnnoyingCommentary Z (66.8K subs) 81–266 views/day. BO4 is **Series B**. Ceiling: MKIceAndFire 5.94M.
-- **🔑 THE RULE — publish against what is LIVE NOW (the biggest finding of this cycle).** Demand tracks the current patch/season/event/launch, not the game. KF2 proof: K1 `Burning Paris Commando (Normal)` = **6 views**, while `KF2 Abandon All Hope: Firebug Solo Airship` (a 2026 weekly from the *Day of the Zed* update) = **36,588 views in 32.9 days from a 2,720-sub channel (1,112/day)**. Every title must name something that changed this month; refresh at every patch.
+  - **⚠️ 2026-10-23 refresh — the 41,800 does NOT reproduce.** Fresh past-year sample (15 videos / 11 channels): leader **NoAnnoyingCommentary Z (66.9K subs) → 8,136 / 7,893**; SeptimiuYT (5.9K) → 3,481; Every small channel: **7–314** (thestactic 166 subs → 91–145; CODzPLAY 173 → 78; FireWolfxReborn 82 → 28; MRSilentFPS 31 → 110; Zomnex 5 → 31). **BO4's real small-channel floor is ~30–150**, and 41,800 looks like a one-off outlier. Demote BO4 from "Series B growth bet" to **cheap test only**.
+- **🔑 THE RULE — publish against what is LIVE NOW (the biggest finding of this cycle).** Demand tracks the current patch/season/event/launch, not the game. KF2 proof: K1 `Burning Paris Commando (Normal)` = **20 views in 11.3 days**, while `KF2 Abandon All Hope: Firebug Solo Airship` (a 2026 weekly from the *Day of the Zed* update) = **36,588 views in 32.9 days from a 2,720-sub channel (1,112/day)**. Every title must name something that changed this month; refresh at every patch.
 - **KF3:** `killing floor 3 no commentary` median 441, but **Royal Gaming (14,200 subs) → 114,049 views** on plain `Killing Floor 3 Solo Gameplay (No Commentary)`; game's own past-month median **36,588**; Halloween Horrors live. → buy on sale (tier above Delta Force).
 - **ECC: REDLINE (NetEase BR):** revealed **2026-10-09**; Steam "Coming Soon", global preregistration open, **no release date**; first PC test 2026-10-15 is **China-domestic, limited, data-wipe**. Reveal-week YouTube demand already **1,969–49,592 views/day** → preregister; day-one upload on a global beta/launch is the highest-upside play available.
 - **Delta Force — filler:** `delta force no commentary` median 2,646; small-channel floor 48–500; the 1.7M outlier is MKIceAndFire's Black Hawk Down *campaign*.
@@ -70,7 +72,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 ## 5. Current state & open items
 
 - **Active series (Phase 2):** **Battlefield REDSEC Solos** (A) + **Black Ops 4 Zombies** (B). Optional: KF2 live events (C), Delta Force (D, filler). Buy: KF3. Watchlist: ECC: REDLINE.
-- **Closed as a format:** KF2 `map + perk + difficulty` titles (K1 = 6 views). BO4 was never the problem — it was shelved on a bad number and is now Series B.
+- **Closed as a format:** KF2 `map + perk + difficulty` titles (K1 = 20 views in 11.3 days). BO4 was never the problem — it was shelved on a bad number and is now Series B.
 - **Parked:** Call of Duty — attestation block *and* the content is uninstalled (creator needed the space for BF6).
 - **Open items:**
   - **[creator, 5 min] Confirm the Solos playlist still exists in Season 5** (S5 replaced *Gauntlet* with *Rapid Royale*).
@@ -79,7 +81,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
   - **[creator] Preregister ECC: REDLINE on Steam** → watch for a global beta.
   - **KF2 Elysium ("K2a") recorded 2026-10-14** — packaging ready (`reports/2026-10-14-kf2-elysium-run-review.md`); cadence bridge only (it names no live event).
   - K1 (`IK5br0lhOBA`) description is **missing chapters** — add them.
-  - `eXFAFQxc6rc` (RoR2, off-series, 23 views) — decide unlist vs leave.
+  - `eXFAFQxc6rc` (RoR2, off-series, **25 views** — flat since ~10-21) — decide unlist vs leave.
   - BO4 Zombies series never started (Z1 due Oct 9).
   - Realistic target reset: this niche's median is ~100–3,000 **lifetime** views — the earlier "≥300 in 30 days" was optimistic.
 
