@@ -87,6 +87,14 @@ and `getChannelTopVideos` are expensive; batch IDs into single
 `getVideoDetails`/`getChannelStatistics` calls and prefer the MongoDB cache when
 configured.
 
+Video editing runs through the `kdenlive` MCP server (local Python at
+`C:\Users\rk\content\tools\kdenlive-mcp`, registered globally in
+`~/.config/opencode/opencode.json`; Code Mode `tools.kdenlive.*`). It builds
+`.kdenlive` project files from a typed timeline model and renders through the
+`melt` engine bundled with Kdenlive — Kdenlive itself does not need to be
+running. 136 tools, ~433 effects, ~56 transitions. Local patches are documented
+in that repo's `INSTALL-NOTES.md`; do not re-clone without re-applying them.
+
 ## Growth principles
 
 - **Data before opinion.** Pull real metrics (views, engagement ratio, CTR

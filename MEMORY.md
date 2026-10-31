@@ -30,6 +30,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 - **Reports:** `reports/*.md` (now versioned).
 - **Remote:** `https://github.com/Rajakumardev/sooranXDYT` — agent commits & pushes to `main` frequently, without asking.
 - **Editing:** Windows boot right now; `ffmpeg` (winget Gyan.FFmpeg 9.0.2) + OBS 32.2.2 + Kdenlive available for frames/thumbnails/cuts.
+- **Video editing MCP:** `kdenlive` MCP (Code Mode `tools.kdenlive.*`) — local Python server at `C:\Users\rk\content\tools\kdenlive-mcp`, Kdenlive 26.08.2 + melt 7.43, registered **globally** in `~/.config/opencode/opencode.json`. 136 tools: builds `.kdenlive` projects from a typed timeline model and renders via melt. Local patches documented in `INSTALL-NOTES.md` (upstream does not run as published).
 
 ## 3. Decision timeline
 
@@ -49,6 +50,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-15 | **Game-pool ranking** (`reports/2026-10-15-game-pool-ranking.md`): KF2 back as **live-event runs only** (`Abandon All Hope` → 2,720-sub channel, 36,588 views/33 days, vs K1's 6); **KF3 = buy on sale** (14,200-sub channel → 114,049 on solo no-commentary; Halloween Horrors live); **ECC: REDLINE** (NetEase BR, revealed 2026-10-09, no release date) = watchlist, preregister. **Rule adopted: every title must name something live now.** |
 | 2026-10-24 | **Analytics refresh:** channel **3,508 views / 20 subs / 36 videos**. **K1 = 24 views in 15.0 days (1.60/day, +4 in the 3 days since 10-21)** — still accelerating, not decaying. **RoR2 (`eXFAFQxc6rc`) = 25 views in 22.5 days (1.11/day) and flat since ~10-21.** K1 now leads on velocity but is 1 view behind cumulatively — the "RoR2 control" claim that game choice is irrelevant still holds, but K1 is quietly outrunning it. |
 | 2026-10-31 | **Analytics refresh (supersedes 10-24):** channel **3,514 views / 20 subs / 36 videos** — **+6 views in 7 days across the entire catalogue (0.86/day)**, subs flat 4 weeks, **no upload in 22 days**. **K1 = 28 views in 21.7 days (1.29/day lifetime) but only +4 in 6.7 days = 0.60/day recently** → the "accelerating" read was a 3-day blip; velocity ~halved. **RoR2 = 27 views in 28.9 days (0.93/day), +2/week (0.31/day).** K1 +4 and RoR2 +2 account for **all** channel growth — every other video earned 0. **Binding constraint is cadence, not niche.** |
+| 2026-10-31 | **Video-editing tooling installed globally:** Kdenlive 26.08.2 (winget) + `kdenlive-mcp` (Python MCP server, 136 tools) in `~/.config/opencode/opencode.json`. Upstream repo was broken (missing `storage/snapshots`, Linux-only path discovery); three local patches documented in `C:\Users\rk\content\tools\kdenlive-mcp\INSTALL-NOTES.md`. Verified end-to-end: project → clip → `.kdenlive` → **real melt render 1080p H.264**. Removes the manual-cut bottleneck for the no-commentary format. |
 
 ## 4. Key evidence (the "why" behind decisions)
 
