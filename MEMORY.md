@@ -14,7 +14,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | --- | --- |
 | Name / handle | SooranXD / `@sooranxd` |
 | Channel ID | `UCFrZFDmccrELUQSJlUToW9Q` |
-| Snapshot (2026-10-24) | **20 subs · 3,508 views · 36 videos** |
+| Snapshot (2026-10-31) | **20 subs · 3,514 views · 36 videos** (prev. 3,508 on 10-24) |
 | Created | 2019-05-27 · India (IN) · English (`en`) · Gaming (`20`) |
 | Platform | **Linux + RTX 3050 Ti laptop** (can dual-boot Windows). **2026-10-14: the Windows partition already has CoD HQ (168 GB), Battlefield 6 (118 GB), Delta Force, PUBG, Arena Breakout installed and in use** |
 | Brand format | **No commentary** FPS. Not walkthroughs, not longplay (creator disinterest) |
@@ -48,6 +48,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-15 | **CoD is out for good** (attestation + creator uninstalled the 168 GB to keep BF6) → **BO4 Zombies revived as Series B**. Measured: `Black Ops 4 zombies no commentary` median **80,952**; **338-sub channel → 41,800 views**; the old "5–18 views" note was **wrong**. 355 GB free. |
 | 2026-10-15 | **Game-pool ranking** (`reports/2026-10-15-game-pool-ranking.md`): KF2 back as **live-event runs only** (`Abandon All Hope` → 2,720-sub channel, 36,588 views/33 days, vs K1's 6); **KF3 = buy on sale** (14,200-sub channel → 114,049 on solo no-commentary; Halloween Horrors live); **ECC: REDLINE** (NetEase BR, revealed 2026-10-09, no release date) = watchlist, preregister. **Rule adopted: every title must name something live now.** |
 | 2026-10-24 | **Analytics refresh:** channel **3,508 views / 20 subs / 36 videos**. **K1 = 24 views in 15.0 days (1.60/day, +4 in the 3 days since 10-21)** — still accelerating, not decaying. **RoR2 (`eXFAFQxc6rc`) = 25 views in 22.5 days (1.11/day) and flat since ~10-21.** K1 now leads on velocity but is 1 view behind cumulatively — the "RoR2 control" claim that game choice is irrelevant still holds, but K1 is quietly outrunning it. |
+| 2026-10-31 | **Analytics refresh (supersedes 10-24):** channel **3,514 views / 20 subs / 36 videos** — **+6 views in 7 days across the entire catalogue (0.86/day)**, subs flat 4 weeks, **no upload in 22 days**. **K1 = 28 views in 21.7 days (1.29/day lifetime) but only +4 in 6.7 days = 0.60/day recently** → the "accelerating" read was a 3-day blip; velocity ~halved. **RoR2 = 27 views in 28.9 days (0.93/day), +2/week (0.31/day).** K1 +4 and RoR2 +2 account for **all** channel growth — every other video earned 0. **Binding constraint is cadence, not niche.** |
 
 ## 4. Key evidence (the "why" behind decisions)
 
@@ -81,7 +82,8 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
   - **[creator] Preregister ECC: REDLINE on Steam** → watch for a global beta.
   - **KF2 Elysium ("K2a") recorded 2026-10-14** — packaging ready (`reports/2026-10-14-kf2-elysium-run-review.md`); cadence bridge only (it names no live event).
   - K1 (`IK5br0lhOBA`) description is **missing chapters** — add them.
-  - `eXFAFQxc6rc` (RoR2, off-series, **25 views** — flat since ~10-21) — decide unlist vs leave.
+  - **🔴 Cadence is the blocker.** 22 days since K1, **0 / 9** planned Phase-2 slots filled since 2026-10-14. Until R1 exists, every demand number in this file is untested.
+  - `eXFAFQxc6rc` (RoR2, off-series, **27 views in 28.9 days, 0.93/day**, +2 in the last week) — decide unlist vs leave.
   - BO4 Zombies series never started (Z1 due Oct 9).
   - Realistic target reset: this niche's median is ~100–3,000 **lifetime** views — the earlier "≥300 in 30 days" was optimistic.
 

@@ -3,17 +3,17 @@
 Single source of truth for channel and series performance.
 Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
-> **Last updated:** 2026-10-24 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
+> **Last updated:** 2026-10-31 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
 
 ## Channel snapshot
 
 | Metric | Value |
 | --- | --- |
-| Subscribers | 20 (−1 since 2026-10-14) |
-| Total views | 3,508 (+4 since 2026-10-21) |
-| Videos | 36 |
+| Subscribers | 20 (−1 since 2026-10-14; flat for 4 weeks) |
+| Total views | **3,514** (+6 since 2026-10-24 — **0.86 views/day across all 36 videos**) |
+| Videos | 36 (unchanged — **no upload in 22 days**, last = K1 on 2026-10-09) |
 | Created | 2019-05-27 |
-| Live check | `getChannelStatistics` **2026-10-24** — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
+| Live check | `getChannelStatistics` + `getVideoDetails` **2026-10-31 09:55 UTC** — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
 | Region / language | India (IN) / English (`en`) |
 | Platform | **Windows boot of the ASUS ROG Strix G513IE** — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2 · **355 GB free** |
 | Active series | **Phase 2:** Battlefield **REDSEC Solos** (A) + **Black Ops 4 Zombies** (B) · optional KF2 live events (C), Delta Force filler (D) · buy KF3 · watchlist ECC: REDLINE |
@@ -24,11 +24,11 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
 | KPI | Baseline (CoD era) | Phase-2 target | Current |
 | --- | --- | --- | --- |
-| Views / video | ~10–50 | **≥ 300** | **24** (K1, refreshed 2026-10-24) |
-| Views / video / day | ~0–3 | **≥ 15** | **1.60** (K1) |
-| Like ratio | volatile (1–9%) | **≥ 0.6%** | **12.5%** (3 likes / 24 views — still too small to judge) |
-| Subscribers | 20 | **+30 in 90 days** | **20** (−1) |
-| Cadence compliance | — | **3 / week (Mon/Wed/Fri)** | **1** total (K1, Fri Oct 9) |
+| Views / video | ~10–50 | **≥ 300** | **28** (K1, refreshed 2026-10-31) |
+| Views / video / day | ~0–3 | **≥ 15** | **1.29** (K1, lifetime) · **0.60/day** in the last week |
+| Like ratio | volatile (1–9%) | **≥ 0.6%** | **10.7%** (3 likes / 28 views — still too small to judge) |
+| Subscribers | 20 | **+30 in 90 days** | **20** (flat since 2026-10-14) |
+| Cadence compliance | — | **3 / week (Mon/Wed/Fri)** | **1** upload in 22 days (K1, Fri Oct 9) — **0 / 9 planned slots** |
 | Contains chapters | 0 / 35 | **100%** of new | **0 / 1** (K1 missing) |
 | Phase-2 recordings | — | **1st BF6 REDSEC match** | **0** — blocked on the capture test + demand check |
 
@@ -53,8 +53,8 @@ Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 
 | ID | Series / map-perk | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `IK5br0lhOBA` (**K1**) | KF2 Burning Paris — Commando (solo, Normal, victory) | 2026-10-09 17:56 | 5 | — | — | 3 | — | — | +1 | **24 views / 3 likes / 0 comments in 15.0 days (1.60/day), 12.5% like rate.** Was 20 views at 2026-10-21 → **+4 in 3 days (1.33/day)**, i.e. *accelerating*, not decaying. **Missing chapters** |
-| `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 11:17 | 23 | — | — | 1 | — | — | 0 | **25 views / 1 like in 22.5 days (1.11/day), 4.0% like rate.** **Flat since ~10-21** (read 23 on 10-21 in this file, 25 in `MEMORY.md` — the 25 reading wins, so ≈0 growth in 3 days). Off-series; unlist pending |
+| `IK5br0lhOBA` (**K1**) | KF2 Burning Paris — Commando (solo, Normal, victory) | 2026-10-09 17:56 | 5 | — | — | 3 | — | — | +1 | **28 views / 3 likes / 0 comments in 21.7 days (1.29/day lifetime), 10.7% like rate.** Trajectory: 24 at 10-24 → 28 at 10-31 = **+4 in 6.7 days (0.60/day)** — the earlier "+4 in 3 days (1.33/day)" burst did not hold; velocity has roughly halved. **Missing chapters** |
+| `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 11:17 | 23 | — | — | 1 | — | — | 0 | **27 views / 1 like in 28.9 days (0.93/day lifetime), 3.7% like rate.** +2 in the last week (0.31/day) — decelerating. Off-series; unlist pending |
 | **K2a** | KF2 Elysium — Commando (solo, Normal, 7 waves, Patriarch down) | _editing_ | | | | | | | | Recorded 2026-10-14; packaging ready; cadence bridge only |
 | **R1** | Battlefield REDSEC Solos — _first match_ | _not yet_ | | | | | | | | Phase 2 opener; titles lock after the demand check |
 
@@ -66,8 +66,9 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | --- | --- | --- | --- | --- | --- | --- |
 | W0 (Oct 9) | — | — | — | — | ✅ K1 | Phase 1 |
 | W1 (Oct 12–16) | ❌ | — | ❌ | — | ⏳ K2a? | **off cadence** — platform pivot week; K2a optional bridge |
-| W2 (Oct 19–23) | ⏳ R1 | — | ⏳ R2 | — | ⏳ R3 | **first Phase-2 week** (needs the demand check + capture test) |
-| W3 (Oct 26–30) | ⏳ R4 | — | ⏳ R5 | — | ⏳ D1 | REDSEC + first Delta Force slot |
+| W2 (Oct 19–23) | ❌ | — | ❌ | — | ❌ | **0 / 3** — Phase-2 week never produced an upload |
+| W3 (Oct 26–30) | ❌ | — | ❌ | — | ❌ | **0 / 3** — nothing recorded; capture test + Solos check still open |
+| W4 (Nov 2–6) | ⏳ R1 | — | ⏳ R2 | — | ⏳ R3 | **first real Phase-2 week** — needs the capture test *before* Monday |
 
 ## Benchmark reference
 
@@ -98,7 +99,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | `delta force no commentary` | median / small-channel floor | 2,646 / 48–500 |
 | Battlefield 6 sales | units | **7M in 3 days** — first Battlefield to outsell a CoD |
 | Ultra No Commentary (Warzone analogue) | growth | **13.2K subs in 14 months**, ~1 upload/day |
-| _SooranXD (current)_ | subs / views / videos | 21 / 3,492 / 36 |
+| _SooranXD (current)_ | subs / views / videos | **20 / 3,514 / 36** (2026-10-31) |
 
 **Phase 1 — legacy (closed):**
 
@@ -117,7 +118,8 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 ## Open issues
 
-- **🟢 DEMAND CONFIRMED — REDSEC Solos (A) and BO4 Zombies (B).** REDSEC: median **28,020** / win-framed **49,485**. BO4: median **80,952**, with a **338-sub channel at 41,800**. K1 is at **20 views (1.78/day)** as of 2026-10-21. Titles are locked from this data.
+- **🔴 THE BINDING CONSTRAINT IS NOW CADENCE, NOT NICHE.** 2026-10-31: **36 videos, no upload in 22 days, +6 views in 7 days across the whole channel (0.86/day), subs flat at 20 for 4 weeks.** Phase 2 has been "launched" in the docs since 2026-10-14 and has produced **zero recordings**. Every demand number below is still valid — none of it can be tested until R1 exists. The 2026-10-24 note that K1 was "accelerating" is **superseded**: K1 went 20 → 24 → 28 views over 3 weeks, i.e. **1.33/day then 0.60/day** — a decaying tail, not a breakout.
+- **🟢 DEMAND CONFIRMED — REDSEC Solos (A) and BO4 Zombies (B).** REDSEC: median **28,020** / win-framed **49,485**. BO4: median **80,952**, but see the 2026-10-23 refresh — the 41,800 small-channel case does not reproduce, so BO4 is a **cheap test only**. Titles are locked from this data.
 - **🔑 THE OPERATING RULE — name something live in every title** (season / update / event / launch). KF2 proves it in one game: `Burning Paris Commando (Normal)` = **20 views in 11.3 days** vs the live `Abandon All Hope` weekly = **36,588 views in 33 days from a 2,720-sub channel**.
 - **🟠 CAPTURE UNPROVEN — and now diagnosed.** Sampled 2026-10-15 with a game running: GPU only **46%**, but **VRAM 2.8–3.1 GB of 4 GB**, free RAM **1.7 GB of 15.4 GB**, and **commit 19.9 GB of a 21.3 GB limit (93%)** on a **2.9 GB** pagefile. The bottleneck is **memory, not GPU**. Fix order: pagefile → 16–24 GB fixed; close Firefox/Steam webhelpers/Riot client; textures Low + DLSS Performance, cap 60; force the RTX for the exe; Armoury Crate Performance/Turbo. Verify with `scripts/gpu-sample.ps1` (~3 min in-match) before committing REDSEC as Series A.
 - **🟠 UNVERIFIED: does the Solos playlist still exist in Season 5?** Solos landed in Season 3; Season 5 (2026-10-13) replaced *Gauntlet* with *Rapid Royale*. Check the in-game mode list before recording — Series A assumes Solos.
@@ -140,6 +142,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | 2026-10-14 | **~704** | Shape check (101) + **REDSEC demand check** (600 + 3) → `reports/2026-10-14-phase2-demand-check.md` |
 | 2026-10-15 | **~402** | **BO4** demand check (≈402 incl. the 4-query game-pool ranking) → `reports/2026-10-15-bo4-zombies-demand-check.md`, `reports/2026-10-15-game-pool-ranking.md` |
 | 2026-10-14 | 0 | K2a review — done entirely from local files + KF2 logs |
+| 2026-10-31 | **~2** | `/track` analytics refresh — `getChannelStatistics` + `getVideoDetails` (2 IDs). No searches, so the cheapest refresh yet |
 
 ---
 
