@@ -135,6 +135,14 @@ _(empty — nothing recorded for Phase 2 yet)_
   - _Next action:_ trim the ~45 s post-match tail, raise audio ~+5 dB (source is −19.5 LUFS), paste description + chapters from the review.
   - _Note:_ **Normal**, not Hell on Earth — must **not** carry the `Hell on Earth` keyword, and it names **no live event** → treat it as a cadence bridge, not a growth upload. A new **event-tied KF2 run would out-perform it** (see the rule at the top).
 
+- [x] **K2b · KF2 Black Forest — solo Commando (Normal, 7 waves, Matriarch down, victory)** · recorded **2026-10-31 15:35–15:57** · 21:55 @ 1080p60 · **117 kills / 115 headshots / 0 deaths**.
+  - **Edit v3 (2026-10-31):** nothing cut — every wave interval at **5×** + every trader menu at **10×**, hook removed → **21:55 → 14:35**, audio restored on every clip (+4 dB action, −6 dB walks, −12 dB menus; nothing muted). `reports/2026-10-31-kf2-blackforest-edit.md` · project `edits/2026-10-31-kf2-blackforest-fasttraders.kdenlive` · master `C:\Users\rk\Videos\2026-10-31-KF2-BlackForest-Solo-Commando-Normal-EDIT-FINAL.mp4`.
+  - _Note:_ the older `…-EDIT.mp4` (19:55) is the superseded **v1** — do not upload.
+  - **Thumbnail frames (6):** `thumbnails/2026-10-31-kf2-blackforest/` — pick = **19:15 Matriarch reveal** (`05-1915-matriarch-reveal`); alt = **21:08 Matriarch death gore**. Review: `reports/2026-10-31-kf2-blackforest-thumbnail-frames.md`.
+  - **Chapters:** in the project as markers (00:00 Loadout · 01:16 W1 · 02:48 W2 · 05:14 W3 · 08:05 W4 · 10:44 W5 · 13:18 W6 · 16:46 W7 · 17:15 Matriarch · 19:07 down · 19:29 Results).
+  - _Next action:_ pick a thumbnail frame, add title/description from the review, decide publish slot.
+  - _Note:_ second Normal/Commando KF2 run on disk (after K2a) → **do not publish both back to back**; still a cadence bridge, not a growth upload.
+
 ---
 
 ## 🎨 Packaging

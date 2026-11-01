@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt LC_NUMERIC="C" producer="main_bin" root="C:\Users\rk\content\sooranXDYT\edits" version="7.9.0">
+ <profile colorspace="709" description="1920x1080 60fps" display_aspect_den="9" display_aspect_num="16" frame_rate_den="1" frame_rate_num="60" height="1080" progressive="1" sample_aspect_den="1" sample_aspect_num="1" width="1920" />
+ <producer id="producer0" in="00:00:00.000" out="06:00:00.000">
+  <property name="length">2147483647</property>
+  <property name="eof">continue</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">1</property>
+  <property name="mlt_service">color</property>
+  <property name="kdenlive:playlistid">black_track</property>
+  <property name="mlt_image_format">rgba</property>
+ </producer>
+ <chain id="chain0" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <chain id="chain1" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <producer id="producer0" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer1" out="00:02:11.533">
+  <property name="length">7893</property>
+  <property name="eof">pause</property>
+  <property name="resource">10:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer2" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <chain id="chain2" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <producer id="producer3" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer4" out="00:02:11.533">
+  <property name="length">7893</property>
+  <property name="eof">pause</property>
+  <property name="resource">10:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer5" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <chain id="chain3" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <producer id="producer6" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer7" out="00:02:11.533">
+  <property name="length">7893</property>
+  <property name="eof">pause</property>
+  <property name="resource">10:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer8" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <chain id="chain4" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <producer id="producer9" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer10" out="00:02:11.533">
+  <property name="length">7893</property>
+  <property name="eof">pause</property>
+  <property name="resource">10:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer11" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <chain id="chain5" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <producer id="producer12" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer13" out="00:02:11.533">
+  <property name="length">7893</property>
+  <property name="eof">pause</property>
+  <property name="resource">10:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer14" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <chain id="chain6" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <producer id="producer15" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer16" out="00:02:11.533">
+  <property name="length">7893</property>
+  <property name="eof">pause</property>
+  <property name="resource">10:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer17" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <chain id="chain7" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <producer id="producer18" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer19" out="00:02:11.533">
+  <property name="length">7893</property>
+  <property name="eof">pause</property>
+  <property name="resource">10:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <producer id="producer20" out="00:04:23.100">
+  <property name="length">15787</property>
+  <property name="eof">pause</property>
+  <property name="resource">5:C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">timewarp</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </producer>
+ <chain id="chain8" out="00:21:55.550">
+  <property name="length">78934</property>
+  <property name="eof">pause</property>
+  <property name="resource">C:\Users\rk\Videos\2026-10-31 15-35-44.mp4</property>
+  <property name="mlt_service">avformat-novalidate</property>
+  <property name="seekable">1</property>
+  <property name="video_index">0</property>
+  <property name="audio_index">1</property>
+  <property name="kdenlive:control_uuid">{35271ff5-312a-4916-8c43-f820d9a0cdd7}</property>
+  <property name="kdenlive:id">2</property>
+  <property name="kdenlive:folderid">-1</property>
+  <property name="kdenlive:file_size">5383893812</property>
+ </chain>
+ <playlist id="main_bin">
+  <property name="xml">was here</property>
+  <property name="kdenlive:docproperties.audioChannels">2</property>
+  <property name="kdenlive:docproperties.documentid">aabc4bab48</property>
+  <property name="kdenlive:docproperties.kdenliveversion">26.04.3</property>
+  <property name="kdenlive:docproperties.profile">atsc_1080p_60</property>
+  <property name="kdenlive:docproperties.version">1.1</property>
+  <property name="kdenlive:docproperties.uuid">{aabc4bab-4800-0000-0000-000000000000}</property>
+  <property name="kdenlive:docproperties.opensequences">{aabc4bab-4800-0000-0000-000000000000}</property>
+  <property name="kdenlive:docproperties.activetimeline">{aabc4bab-4800-0000-0000-000000000000}</property>
+  <property name="xml_retain">1</property>
+  <entry producer="chain0" in="00:00:00.000" out="00:21:55.550" />
+ </playlist>
+ <playlist id="playlist0" />
+ <playlist id="playlist1" />
+ <tractor id="tractor0" in="00:00:00.000">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:trackheight">75</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format" />
+  <property name="kdenlive:audio_rec" />
+  <track hide="video" producer="playlist0" />
+  <track hide="video" producer="playlist1" />
+  <filter id="filter0">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="channel_mask">-1</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter1">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter2">
+   <property name="iec_scale">0</property>
+   <property name="mlt_service">audiolevel</property>
+   <property name="internal_added">237</property>
+   <property name="dbpeak">1</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+ <playlist id="playlist2" />
+ <playlist id="playlist3" />
+ <tractor id="tractor1" in="00:00:00.000">
+  <property name="kdenlive:audio_track">1</property>
+  <property name="kdenlive:trackheight">75</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format" />
+  <property name="kdenlive:audio_rec" />
+  <track hide="video" producer="playlist2" />
+  <track hide="video" producer="playlist3" />
+  <filter id="filter3">
+   <property name="window">75</property>
+   <property name="max_gain">20dB</property>
+   <property name="channel_mask">-1</property>
+   <property name="mlt_service">volume</property>
+   <property name="internal_added">237</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter4">
+   <property name="channel">-1</property>
+   <property name="mlt_service">panner</property>
+   <property name="internal_added">237</property>
+   <property name="start">0.5</property>
+   <property name="disable">1</property>
+  </filter>
+  <filter id="filter5">
+   <property name="iec_scale">0</property>
+   <property name="mlt_service">audiolevel</property>
+   <property name="internal_added">237</property>
+   <property name="dbpeak">1</property>
+   <property name="disable">1</property>
+  </filter>
+ </tractor>
+ <playlist id="playlist4">
+  <entry producer="chain1" in="00:00:00.000" out="00:00:55.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter6">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer0" in="00:00:11.200" out="00:00:14.583">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter7">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer1" in="00:00:07.300" out="00:00:10.483">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter8">
+    <property name="level">-12</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer2" in="00:00:21.000" out="00:00:25.383">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter9">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="chain2" in="00:02:07.000" out="00:02:55.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter10">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer3" in="00:00:35.200" out="00:00:38.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter11">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer4" in="00:00:19.500" out="00:00:20.883">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter12">
+    <property name="level">-12</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer5" in="00:00:41.800" out="00:00:50.383">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter13">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="chain3" in="00:04:12.000" out="00:05:39.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter14">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer6" in="00:01:08.000" out="00:01:10.583">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter15">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer7" in="00:00:35.300" out="00:00:37.583">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter16">
+    <property name="level">-12</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer8" in="00:01:15.200" out="00:01:22.183">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter17">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="chain4" in="00:06:51.000" out="00:08:37.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter18">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer9" in="00:01:43.600" out="00:01:49.183">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter19">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer10" in="00:00:54.600" out="00:00:55.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter20">
+    <property name="level">-12</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer11" in="00:01:52.000" out="00:02:00.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter21">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="chain5" in="00:10:05.000" out="00:11:39.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter22">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer12" in="00:02:20.000" out="00:02:23.383">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter23">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer13" in="00:01:11.700" out="00:01:13.683">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter24">
+    <property name="level">-12</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer14" in="00:02:27.400" out="00:02:36.383">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter25">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="chain6" in="00:13:02.000" out="00:14:37.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter26">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer15" in="00:02:55.600" out="00:02:57.783">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter27">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer16" in="00:01:28.900" out="00:01:30.383">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter28">
+    <property name="level">-12</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer17" in="00:03:00.800" out="00:03:09.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter29">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="chain7" in="00:15:50.000" out="00:17:57.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter30">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer18" in="00:03:35.600" out="00:03:41.983">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter31">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer19" in="00:01:51.000" out="00:01:52.583">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter32">
+    <property name="level">-12</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="producer20" in="00:03:45.200" out="00:03:50.583">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter33">
+    <property name="level">-6</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+  <entry producer="chain8" in="00:19:13.000" out="00:21:55.550">
+   <property name="kdenlive:id">2</property>
+   <filter id="filter34">
+    <property name="level">4</property>
+    <property name="mlt_service">volume</property>
+   </filter>
+  </entry>
+ </playlist>
+ <playlist id="playlist5" />
+ <tractor id="tractor2" in="00:00:00.000">
+  <property name="kdenlive:trackheight">75</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format" />
+  <property name="kdenlive:audio_rec" />
+  <track producer="playlist4" />
+  <track producer="playlist5" />
+ </tractor>
+ <playlist id="playlist6" />
+ <playlist id="playlist7" />
+ <tractor id="tractor3" in="00:00:00.000">
+  <property name="kdenlive:trackheight">75</property>
+  <property name="kdenlive:timeline_active">1</property>
+  <property name="kdenlive:collapsed">0</property>
+  <property name="kdenlive:thumbs_format" />
+  <property name="kdenlive:audio_rec" />
+  <track producer="playlist6" />
+  <track producer="playlist7" />
+ </tractor>
+ <tractor id="{aabc4bab-4800-0000-0000-000000000000}" in="00:00:00.000" out="00:14:34.967">
+  <property name="kdenlive:uuid">{aabc4bab-4800-0000-0000-000000000000}</property>
+  <property name="kdenlive:clipname">Sequence 1</property>
+  <property name="kdenlive:sequenceproperties.hasAudio">1</property>
+  <property name="kdenlive:sequenceproperties.hasVideo">1</property>
+  <property name="kdenlive:sequenceproperties.tracksCount">4</property>
+  <property name="kdenlive:sequenceproperties.documentuuid">{aabc4bab-4800-0000-0000-000000000000}</property>
+  <property name="kdenlive:duration">00:14:34.967</property>
+  <track producer="producer0" />
+  <track producer="tractor0" />
+  <track producer="tractor1" />
+  <track producer="tractor2" />
+  <track producer="tractor3" />
+  <transition id="transition0">
+   <property name="a_track">0</property>
+   <property name="b_track">1</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">0</property>
+   <property name="b_track">2</property>
+   <property name="mlt_service">mix</property>
+   <property name="kdenlive_id">mix</property>
+   <property name="always_active">1</property>
+   <property name="accepts_blanks">1</property>
+   <property name="sum">1</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">0</property>
+   <property name="b_track">3</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="always_active">1</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">0</property>
+   <property name="b_track">4</property>
+   <property name="compositing">0</property>
+   <property name="distort">0</property>
+   <property name="rotate_center">0</property>
+   <property name="mlt_service">qtblend</property>
+   <property name="kdenlive_id">qtblend</property>
+   <property name="always_active">1</property>
+  </transition>
+ </tractor>
+ <tractor id="tractor4" in="00:00:00.000" out="00:14:34.967">
+  <property name="kdenlive:projectTractor">1</property>
+  <track in="00:00:00.000" out="00:14:34.967" producer="{aabc4bab-4800-0000-0000-000000000000}" />
+ </tractor>
+</mlt>

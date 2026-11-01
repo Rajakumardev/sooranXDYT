@@ -14,7 +14,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | --- | --- |
 | Name / handle | SooranXD / `@sooranxd` |
 | Channel ID | `UCFrZFDmccrELUQSJlUToW9Q` |
-| Snapshot (2026-10-31) | **20 subs · 3,514 views · 36 videos** (prev. 3,508 on 10-24) |
+| Snapshot (2026-11-01) | **20 subs · 3,518 views · 37 videos** (prev. 3,514 / 36 on 10-31) |
 | Created | 2019-05-27 · India (IN) · English (`en`) · Gaming (`20`) |
 | Platform | **Linux + RTX 3050 Ti laptop** (can dual-boot Windows). **2026-10-14: the Windows partition already has CoD HQ (168 GB), Battlefield 6 (118 GB), Delta Force, PUBG, Arena Breakout installed and in use** |
 | Brand format | **No commentary** FPS. Not walkthroughs, not longplay (creator disinterest) |
@@ -51,6 +51,8 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-24 | **Analytics refresh:** channel **3,508 views / 20 subs / 36 videos**. **K1 = 24 views in 15.0 days (1.60/day, +4 in the 3 days since 10-21)** — still accelerating, not decaying. **RoR2 (`eXFAFQxc6rc`) = 25 views in 22.5 days (1.11/day) and flat since ~10-21.** K1 now leads on velocity but is 1 view behind cumulatively — the "RoR2 control" claim that game choice is irrelevant still holds, but K1 is quietly outrunning it. |
 | 2026-10-31 | **Analytics refresh (supersedes 10-24):** channel **3,514 views / 20 subs / 36 videos** — **+6 views in 7 days across the entire catalogue (0.86/day)**, subs flat 4 weeks, **no upload in 22 days**. **K1 = 28 views in 21.7 days (1.29/day lifetime) but only +4 in 6.7 days = 0.60/day recently** → the "accelerating" read was a 3-day blip; velocity ~halved. **RoR2 = 27 views in 28.9 days (0.93/day), +2/week (0.31/day).** K1 +4 and RoR2 +2 account for **all** channel growth — every other video earned 0. **Binding constraint is cadence, not niche.** |
 | 2026-10-31 | **Video-editing tooling installed globally:** Kdenlive 26.08.2 (winget) + `kdenlive-mcp` (Python MCP server, 136 tools) in `~/.config/opencode/opencode.json`. Upstream repo was broken (missing `storage/snapshots`, Linux-only path discovery); three local patches documented in `C:\Users\rk\content\tools\kdenlive-mcp\INSTALL-NOTES.md`. Verified end-to-end: project → clip → `.kdenlive` → **real melt render 1080p H.264**. Removes the manual-cut bottleneck for the no-commentary format. |
+| 2026-10-31 | **K2b published** (`s55NY7In3A4`) — KF2 Black Forest, solo Commando, Normal, 7 waves, Matriarch down, **117 kills / 115 headshots / 0 deaths**, edited 21:55 → 14:35 (5x walk, 10x trader menus), chapters included. Thumbnail text: "THIS GAME IS STILL GOOD IN 2026". First upload in 22 days. |
+| 2026-11-01 | **K2b 24 h read** (`reports/2026-11-01-k2b-24h-performance.md`): **15 views / 3 likes / 0 comments at 19.9 h = 18.1 views/day** → **3.6× K1's day-one rate and 21× the 0.86/day the catalogue was earning**. Like rate **20 %**. But **CTR 0.9 %** (creator-reported) ⇒ ≈**1,650 impressions** at ~83/h: **distribution arrived, the thumbnail wasted it.** Root cause = the thumb carries no game identity (dark forest frame, generic "still good in 2026" line, no KF2 wordmark, Matriarch too small, mismatched with the "MATRIARCH DOWN" boss-kill title). Lane leaders (NoAnnoyingCommentary Z, 66.7K, 2,975–3,154 views, 2.4 % likes) all put the game name **in the image**. **New standing rule: the thumbnail must state the game + the payoff, ≤4 words, readable at 168 px.** |
 
 ## 4. Key evidence (the "why" behind decisions)
 
@@ -84,7 +86,10 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
   - **[creator] Preregister ECC: REDLINE on Steam** → watch for a global beta.
   - **KF2 Elysium ("K2a") recorded 2026-10-14** — packaging ready (`reports/2026-10-14-kf2-elysium-run-review.md`); cadence bridge only (it names no live event).
   - K1 (`IK5br0lhOBA`) description is **missing chapters** — add them.
-  - **🔴 Cadence is the blocker.** 22 days since K1, **0 / 9** planned Phase-2 slots filled since 2026-10-14. Until R1 exists, every demand number in this file is untested.
+  - **🟢 Cadence restarted** — K2b published 2026-10-31. But **CTR 0.9 %** is now the binding packaging metric: impressions are available (≈1,650/20 h), the thumbnail isn't converting them. Fix the thumb before the next upload.
+  - **🔴 Cadence was the blocker; it is now half-solved.** 22 days with no upload, then K2b at **18.1 views/day (21× baseline)**. Output works; the 22-day gap was costing that. Keep 3/week. **0 / 9** planned Phase-2 slots still unfilled — R1 still does not exist.
+  - **K2b thumbnail swap open** — variants A (KF2 wordmark + Matriarch head + "MATRIARCH") and B ("7 WAVES · 0 DEATHS") specced in `reports/2026-11-01-k2b-24h-performance.md`; judge each on ≥500 impressions. **Do not re-title for search yet.**
+  - **[creator] K2a (KF2 Elysium) — do NOT publish next.** Two Normal/Commando KF2 runs back to back; keep as spare, go to R1.
   - `eXFAFQxc6rc` (RoR2, off-series, **27 views in 28.9 days, 0.93/day**, +2 in the last week) — decide unlist vs leave.
   - BO4 Zombies series never started (Z1 due Oct 9).
   - Realistic target reset: this niche's median is ~100–3,000 **lifetime** views — the earlier "≥300 in 30 days" was optimistic.
@@ -105,13 +110,14 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 2. **Creator (unblocks Series B):** uninstall **KF2** if unwanted (94.8 GB) → install **Battle.net + BO4** (~55 GB) → record **IX** first.
 3. **Creator (calendar):** every upload must name something live — check the current BF6 season/event and the current KF2 weekly before recording; refresh at each patch.
 4. **Creator (upside):** preregister **ECC: REDLINE**; buy **KF3** on sale.
-5. **Agent:** `/track` at 24 h / 7 d on R1; add chapters to K1; decide the RoR2 video; keep `DASHBOARD.md` current.
-6. Optional, in parallel: publish K2a as a cadence bridge (packaging ready).
+5. **Agent:** **K2b 7-day read** (target ≥40 views; CTR after thumbnail swap) and `/track` at 24 h / 7 d on R1; add chapters to K1; decide the RoR2 video; keep `DASHBOARD.md` current.
+6. **Creator now:** swap the K2b thumbnail (30 min, sources in `thumbnails/2026-10-31-kf2-blackforest/`), then run the capture test → record R1.
 
 ## 8. Useful IDs
 
 - Channel: `UCFrZFDmccrELUQSJlUToW9Q`
 - K1 (KF2 Burning Paris): `IK5br0lhOBA`
+- K2b (KF2 Black Forest, Matriarch): `s55NY7In3A4`
 - Off-series RoR2: `eXFAFQxc6rc`
 - Best legacy video: `5ki4NepDl20`
 - Growth-model reference: Ultra No Commentary `UCWdQdiMgvPG5cWfwgaPw6BQ`

@@ -95,6 +95,23 @@ Video editing runs through the `kdenlive` MCP server (local Python at
 running. 136 tools, ~433 effects, ~56 transitions. Local patches are documented
 in that repo's `INSTALL-NOTES.md`; do not re-clone without re-applying them.
 
+Image editing runs through the `gimp` MCP server (`gimp3-mcp`, global config,
+80 tools: layers, text, selections, filters, `call_api`, export). It has two
+halves: the stdio server and a plugin that must be running **inside** GIMP 3.2.
+In the GIMP window: **Tools > MCP > Start MCP Server** (port 9877, dies with
+GIMP). For unattended use, start a headless instance instead:
+
+```powershell
+& "C:\Users\rk\AppData\Local\Programs\GIMP 3\bin\gimp-console-3.2.exe" --new-instance -i `
+  --batch-interpreter plug-in-script-fu-eval -b "(plug-in-mcp-server RUN-NONINTERACTIVE)"
+```
+
+Only one process can hold port 9877, so never run both. `new_canvas` reports
+`constructor returned NULL` headless (no display to attach) even though the
+image is created — verify with `list_images`/`get_image_metadata`. The
+`~/.local/bin/gimp3-mcp.exe` shims are blocked by Windows Application Control
+(os error 4551); use the venv interpreter path in the OpenCode config.
+
 ## Growth principles
 
 - **Data before opinion.** Pull real metrics (views, engagement ratio, CTR
