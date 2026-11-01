@@ -16,36 +16,38 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Live check | `getChannelStatistics` + `getVideoDetails` **2026-11-01 16:15 UTC** — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
 | Region / language | India (IN) / English (`en`) |
 | Platform | **Windows boot of the ASUS ROG Strix G513IE** — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2 · **355 GB free** |
-| Active series | **Phase 2:** Battlefield **REDSEC Solos** (A) + **Black Ops 4 Zombies** (B) · optional KF2 live events (C), Delta Force filler (D) · buy KF3 · watchlist ECC: REDLINE |
-| Recommended pivot | **Done** — Phase 2 activated 2026-10-14 (BF6/REDSEC Solos + Delta Force). Call of Duty **parked** (attestation/BIOS block) |
-| Dropped | Risk of Rain 2 / longplay · The Finals / Apex / Fortnite · **KF2 + BO4 Zombies (Phase 1 closed — K1 = 20 views)** |
+| Active series | **Phase 3 (2026-11-01): CoD Zombies library** — one map per upload. Wave 1 **BO4** (8 maps, owned) → Wave 2 **BOCW** (5, owned) → Wave 3 **BO3** (at Steam sale) |
+| Recommended pivot | **Done** — Phase 2 (REDSEC/Delta Force) **discarded 2026-11-01**. All non-Zombies plans closed; see `CONTENT-PLAN.md` |
+| Dropped | REDSEC/BF6 · Delta Force · Arena Breakout · PUBG · RoR2 · Shatterline · **KF2 as a series** · KF3 · ECC: REDLINE · legacy CoD multiplayer |
+| Install state (verified 2026-11-01) | CoD **not installed** — Steam `Call of Duty HQ` = **0.0 GB**, Battle.net has no `product.db`. BO4 + BOCW are **licensed, not downloaded** |
 
 ## North-star KPIs
 
-| KPI | Baseline (CoD era) | Phase-2 target | Current |
+| KPI | Baseline (CoD era) | Phase-3 target | Current |
 | --- | --- | --- | --- |
-| Views / video | ~10–50 | **≥ 300** | **15** (K2b, 20 h — pace **18.1/day**) · K1 **28** lifetime |
-| Views / video / day | ~0–3 | **≥ 15** | **18.1** (K2b, 20 h) vs K1 **1.29** lifetime · channel **0.86/day** before K2b |
-| Like ratio | volatile (1–9%) | **≥ 0.6%** | **20.0%** (3 / 15, K2b 20 h) · K1 10.7% — small samples |
+| Views / video | ~10–50 | **≥ 100 in 30 days** | **15** (K2b, 20 h — pace **18.1/day**) · K1 **28** lifetime |
+| Views / video / day | ~0–3 | **≥ 5** | **18.1** (K2b, 20 h) vs K1 **1.29** lifetime · channel **0.86/day** before K2b |
+| Like ratio | volatile (1–9%) | **≥ 1.5 %** (NAC 1.5–2.6 %) | **20.0%** (3 / 15, K2b 20 h) · K1 10.7% — small samples |
 | Subscribers | 20 | **+30 in 90 days** | **20** (flat since 2026-10-14) |
 | CTR (impressions) | — | **≥ 2%** | **0.9%** (K2b 24 h, creator-reported) — **the failure point** |
-| Cadence compliance | — | **3 / week (Mon/Wed/Fri)** | **2** uploads in 23 days (K1 Fri Oct 9, K2b Sat Oct 31) — **0 / 9 planned slots** |
+| Cadence compliance | — | **3 / week (Mon/Wed/Fri) @ ~13:00 UTC** | **2** uploads in 23 days — **0 / 13 Phase-3 slots filled** |
+| Title-template compliance | — | **100 %** | **0 / 0** — no Zombies upload yet |
 | Contains chapters | 0 / 35 | **100%** of new | **1 / 1** (K1 still missing) |
-| Phase-2 recordings | — | **1st BF6 REDSEC match** | **0** — still blocked on the capture test |
+| Zombies uploads banked | — | **13** (8 BO4 + 5 BOCW) | **0** — blocked on install |
 
 ## Pipeline (from `KANBAN.md`)
 
 | Stage | Count |
 | --- | --- |
-| ⛔ Blocked on the creator | 3 (API key, Solos-mode verify, capture test) |
-| 🅿️ Parked / dropped | 4 groups (CoD, Phase 1 KF2/BO4, RoR2, Finals/Apex/Fortnite) |
-| 💡 Backlog | 8 ideas |
-| 📝 Planned | 0 (titles lock after the demand check) |
+| ⛔ Blocked on the creator | 5 (uninstall 187 GB, BOCW install, BO4 install, pagefile fix, BO3 purchase) |
+| 🅿️ Parked / dropped | 9 groups (REDSEC, Delta Force, Arena Breakout, PUBG, RoR2, Shatterline, KF2, KF3, ECC: REDLINE) |
+| 💡 Backlog | 13 Zombies cards (Z1–Z13) |
+| 📝 Planned | 3 (Z1–Z3, BO4 proven-demand maps) |
 | 🎬 Recording | 0 |
-| ✂️ Editing | 1 (K2a — KF2 Elysium) |
+| ✂️ Editing | 0 — **Phase 3 has no editing step by design** |
 | 🎨 Packaging | 0 |
 | 📅 Scheduled | 0 |
-| 🚀 Published | **2** (K1, K2b) |
+| 🚀 Published | **2** (K1, K2b — both legacy, both off-strategy) |
 | 📊 Reviewed | 1 (K2b — 24 h read in `reports/2026-11-01-k2b-24h-performance.md`) |
 
 ## Publication log
@@ -58,7 +60,8 @@ Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 | `IK5br0lhOBA` (**K1**) | KF2 Burning Paris — Commando (solo, Normal, victory) | 2026-10-09 17:56 | 5 | — | — | 3 | — | — | +1 | **28 views / 3 likes / 0 comments in 21.7 days (1.29/day lifetime), 10.7% like rate.** Trajectory: 24 at 10-24 → 28 at 10-31 = **+4 in 6.7 days (0.60/day)** — velocity roughly halved. **Missing chapters** |
 | `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 11:17 | 23 | — | — | 1 | — | — | 0 | **27 views / 1 like in 28.9 days (0.93/day lifetime), 3.7% like rate.** +2 in the last week (0.31/day) — decelerating. Off-series; unlist pending |
 | **K2a** | KF2 Elysium — Commando (solo, Normal, 7 waves, Patriarch down) | _editing_ | | | | | | | | Recorded 2026-10-14; packaging ready; cadence bridge only |
-| **R1** | Battlefield REDSEC Solos — _first match_ | _not yet_ | | | | | | | | Phase 2 opener; titles lock after the demand check |
+| **R1** | ~~Battlefield REDSEC Solos~~ — **cancelled**, Phase 2 discarded 2026-11-01 | _never_ | | | | | | | | Replaced by **Z1** (BO4 Blood of the Dead) |
+| **Z1** | BO4 Zombies — Blood of the Dead | _not yet_ | | | | | | | | **Phase 3 opener.** NAC reference: **270,364 views** on this map |
 
 ## Cadence tracker
 
@@ -70,7 +73,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | W1 (Oct 12–16) | ❌ | — | ❌ | — | ⏳ K2a? | **off cadence** — platform pivot week; K2a optional bridge |
 | W2 (Oct 19–23) | ❌ | — | ❌ | — | ❌ | **0 / 3** — Phase-2 week never produced an upload |
 | W3 (Oct 26–30) | ❌ | — | ❌ | — | ❌ | **1 / 3** — K2b went out **Sat Oct 31**, off-slot (first upload in 22 days) |
-| W4 (Nov 2–6) | ⏳ **R1** | — | ⏳ R2 | — | ⏳ R3 | **first real Phase-2 week** — needs the capture test *before* Monday; do **not** put K2a Elysium here (two Normal/Commando KF2 runs back to back) |
+| W4 (Nov 2–6) | ⏳ **Z1** | — | ⏳ Z2 | — | ⏳ Z3 | **Phase 3 opener** — requires the BO4 install; if it isn't ready, **do not publish filler**. Nothing goes up that isn't a Zombies map |
 
 ## Benchmark reference
 

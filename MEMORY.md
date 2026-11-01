@@ -53,6 +53,7 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 | 2026-10-31 | **Video-editing tooling installed globally:** Kdenlive 26.08.2 (winget) + `kdenlive-mcp` (Python MCP server, 136 tools) in `~/.config/opencode/opencode.json`. Upstream repo was broken (missing `storage/snapshots`, Linux-only path discovery); three local patches documented in `C:\Users\rk\content\tools\kdenlive-mcp\INSTALL-NOTES.md`. Verified end-to-end: project → clip → `.kdenlive` → **real melt render 1080p H.264**. Removes the manual-cut bottleneck for the no-commentary format. |
 | 2026-10-31 | **K2b published** (`s55NY7In3A4`) — KF2 Black Forest, solo Commando, Normal, 7 waves, Matriarch down, **117 kills / 115 headshots / 0 deaths**, edited 21:55 → 14:35 (5x walk, 10x trader menus), chapters included. Thumbnail text: "THIS GAME IS STILL GOOD IN 2026". First upload in 22 days. |
 | 2026-11-01 | **STRATEGY: adopt the NoAnnoyingCommentary Z library model** (`reports/2026-11-01-noannoyingcommentaryz-model-teardown.md`). Teardown of `UC3OElGsU87Fpz8R634FlcAQ` (**67K subs · 31.3M views · 1,360 videos · 9 yrs**): last 91 days = **40 uploads (1 per 2.3 days)**, every upload lands **4–9K views** on one template — `<GAME> ZOMBIES: <MAP> GAMEPLAY! (NO COMMENTARY)`, raw run 35–76 min, zero editing. **They re-upload the SAME map forever** (FIVE ×6 and KINO ×4 in 91 days; Kino uploaded ≥7× lifetime, 2026 copy still 9,038) → **supply is not a constraint**. Mapping: Kino 8/50, Town 4, TranZit 4, Buried 4. Tags ship 4 platform permutations + the map name. ⚠️ Non-transferable: 9 yrs of search authority, 67K subs, and a **503K-sub sibling channel** (`@NoAnnoyingCommentary`) feeding it. Measured small-channel floor in this space stays **30–150/upload** (year 1). **Decision: single-series library on CoD Zombies via BO3 Zombies Chronicles Edition (₹5,399, 100 GB, 9 maps: Shadows, Nacht, Verruckt, Shi No Numa, Kino, Ascension, Shangri-La, Moon, Origins)**; no anti-cheat risk. **Disk verified 2026-11-01: 354.2 GB free on C: → ~254 GB after install, no uninstall needed** (the old "free space for BO4" plan is obsolete). ⚠️ **Corrected: BO3 has NO Mob of the Dead / Buried / Town / TranZit / Die Rise / Five** — the BO2 TranZit cluster is 14 of NAC's top-50 map-slots and needs BO2+DLC as purchase #2, not #1. Deluxe (₹8,900) only adds 5 maps and just 2 top-50 slots (Der Riese); à-la-carte (₹8,814) ≈ Deluxe. 3/week at 13:00 UTC, no platform/4K claim from 1080p PC capture. KF2/REDSEC/RoR2 → legacy, not merged in. **Failure mode is unchanged: stopping.** |
+| 2026-11-01 | **PHASE 3 LAUNCHED — channel becomes a pure CoD Zombies library. All other plans discarded.** Creator confirmed he **already owns BO4 Zombies + BOCW Zombies + KF2**; BO3 to be bought at a Steam sale. Verified on disk: Steam `Call of Duty HQ` folder = **0.0 GB empty stub**, Battle.net has **no `product.db` and no game folders** → BO4/CW are **licensed but not downloaded** (free to fix). **Reusable finding: the TPM 2.0 / Secure Boot attestation that produced `0x80072EE7` belongs to BO7/Warzone (current CoD HQ) — BO4 and BOCW are separate legacy Battle.net titles and do not use that flow.** 🎯 **Per-map demand from NAC's top-200 catalogue — BO4 avg 127,782 views/upload, the highest of any game, with 5 of 8 maps unclaimed** (Blood of the Dead 270,364 · IX 158,077 · Voyage 82,693 · Tag der Toten / Alpha Omega / Ancient Evil / Classified / Dead of the Night = **0 NAC uploads**). **BOCW: Outbreak 259,220** (their #5 video overall) · Mauer 42,751 · Die Maschine 22,673 · Forsaken ≈ no coverage. **Sequencing: Wave 1 = BO4 (8 maps, free, today) → Wave 2 = BOCW (5) → Wave 3 = BO3 at sale.** Disk: 354.2 GB free + **187 GB reclaimable by uninstalling Delta Force (95.5) and ABInfinite (91.5)**, both from discarded plans. ⚠️ `Dead of the Night` is keyword-polluted by the horror game *At Dead of Night* — the `BLACK OPS 4 ZOMBIES:` prefix is mandatory. **KF2 excluded from the series despite being zombie FPS** — per-map keywords measured dead and it breaks the query cluster; NAC runs only CoD Zombies on this channel. Plan rewritten: `CONTENT-PLAN.md`. |
 | 2026-11-01 | **K2b 24 h read** (`reports/2026-11-01-k2b-24h-performance.md`): **15 views / 3 likes / 0 comments at 19.9 h = 18.1 views/day** → **3.6× K1's day-one rate and 21× the 0.86/day the catalogue was earning**. Like rate **20 %**. But **CTR 0.9 %** (creator-reported) ⇒ ≈**1,650 impressions** at ~83/h: **distribution arrived, the thumbnail wasted it.** Root cause = the thumb carries no game identity (dark forest frame, generic "still good in 2026" line, no KF2 wordmark, Matriarch too small, mismatched with the "MATRIARCH DOWN" boss-kill title). Lane leaders (NoAnnoyingCommentary Z, 66.7K, 2,975–3,154 views, 2.4 % likes) all put the game name **in the image**. **New standing rule: the thumbnail must state the game + the payoff, ≤4 words, readable at 168 px.** |
 
 ## 4. Key evidence (the "why" behind decisions)
@@ -77,27 +78,21 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 
 ## 5. Current state & open items
 
-- **Active series (Phase 2):** **Battlefield REDSEC Solos** (A) + **Black Ops 4 Zombies** (B). Optional: KF2 live events (C), Delta Force (D, filler). Buy: KF3. Watchlist: ECC: REDLINE.
-- **Closed as a format:** KF2 `map + perk + difficulty` titles (K1 = 20 views in 11.3 days). BO4 was never the problem — it was shelved on a bad number and is now Series B.
-- **Parked:** Call of Duty — attestation block *and* the content is uninstalled (creator needed the space for BF6).
-- **🟢 STRATEGIC PIVOT 2026-11-01: build the NAC library model** — one series, CoD Zombies, one map per upload, no commentary, re-upload the same maps on rotation. Plan + first 10 titles in `reports/2026-11-01-noannoyingcommentaryz-model-teardown.md`.
+- **Active series (Phase 3, 2026-11-01):** **one series only — CoD Zombies no-commentary library**, one map per upload, 3×/week, re-upload the same maps on rotation. Wave 1 = **BO4 (8 maps, owned, free)** → Wave 2 = **BOCW (5, owned)** → Wave 3 = **BO3 at Steam sale**. Full plan: `CONTENT-PLAN.md`.
+- **Closed as a format:** KF2 `map + perk + difficulty` titles (K1 = 20 views in 11.3 days). **KF2 excluded from Phase 3 entirely** despite being zombie FPS.
+- **Parked indefinitely:** Battlefield/REDSEC, Delta Force, Arena Breakout, PUBG, RoR2, Shatterline, KF3, ECC: REDLINE.
+- **🟢 STRATEGIC PIVOT 2026-11-01: build the NAC library model.** Research: `reports/2026-11-01-noannoyingcommentaryz-model-teardown.md`; execution: `CONTENT-PLAN.md`.
 - **Open items:**
-  - **[creator, BLOCKING] Buy + install BO3 Zombies Chronicles Edition (Steam, ₹5,399, 100 GB)** — unlocks **9 maps**: Shadows of Evil, Nacht, Verruckt, Shi No Numa, **Kino der Toten**, Ascension, Shangri-La, Moon, **Origins**. Verified 2026-11-01: **354.2 GB free on C:** → ~254 GB after install, **no uninstall needed**. **Nothing in the new strategy moves until this exists.**
-  - **[creator] Do NOT buy BO3 Deluxe (₹8,900)** — it adds only The Giant (=Der Riese), Eisendrache, Zetsubou, Gorod Krovi, Revelations, and just 2 of NAC's top-50 map-slots. À-la-carte (₹8,814) ≈ Deluxe, so neither is a bargain. If the channel proves out, buy **Eisendrache alone at ₹719**.
-  - **[creator] Do not merge series.** A library works because every upload feeds one query cluster. KF2 / REDSEC / RoR2 stay legacy; do not interleave them with Zombies uploads.
-  - **[creator, 5 min] Confirm the Solos playlist still exists in Season 5** (S5 replaced *Gauntlet* with *Rapid Royale*).
-  - **[creator] Benchmark BF6 + one throwaway recording** at 1080p low + DLSS/FSR Performance; target stable 60 fps, 0 dropped frames. Close Valorant/Vanguard first.
-  - **[creator] Disk + installs:** **355 GB free**. Uninstall **KF2 (94.8 GB)** if the event series isn't wanted, then install **Battle.net + BO4 (~55 GB)**. Optionally buy **KF3** on sale.
-  - **[creator] Preregister ECC: REDLINE on Steam** → watch for a global beta.
-  - **KF2 Elysium ("K2a") recorded 2026-10-14** — packaging ready (`reports/2026-10-14-kf2-elysium-run-review.md`); cadence bridge only (it names no live event).
+  - **[creator, BLOCKING] Install BOCW Zombies + BO4** (both already owned, Battle.net). Free — no purchase. **BOCW: select the Zombies pack only** (modular, skip campaign + MP) ≈ 35–50 GB. **BO4 has no modular install** ≈ 100–130 GB. The old attestation block should not apply to these legacy titles — verify on launch.
+  - **[creator] Reclaim disk first:** uninstall **Delta Force (95.5 GB)** + **ABInfinite (91.5 GB)** = **187 GB** back → 541 GB free. Both belong to discarded plans.
+  - **[creator] BO3 at Steam sale only** — Zombies Chronicles Edition **₹5,399 / 100 GB**, 9 maps. Full price today (`discount_percent: 0`, checked 2026-11-01). Wishlist it. **Do NOT buy Deluxe (₹8,900)** — it adds only The Giant, Eisendrache, Zetsubou, Gorod Krovi, Revelations, i.e. 2 of NAC's top-50 map-slots. If the channel proves out, buy **Eisendrache alone at ₹719**.
+  - **[creator] Do not merge series.** One query cluster only. No KF2, no REDSEC, no RoR2 uploads interleaved with Zombies.
+  - **Record 8 BO4 maps in one session** (Blood of the Dead → IX → Voyage → Tag der Toten → Alpha Omega → Ancient Evil → Classified → Dead of the Night), then 5 BOCW (Outbreak → Die Maschine → Firebase Z → Mauer → Forsaken). 13 uploads banked = 4+ weeks of 3×/week with zero game time.
+  - **🟢 Cadence restarted** — K2b published 2026-10-31 at 18.1 views/day (21× baseline). **CTR 0.9 %** remains the packaging lesson: thumbnail must state game + map.
+  - `eXFAFQxc6rc` (RoR2, off-series, 27 views in 28.9 days) — decide unlist vs leave. Now clearly off-strategy.
   - K1 (`IK5br0lhOBA`) description is **missing chapters** — add them.
-  - **🟢 Cadence restarted** — K2b published 2026-10-31. But **CTR 0.9 %** is now the binding packaging metric: impressions are available (≈1,650/20 h), the thumbnail isn't converting them. Fix the thumb before the next upload.
-  - **🔴 Cadence was the blocker; it is now half-solved.** 22 days with no upload, then K2b at **18.1 views/day (21× baseline)**. Output works; the 22-day gap was costing that. Keep 3/week. **0 / 9** planned Phase-2 slots still unfilled — R1 still does not exist.
-  - **K2b thumbnail swap open** — variants A (KF2 wordmark + Matriarch head + "MATRIARCH") and B ("7 WAVES · 0 DEATHS") specced in `reports/2026-11-01-k2b-24h-performance.md`; judge each on ≥500 impressions. **Do not re-title for search yet.**
-  - **[creator] K2a (KF2 Elysium) — do NOT publish next.** Two Normal/Commando KF2 runs back to back; keep as spare, go to R1.
-  - `eXFAFQxc6rc` (RoR2, off-series, **27 views in 28.9 days, 0.93/day**, +2 in the last week) — decide unlist vs leave.
-  - BO4 Zombies series never started (Z1 due Oct 9).
-  - Realistic target reset: this niche's median is ~100–3,000 **lifetime** views — the earlier "≥300 in 30 days" was optimistic.
+  - Legacy KF2/RoR2 uploads: **leave them**, do not delete. They cost nothing and are honest history.
+  - Realistic target reset: this niche's small-channel floor is **30–150 views/upload in year one** — the earlier "≥300 in 30 days" was optimistic.
 
 ## 6. Conventions & constraints
 
@@ -111,12 +106,11 @@ the plan in `CONTENT-PLAN.md`; the board in `KANBAN.md`.
 
 ## 7. Next actions
 
-1. **Creator (unblocks Series A):** confirm the **Solos** playlist exists in Season 5, benchmark BF6, record the first REDSEC Solos match — **close Valorant/Riot Vanguard first**. Target 20–40 min, 1080p60, ≈ −14 LUFS, one match per upload.
-2. **Creator (unblocks Series B):** uninstall **KF2** if unwanted (94.8 GB) → install **Battle.net + BO4** (~55 GB) → record **IX** first.
-3. **Creator (calendar):** every upload must name something live — check the current BF6 season/event and the current KF2 weekly before recording; refresh at each patch.
-4. **Creator (upside):** preregister **ECC: REDLINE**; buy **KF3** on sale.
-5. **Agent:** **K2b 7-day read** (target ≥40 views; CTR after thumbnail swap) and `/track` at 24 h / 7 d on R1; add chapters to K1; decide the RoR2 video; keep `DASHBOARD.md` current.
-6. **Creator now:** swap the K2b thumbnail (30 min, sources in `thumbnails/2026-10-31-kf2-blackforest/`), then run the capture test → record R1.
+1. **Creator (unblocks everything, in order):** uninstall **Delta Force + Arena Breakout Infinite** (187 GB) → install **BOCW Zombies pack only** → install **BO4** → **record all 8 BO4 maps in one session**.
+2. **Creator (banking):** 8 BO4 + 5 BOCW = **13 uploads banked** = 4+ weeks at 3×/week. Batch-record, then release Mon/Wed/Fri at ~13:00 UTC.
+3. **Creator (upside):** wishlist **BO3 Zombies Chronicles Edition** (₹5,399) and buy at the next Steam sale. Do not wait for it to start.
+4. **Creator (quality):** fix the pagefile (16–24 GB, needs reboot) before the first recording session. BO4/CW are light games — the bottleneck here is memory, not GPU.
+5. **Agent:** build the Zombies thumbnail template (`thumbnails/template-zombies.png`); 24 h / 7 d `/track` on Z1; keep `DASHBOARD.md` current; rewrite `KANBAN.md` for the 8 BO4 + 5 BOCW slots.
 
 ## 8. Useful IDs
 

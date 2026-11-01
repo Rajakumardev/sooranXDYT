@@ -1,171 +1,94 @@
 # SooranXD — Kanban Board
 
 Living production board for the channel. Move cards right as they progress.
-**Phase 2 series:** Battlefield **REDSEC Solos** (lead) + **Black Ops 4 Zombies**,
-no commentary · **Cadence:** 3×/week (Mon/Wed/Fri).
-Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md`
-Evidence: `reports/2026-10-14-phase2-demand-check.md` · `reports/2026-10-15-bo4-zombies-demand-check.md` · `reports/2026-10-15-game-pool-ranking.md`
+
+**Phase 3 series (from 2026-11-01): CoD Zombies library — one map per upload.**
+Owned games: **BO4 Zombies** (8 maps) · **BOCW Zombies** (4 + Outbreak). To buy: **BO3 Zombies Chronicles** (9 maps, at Steam sale).
+**Cadence:** 3×/week (Mon/Wed/Fri), slot ~13:00 UTC.
+Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md` · Model research: `reports/2026-11-01-noannoyingcommentaryz-model-teardown.md`
 
 > **How to use:** a card is a single upload. Move it between columns by editing
-> this file (or ask the `youtube-seo` agent: "move R3 to Packaging").
-> **Stage key:** 💡 Backlog → 📝 Planned → 🎬 Recording → ✂️ Editing → 🎨 Packaging → 📅 Scheduled → 🚀 Published → 📊 Reviewed
+> this file (or ask the agent: "move Z3 to Packaging").
+> **Stage key:** 💡 Backlog → 📝 Planned → 🎬 Recording → 🎨 Packaging → 📅 Scheduled → 🚀 Published → 📊 Reviewed
 >
-> **🔑 The rule that governs every card: name something that is live NOW**
-> (current season / update / event / launch). K1 died because
-> `Burning Paris · Commando · Normal` is an 11-year-old string; the same game's
-> live `Abandon All Hope` weekly got **36,588 views in 33 days** from a 2,720-sub
-> channel. Never ship a title whose only hook is a map + perk + difficulty.
+> **The three rules that govern every card:**
+> 1. **One map, one full run, zero editing.** If a card needs a cut, the card is wrong.
+> 2. **The title is a template, never a creative act:** `<GAME> ZOMBIES: <MAP> GAMEPLAY! (NO COMMENTARY)`.
+> 3. **The map list does not grow — the round count does.** Re-uploading a map is the model, not a shortcut.
 
 ---
 
 ## ⛔ Blocked on the creator
 
-- **[verify in-game, 5 min] Does the Solos playlist still exist in Season 5?**
-  Solos arrived in Season 3; Season 5 (2026-10-13) replaced *Gauntlet* with
-  *Rapid Royale*. Check the mode list before recording — Series A depends on it.
-- **[capture] Benchmark BF6 on this laptop once.** 1080p low + DLSS/FSR
-  Performance, target a stable 60 fps, then record one throwaway match and check
-  for dropped frames (the K2a VOD is the reference: exactly 60.000 fps).
-  **Close Valorant / Riot Vanguard first** — Javelin refuses to run with it open.
-- **[install] BO4 needs Battle.net + ~55 GB.** Not installed. Disk: **355 GB free**
-  now that CoD's content is gone.
-  - _Do first:_ uninstall **Killing Floor 2** (94.8 GB) — Phase 1 is closed and the
-    K2a VOD already exists locally → **+94.8 GB**.
-  - _Keep KF2 installed only if_ you want the event-run series (Series C) — then
-    install BO4 first and check space.
-- **[buy, optional] Killing Floor 3 on sale.** Recommended, tier above Delta Force
-  (`reports/2026-10-15-game-pool-ranking.md` §3). Halloween Horrors is live now.
+- **[uninstall, 10 min] Delta Force (95.5 GB) + Arena Breakout Infinite (91.5 GB) = 187 GB back.**
+  Both belong to discarded plans. Takes free space to **~541 GB**, which funds every CoD install plus years of raw footage.
+- **[install, free] BOCW Zombies — Zombies pack only.** E.g. **35–50 GB**, modular (skip campaign + MP).
+  The TPM 2.0 / Secure Boot attestation block does **not** apply — that belongs to BO7/Warzone.
+- **[install, free] BO4 — full install, ~100–130 GB.** No modular install on this title.
+- **[fix, 15 min + reboot] Pagefile → fixed 16–24 GB on C:.**
+  Measured 2026-10-15: committed memory hit **19.9 GB of a 21.3 GB limit (93 %)** with a 2.9 GB pagefile. Memory is this machine's real bottleneck, not the GPU. Do this before the first recording session.
+- **[buy, when on sale] BO3 Zombies Chronicles Edition — ₹5,399 / 100 GB.** Wishlist it.
+  **Do not buy Deluxe (₹8,900).** It adds only The Giant, Eisendrache, Zetsubou, Gorod Krovi, Revelations — 2 of NAC's top-50 map-slots. Eisendrache alone is ₹719 if the channel proves out.
 
 ---
 
-## 👀 Watchlist (prepare, don't plan)
+## 🎬 Wave 1 — BO4 (record all 8 in one session, then bank the releases)
 
-- **[ECC: REDLINE](https://store.steampowered.com/app/5268340/ECC_REDLINE/)** —
-  NetEase's Warzone-style BR, revealed **2026-10-09**. Steam "Coming Soon", global
-  preregistration open, **no release date**; the first PC test (2026-10-15) is
-  **China-domestic, limited, data-wipe**. Its reveal-week videos are already doing
-  **1,969–49,592 views/day**.
-  - _Action now:_ **preregister on Steam.** _Action on a global beta / launch:_
-    publish a day-one no-commentary video. Highest-upside single upload available.
+| Card | Map | Title | Stage |
+| --- | --- | --- | --- |
+| Z1 | Blood of the Dead | `BLACK OPS 4 ZOMBIES: BLOOD OF THE DEAD GAMEPLAY! (NO COMMENTARY)` | 📝 Planned |
+| Z2 | IX | `BLACK OPS 4 ZOMBIES: IX GAMEPLAY! (NO COMMENTARY)` | 📝 Planned |
+| Z3 | Voyage of Despair | `BLACK OPS 4 ZOMBIES: VOYAGE OF DESPAIR GAMEPLAY! (NO COMMENTARY)` | 📝 Planned |
+| Z4 | Tag der Toten | `BLACK OPS 4 ZOMBIES: TAG DER TOTEN GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z5 | Alpha Omega | `BLACK OPS 4 ZOMBIES: ALPHA OMEGA GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z6 | Ancient Evil | `BLACK OPS 4 ZOMBIES: ANCIENT EVIL GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z7 | Classified | `BLACK OPS 4 ZOMBIES: CLASSIFIED GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z8 | Dead of the Night ⚠️ | `BLACK OPS 4 ZOMBIES: DEAD OF THE NIGHT GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
 
----
+**Z1–Z3 are proven demand** (NAC: 270,364 / 158,077 / 82,693 lifetime). **Z4–Z8 are gaps** — NAC has never uploaded these maps.
+⚠️ **Z8 must keep the `BLACK OPS 4 ZOMBIES:` prefix** — the phrase is dominated by the horror game *At Dead of Night*.
 
-## 🅿️ Parked / dropped
+## 🎬 Wave 2 — BOCW (4 maps + Outbreak)
 
-- **CALL OF DUTY — parked (twice over).** Attestation rejected the BIOS *and* the
-  168 GB of content is now uninstalled so BF6 can stay. If it ever returns, BO7
-  Zombies per-map is the highest-ceiling lane measured (**4,121–80,892 views per
-  map upload**). Attestation evidence: TPM 2.0 ✅, Secure Boot ✅, UEFI ✅, only
-  failure is a TPM **AIK enrollment** error (`0x80072EE7`); fix order = BIOS update
-  (G513IE.329 is 2023-01) → `tpm.msc` re-provision → retry.
-- **BO4 ZOMBIES (Phase 1 framing) — unparked.** The "floor = 5–18 views" figure was
-  wrong; measured **median 80,952** with a 338-sub channel at 41,800. Now Series B.
-- **KF2 map+perk long-form — dropped as a format**, not as a game: it is back as
-  **event/weekly runs only** (Series C).
-- **RISK OF RAIN 2 / longplay** — dropped (not the creator's interest). Archived:
-  `reports/2026-10-03-ror2-10-video-plan.md`.
-- **THE FINALS / APEX / FORTNITE** — dropped (kernel anti-cheat).
-- **PUBG** — runs natively on this Windows boot; bench only.
+| Card | Map | Title | Stage |
+| --- | --- | --- | --- |
+| Z9 | Outbreak | `BLACK OPS COLD WAR ZOMBIES: OUTBREAK GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z10 | Die Maschine | `BLACK OPS COLD WAR ZOMBIES: DIE MASCHINE GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z11 | Firebase Z | `BLACK OPS COLD WAR ZOMBIES: FIREBASE Z GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z12 | Mauer der Toten | `BLACK OPS COLD WAR ZOMBIES: MAUER DER TOTEN GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
+| Z13 | Forsaken | `BLACK OPS COLD WAR ZOMBIES: FORSAKEN GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |
 
----
+**Z9 is the single strongest card on this board:** NAC's Outbreak upload is **259,220 views** — their 5th biggest video overall — and Outbreak's open-world structure means every run is different, so it re-uploads forever.
 
-## 💡 Backlog & Ideas
+## 🔁 Wave 3 — BO3 (unlocks the biggest map in the niche)
 
-- **[idea] REDSEC win hunt** — a series arc toward the first solo win (80-player
-  lobbies, no redeploys). Win-framed median **49,485** vs **28,020** general — the
-  strongest hook in the data.
-- **[idea] BO4 Zombies per-map run** — 8 pre-packaged uploads (IX, Voyage of
-  Despair, Blood of the Dead, Classified, Dead of the Night, Ancient Evil, Alpha
-  Omega, Tag der Toten).
-- **[idea] BO4 high-round hook** — `Round 100 On [MAP]` precedent: a 12,700-sub
-  channel got **2,777–15,520 views per map**; a 179K channel hit 1,837 views/day
-  with a *fresh* round-100 compilation.
-- **[idea] KF2 event/weekly runs** — publish only while an event is live
-  (`Abandon All Hope`, Halloween Cemetery, future weeklies). `KF2 [EVENT] Solo
-  [Perk]`.
-- **[idea] KF3 Halloween Horrors run** (after purchase) — `KILLING FLOOR 3
-  [MODE/MAP] SOLO GAMEPLAY (NO COMMENTARY)`.
-- **[idea] REDSEC class / Training-Path rotation** — Assault → Engineer → Support →
-  Recon → Hazmat Breacher / Pointman / Provisioner / Mechanized Infantry.
-- **[idea] Rapid Royale** (new in Season 5) — fresh keyword, probably thin in the
-  no-commentary space.
-- **[idea] Delta Force Operations** — filler only (median 2,646; small-channel
-  floor 48–500).
-- **[idea] Arena Breakout: Infinite** — installed (91.3 GB); unmeasured.
-- **[idea] Shorts** — 30–60 s final-circle / clutch clips. The legacy channel's
-  best like-ratios (6–9.4%) were on 15–41 s clips.
+Kino der Toten · Origins · Shadows of Evil · Moon · Nacht · Shi No Numa · Ascension · Shangri-La · Verruckt.
+**Origins alone: 1,928,167 views** on a single NAC upload. Opens only when the sale lands.
+
+## 🔄 The rotation engine (starts at Z14)
+
+Do not add maps. Vary the run, keep the title pattern exact:
+
+- `... GAMEPLAY! (NO COMMENTARY)` — plain full run
+- `... ROUND [X] GAMEPLAY! (NO COMMENTARY)` — only if the end screen shows it
+- `... NO DOWNS GAMEPLAY! (NO COMMENTARY)` — only if true
+- `... SOLO GAMEPLAY! (NO COMMENTARY)` — solo framing
+
+**Never invent a round number or a "no downs" claim.** Read both off the end screen.
 
 ---
 
-## 📝 Planned (titles locked from measured demand)
+## 🅿️ Parked / dropped (2026-11-01)
 
-Two series alternating — REDSEC is the growth bet (live game, new season), BO4
-Zombies the durable one (proven per-map demand, ~8 pre-packaged uploads, no
-production friction). Both use the same plain CAPS keyword-first pattern the
-niche leaders use.
+- **Battlefield 6 / REDSEC Solos** — different genre, different query cluster.
+- **Delta Force** — only 3/10 results no-commentary; measured median 2,646.
+- **Arena Breakout: Infinite, PUBG** — installs only, never a series.
+- **Risk of Rain 2** — off-format; `eXFAFQxc6rc` did 27 views in 28.9 days.
+- **Shatterline / legacy CoD multiplayer** — dead keyword space.
+- **KF2 as a series** — zombie FPS, but not CoD Zombies; per-map keywords measured dead (top result 2,774 lifetime views; K1 = 20 views in 11.3 days). Breaks the cluster.
+- **KF3, ECC: REDLINE** — out of scope this cycle.
+- **Call of Duty HQ / BO6 / BO7 / Warzone** — the attestation block (`0x80072EE7`) still stands for these titles. **It does not affect BO4 or BOCW.**
 
-- [ ] **R1 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` · Mon
-- [ ] **Z1 · BO4 Zombies** — `BLACK OPS 4 ZOMBIES: IX GAMEPLAY! (NO COMMENTARY)` · needs Battle.net + install
-- [ ] **R2 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` · **promote the first win here, whenever it happens**
-- [ ] **Z2 · BO4 Zombies** — `BLACK OPS 4 ZOMBIES: VOYAGE OF DESPAIR GAMEPLAY! (NO COMMENTARY)`
-- [ ] **R3 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` · only if kills ≥ 10
-- [ ] **Z3 · BO4 Zombies** — `BLACK OPS 4 ZOMBIES: BLOOD OF THE DEAD GAMEPLAY! (NO COMMENTARY)`
-- [ ] **R4 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)`
-- [ ] **Z4 · BO4 Zombies** — `BLACK OPS 4 ZOMBIES: CLASSIFIED GAMEPLAY! (NO COMMENTARY)`
-- [ ] **K1b · KF2 event run** — `KILLING FLOOR 2 [LIVE EVENT] SOLO [PERK] (NO COMMENTARY)` · only while an event is live
-- [ ] **R5 · REDSEC Solos** — `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)`
+## 📌 Legacy uploads
 
-_Specs for all of them:_ one run/match per upload, **20–40 min**, no commentary,
-audio ≈ −14 LUFS, chapters every upload, thumbnail = result badge (`WIN` /
-`ROUND X` / `[X] KILLS`) over the key moment. Never claim 4K from a 1080p source.
-
----
-
-## 🎬 Recording
-
-_(empty — nothing recorded for Phase 2 yet)_
-
----
-
-## ✂️ Editing
-
-- [ ] **K2a · KF2 Elysium — solo Commando (Normal, 7 waves, Patriarch down, victory)** · recorded **2026-10-14 14:37–14:59** · 21:34 @ 1080p60.
-  - **Review:** `reports/2026-10-14-kf2-elysium-run-review.md` · **Thumbnail:** `thumbnails/2026-10-14-kf2-elysium-commando.png` (ready)
-  - **Title (locked):** `Killing Floor 2: Elysium Solo Commando — Patriarch Down (No Commentary)`
-  - _Next action:_ trim the ~45 s post-match tail, raise audio ~+5 dB (source is −19.5 LUFS), paste description + chapters from the review.
-  - _Note:_ **Normal**, not Hell on Earth — must **not** carry the `Hell on Earth` keyword, and it names **no live event** → treat it as a cadence bridge, not a growth upload. A new **event-tied KF2 run would out-perform it** (see the rule at the top).
-
-- [x] **K2b · KF2 Black Forest — solo Commando (Normal, 7 waves, Matriarch down, victory)** · recorded **2026-10-31 15:35–15:57** · 21:55 @ 1080p60 · **117 kills / 115 headshots / 0 deaths**.
-  - **Edit v3 (2026-10-31):** nothing cut — every wave interval at **5×** + every trader menu at **10×**, hook removed → **21:55 → 14:35**, audio restored on every clip (+4 dB action, −6 dB walks, −12 dB menus; nothing muted). `reports/2026-10-31-kf2-blackforest-edit.md` · project `edits/2026-10-31-kf2-blackforest-fasttraders.kdenlive` · master `C:\Users\rk\Videos\2026-10-31-KF2-BlackForest-Solo-Commando-Normal-EDIT-FINAL.mp4`.
-  - _Note:_ the older `…-EDIT.mp4` (19:55) is the superseded **v1** — do not upload.
-  - **Thumbnail frames (6):** `thumbnails/2026-10-31-kf2-blackforest/` — pick = **19:15 Matriarch reveal** (`05-1915-matriarch-reveal`); alt = **21:08 Matriarch death gore**. Review: `reports/2026-10-31-kf2-blackforest-thumbnail-frames.md`.
-  - **Chapters:** in the project as markers (00:00 Loadout · 01:16 W1 · 02:48 W2 · 05:14 W3 · 08:05 W4 · 10:44 W5 · 13:18 W6 · 16:46 W7 · 17:15 Matriarch · 19:07 down · 19:29 Results).
-  - _Next action:_ pick a thumbnail frame, add title/description from the review, decide publish slot.
-  - _Note:_ second Normal/Commando KF2 run on disk (after K2a) → **do not publish both back to back**; still a cadence bridge, not a growth upload.
-
----
-
-## 🎨 Packaging
-
-_(empty)_
-
----
-
-## 📅 Scheduled
-
-_(empty — slots stay Mon / Wed / Fri)_
-
----
-
-## 🚀 Published (measure 24h / 7d / 30d)
-
-- [ ] **`IK5br0lhOBA` · K1 — KF2 Burning Paris Commando (solo, Normal, victory)** — published **2026-10-09 17:56** · 16:16 · **20 views in 11.3 days (1.78/day), 3 likes (15%)**, 0 comments.
-  - **Diagnosis:** not "KF2 is dead" — the *keyword* was dead (map + perk + difficulty, no live event).
-  - **Fix:** add chapters + `▶ Result: Victory` to the description (still missing).
-- [ ] **OUT-OF-SERIES · `eXFAFQxc6rc`** — RoR2, published 2026-10-02 · views: 23 · off-series (pending unlist decision).
-
----
-
-## 📊 Reviewed (archived)
-
-_(move cards here once the 30-day numbers are logged)_
+K1 (`IK5br0lhOBA`), K2b (`s55NY7In3A4`), RoR2 (`eXFAFQxc6rc`) — **leave them up.** They cost nothing, they are honest history, and deleting them changes no metric. Just stop adding to that pile.

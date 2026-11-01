@@ -1,363 +1,269 @@
-# SooranXD — Content Plan (Phase 2: Battlefield REDSEC Solos + Delta Force)
+# SooranXD — Content Plan (Phase 3: the pure CoD Zombies library)
 
-- **Updated:** 2026-10-14
-- **Constraint:** **disk + one game slot — not hardware.** Records on a **Windows**
-  boot of the ASUS ROG Strix G513IE (RTX 3050 Ti Laptop, 3,962 MB VRAM, 15.4 GB
-  RAM, 1080p, **355 GB free**). BF6 and BO4 co-exist fine; CoD's 168 GB does not.
-- **Phase 2 games:** **Battlefield REDSEC Solos** (lead) · **Black Ops 4 Zombies**
-  (second series). Bench: Delta Force, PUBG, Arena Breakout: Infinite.
-- **Not available — Call of Duty.** Parked twice over: the attestation wizard
-  rejected the BIOS, and the 168 GB of content has now been uninstalled so BF6
-  can stay. (If it ever returns, BO7 Zombies is the highest-ceiling lane measured:
-  4,121–80,892 views per map upload.)
-- **Cadence:** 3×/week (Mon / Wed / Fri)
-- **Tracker:** `KANBAN.md` · **Metrics:** `DASHBOARD.md` · **Decision record:**
-  `reports/2026-10-14-phase2-pivot-battlefield-redsec-delta-force.md`
-
-> **Changed on 2026-10-14.** Phase 1 (KF2 + BO4 Zombies on Linux) is closed:
-> K1 = 20 views in 11.3 days (1.78/day), and the K2a review confirmed the KF2 map+perk keyword space is
-> dead. The previous plan's premise — "BR is blocked until a PS5 / decent
-> Windows PC" — is obsolete: this laptop already runs the whole BR pool. The one
-> thing that does *not* run is **Call of Duty** (attestation rejects the BIOS).
->
-> **Demand is measured, not assumed** — see
-> `reports/2026-10-14-phase2-demand-check.md` (BF6 REDSEC) and
-> `reports/2026-10-15-bo4-zombies-demand-check.md` (BO4 Zombies).
-> `Battlefield REDSEC Solos no commentary` median **28,020 views** (win-framed
-> **49,485**); `Black Ops 4 zombies no commentary` median **80,952** with a
-> **338-sub channel pulling 41,800**. Compare **K1 = 20 views**. Titles below are
-> locked from that data.
->
-> **2026-10-15 update.** CoD is out (attestation + disk) — **BO4 Zombies replaces
-> Delta Force as Series B**. The old "BO4 floor = 5–18 views" note in
-> `MEMORY.md`/`DASHBOARD.md` is **superseded** and was the reason the Z-series was
-> shelved prematurely.
-
-## 🔑 The rule: publish against what is live NOW
-
-**Demand lives in the current keyword — the patch, season, event or launch — not
-in the game.** Same game, same format, opposite outcome:
-
-| Game | Stale keyword | Live event/season keyword |
-| --- | --- | --- |
-| KF2 | K1 `Burning Paris Commando (Normal)` = **20 views / 11.3d** (was logged as 6 at 24 h) | `Abandon All Hope` weekly → **2,720-sub channel: 36,588 views in 33 days (1,112/day)** |
-| BF6 | — | Season 5 live (2026-10-13) → past-month no-commentary floor **5,965** |
-| KF3 | — | Halloween Horrors live → **14,200-sub channel: 114,049 views** |
-| ECC: REDLINE | — | reveal week → **1,969–49,592 views/day** |
-
-**Operating rule for every upload:** the title must name something that changed
-this month (season, update, event, map, launch). A pure `map + perk + difficulty`
-title is the K1 mistake. Refresh the keyword at every patch — the events
-themselves are the calendar.
-
-## What changed and why (evidence)
-
-| Fact | Evidence |
-| --- | --- |
-| Battlefield 6 / REDSEC installed & played here | Steam: Battlefield 6 **117.6 GB**, profile written **2026-10-14 14:59** |
-| Delta Force, PUBG, Arena Breakout installed | Steam library + manifests (Oct 13–14) |
-| CoD installed (168.5 GB) but **cannot launch** | attestation wizard "BIOS outdated"; see pivot report §4 |
-| REDSEC **Solos exists** (80 players, added Season 3) | [EA: Battle Royale Solos Mode Guide](https://www.ea.com/games/battlefield/redsec/news/battle-royale-solos-guide-tips-and-tricks) |
-| Season 5 landed **2026-10-13** (Rapid Royale, Nevada maps, Dead Space PvE) | [Battlefield 6 — Season 5](https://www.ea.com/games/battlefield/redsec/seasons/redsec-season-5) |
-| KF2 map+perk long-form is a dead keyword | K1 = 20 views in 11.3 days; "Burning Paris Commando" #1 result = 2,774 views in 11 years |
-
-## Phase overview
-
-| Phase | Games | Format | Status |
-| --- | --- | --- | --- |
-| 1 | KF2, BO4 Zombies | No-commentary PvE | **Closed as a format** — BO4 is revived as Series B; KF2 only as live-event runs |
-| **2 (now)** | **Battlefield REDSEC Solos** (A) · **Black Ops 4 Zombies** (B) | **Solo BR / per-map PvE, no commentary** | **Active** |
-| Optional | KF2 live events (C) · Delta Force (D, filler) | Event runs / extraction | KF2 installed · Delta Force installed |
-| Buy | Killing Floor 3 | Solo survival, no commentary | Buy on sale — a tier above Delta Force |
-| Watchlist | **ECC: REDLINE** (NetEase) | Solo BR, no commentary | Preregister; no release date yet |
-| Unavailable | Call of Duty (BO7 Zombies, Warzone) | — | attestation block + content uninstalled |
+- **Updated:** 2026-11-01
+- **Model:** `@NoAnnoyingCommentaryZ` — see `reports/2026-11-01-noannoyingcommentaryz-model-teardown.md`
+- **Format:** No-commentary CoD Zombies. **One map, one full run, one upload. Zero editing.**
+- **Cadence:** 3×/week (Mon / Wed / Fri), slot ~**13:00 UTC**
+- **Tracker:** `KANBAN.md` · **Metrics:** `DASHBOARD.md`
 
 ---
 
-## Series A — Battlefield REDSEC Solos (lead)
+## 1. The decision
 
-**Format:** one full Solos match per upload — drop → circle → final circle →
-result. Win, or a clean high-placement run with kills. **No commentary, game
-audio only.**
+**The channel becomes a CoD Zombies library and nothing else.** One brand promise, one query cluster, one title pattern, forever.
 
-**Why this one:** it is the *only* mode here that is simultaneously (a) solo by
-design, (b) huge and growing — BF6 outsold Black Ops 7, the first Battlefield
-ever to do so — (c) free-to-play, (d) brand-new content (Season 5, 2026-10-13),
-and (e) provably viable for a small no-commentary channel (the Warzone analogue:
-Ultra No Commentary, 13.2K subs in 14 months, ~1 upload/day).
+### Discarded — closed 2026-11-01, do not revisit
 
-**The mode's own rules give us the hooks.** Solos has **80 players**, no
-redeploys, **no defibrillators**, a **faster circle** than Duos/Quads, and
-**no tanks**. A win is a real, honest "I did this alone" result — never inflate it.
-
-**Title formula — matched to the pattern that actually ranks** (measured 2026-10-14; see `reports/2026-10-14-phase2-demand-check.md`):
-
-```
-BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)
-```
-
-The no-commentary leaders in this niche (`NoAnnoyingCommentary` 503K subs,
-`Marshal No Commentary` 404K) all use **upper-case, keyword-first, near-identical
-titles on every upload** — the catalogue does the work, not the wordplay. So:
-
-| Situation | Title |
+| Dropped | Why |
 | --- | --- |
-| Won the match | `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` |
-| Won with ≥10 kills | `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` |
-| Good run, no win | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` |
+| Battlefield 6 / REDSEC Solos | Different genre, different audience, different query cluster. Splits the library. |
+| Delta Force | Only 3/10 results no-commentary; measured median 2,646 |
+| Risk of Rain 2 | Off-format, off-genre, 27 views in 28.9 days |
+| Shatterline / legacy CoD multiplayer | Dead keyword space (Galizma: ≈3 views/day at 23.9K subs) |
+| KF2 as a series | **Zombie FPS, but not CoD Zombies.** Per-map keywords measured dead: top result for "Burning Paris Commando" = 2,774 lifetime views; K1 = 20 views in 11.3 days. Breaks the cluster. |
+| KF3 purchase · ECC: REDLINE watchlist | Out of scope now |
 
-**"WIN" is the highest-converting framing in the data:** the win-framed query has
-a median of **49,485 views vs 28,020** for general Solos lookups. Only ever say
-"win" when the VOD shows the win. Kill counts must be read off the end screen.
+> **Why KF2 is out even though it *is* a zombie shooter:** a library works because every upload reinforces the same search cluster. NAC Z runs **only CoD Zombies** — their other genres live on separate channels (`@NoAnnoyingCommentary` = Warzone, `@NoAnnoyingCommentarySpecOps`). Mixing KF2 into the CoD Zombies feed means neither gets a coherent cluster.
 
-**Length:** 20–36 min is the niche norm (Marshal 21–24 min, NoAnnoyingCommentary
-22–43 min, Threatty 22, DeeV 22). Keep one match per upload and **do not split
-runs into parts**.
+### Owned vs. needed
 
-Searchable in-game terms, usable verbatim in titles/tags: `REDSEC`, `Solos`,
-`Fort Lyndon`, class + training path names (`Recon`, `Assault`, `Hazmat Breacher`,
-`Pointman`, `Provisioner`, `Mechanized Infantry`), POIs (`Golf Course`, `Marina`,
-`Area 22B`, `Downtown`, `Tech Centre`, `Defense Complex 3`), `NXC circle`,
-`Second Chance`, `Rapid Royale`.
+| Game | Licence | Installed? | Maps |
+| --- | --- | --- | --- |
+| **BO4 Zombies** | ✅ **owned** | ❌ not on disk | **8 maps** |
+| **BOCW Zombies** | ✅ **owned** | ❌ not on disk | **4 maps + Outbreak** |
+| **BO3 Zombies** | ❌ to buy at Steam sale | ❌ | 9 (CZE) / 14 (Deluxe) |
 
-## Series B — Black Ops 4 Zombies (per-map, no commentary)
+**Verified on disk 2026-11-01:** Steam library has no CoD (`Call of Duty HQ` folder = **0.0 GB**, empty stub). Battle.net is installed but has **no `product.db`** and no game folders. So BO4 and BOCW are **licensed but not downloaded** — installing them is free.
 
-**Platform:** BO4 runs on this PC (Battle.net). **Not installed yet** — needs
-~55 GB download (up to ~163 GB if every component is installed).
+**Good news on the old blocker:** the TPM 2.0 / Secure Boot **attestation requirement belongs to Black Ops 7 / Warzone (current CoD HQ)** — the thing that failed with `0x80072EE7`. **BO4 (2018) and BOCW (2020) are separate legacy Battle.net titles and do not use that flow.** Verify on install, but this should not block you.
 
-**Format:** one map per upload, a clean solo run — the format the workspace
-already planned as Z1–Z5. No commentary, no voice, self-contained.
-
-**Title formula — the exact pattern the leaders use** (NoAnnoyingCommentary Z,
-66.8K subs, 81–266 views/day on BO4 maps; and Riverhawk, **338 subs → 41,800
-views**):
+### Disk plan — verified 2026-11-01
 
 ```
-BLACK OPS 4 ZOMBIES: [MAP] GAMEPLAY! (NO COMMENTARY)
+C:  354.2 GB free  of  952.8 GB
 ```
 
-High-round hook variant — real precedent: WvyyFPS (12.7K subs) got **2,777–15,520
-views** per map with `Round 100 On [MAP] In 2023! BO4 Zombies`:
+| Action | GB |
+| --- | --- |
+| BOCW — **Zombies pack only** (modular, skip campaign + MP) | ≈ 35–50 |
+| BO4 — full install (no modular install on this title) | ≈ 100–130 |
+| BO3 — at sale | 100 |
+| **Subtotal needed** | **≈ 235–280** |
 
-```
-BLACK OPS 4 ZOMBIES: [MAP] — ROUND [X] GAMEPLAY! (NO COMMENTARY)
-```
+**Reclaimable immediately — both belong to discarded plans:**
 
-**Maps (8 uploads pre-packaged, all real search terms):** IX · Voyage of Despair ·
-Blood of the Dead · Classified · Dead of the Night · Ancient Evil · Alpha Omega ·
-Tag der Toten.
+| Uninstall | GB |
+| --- | --- |
+| `Delta Force` | **95.5** |
+| `ABInfinite` (Arena Breakout: Infinite) | **91.5** |
+| **Total reclaimed** | **187.0** |
+| `killingfloor2` (if you want it gone) | 94.8 |
 
-**Measured demand** (`reports/2026-10-15-bo4-zombies-demand-check.md`):
+**Recommendation: uninstall Delta Force + Arena Breakout Infinite → 541 GB free.** That covers every CoD install plus ~2 years of raw footage without ever thinking about disk again. Killing Floor 2 is optional — 94.8 GB for a game that isn't in the plan.
 
-| Query | median views | max |
+---
+
+## 2. Why this model and not a "series"
+
+NAC Z's own numbers, measured 2026-11-01:
+
+| | |
+| --- | --- |
+| Subs / views / videos | 67,000 · 31.3 M · 1,360 |
+| Cadence, last 91 days | **40 uploads — one per 2.3 days** |
+| Every recent upload | **4,000–9,000 views, flat** |
+| Title, every upload | `<GAME> ZOMBIES: <MAP> GAMEPLAY! (NO COMMENTARY)` |
+
+**The mechanic that solves your supply problem: they re-upload the same map forever.** In 91 days *FIVE* went up **6 times** and *Kino* **4 times**. Kino has been uploaded ≥7 times across the channel's life; the October 2026 re-upload still did 9,038 views.
+
+So you never need "new content." You need **9 maps and a rotation.** One 45-minute run = one upload = ~10 minutes of packaging.
+
+**What does not transfer:** 9 years of search authority, 67 K subs, and a **503 K-sub sibling channel** (`@NoAnnoyingCommentary`) cross-promoting in every description. Measured floor for small channels in this space stays **30–150 views per upload in year one.** This is a 12–24 month compounding play that produces a *floor*, not a hit.
+
+---
+
+## 3. Map inventory with measured demand
+
+Lifetime views of NAC's uploads on each map (from their top-200 catalogue). **This is the only demand ranking that matters** — it is the leader's own performance on the exact keyword you will use.
+
+### BO4 Zombies — 8 maps, **recordable today**
+
+| Map | NAC uploads | NAC lifetime views | Status |
+| --- | --- | --- | --- |
+| **Blood of the Dead** | 1 | **270,364** | proven |
+| **IX** | 2 | **158,077** | proven |
+| **Voyage of Despair** | 1 | **82,693** | proven |
+| **Tag der Toten** | 0 | — | **gap** |
+| **Alpha Omega** | 0 | — | **gap** |
+| **Ancient Evil** | 0 | — | **gap** |
+| **Classified** | 0 | — | **gap** |
+| **Dead of the Night** | 0 | — | **gap** ⚠️ |
+
+**BO4 has the highest average views per upload of any game in NAC's catalogue — 127,782 across 4 uploads — and 5 of its 8 maps are unclaimed.** That is the single best opening available to you and it costs ₹0.
+
+⚠️ **`Dead of the Night` is keyword-polluted.** The phrase collides with the horror game *At Dead of Night*, which dominates the search results. The `BLACK OPS 4 ZOMBIES:` prefix in the title is what disambiguates it — never shorten that title.
+
+### BOCW Zombies — 4 maps + Outbreak, **recordable today**
+
+| Map / mode | NAC uploads | NAC lifetime views | Status |
+| --- | --- | --- | --- |
+| **Outbreak** | 1 | **259,220** | proven — 5th biggest video on the channel |
+| **Die Maschine** | 1 | **22,673** | thin coverage |
+| **Mauer der Toten** | 2 | **42,751** | thin coverage |
+| **Firebase Z** | several, all < 18 K | — | covered but weak |
+| **Forsaken** | ~0 | — | **gap** |
+
+Outbreak is the standout — and it is also the *only* mode here with near-infinite variety (open-world zones, escalating objectives), which makes it the perfect engine for the re-upload mechanic.
+
+### BO3 Zombies — buy at the Steam sale
+
+₹5,399 · 100 GB · **9 maps**: Shadows of Evil, Nacht, Verruckt, Shi No Numa, **Kino der Toten**, Ascension, Shangri-La, Moon, **Origins**.
+
+Highest-demand map in the entire niche: **Origins — 1,928,167 views** on one upload. **Kino — ~658,000 across 5 uploads.** This is the crown jewel and the reason to buy — but it is **purchase #3, not #1**, because you can start working today for free.
+
+Do **not** buy Deluxe (₹8,900) — it adds only The Giant, Eisendrache, Zetsubou, Gorod Krovi, Revelations, and just 2 of NAC's top-50 map-slots. À-la-carte (₹8,814) is no better. If the channel proves out, **Eisendrache alone is ₹719**.
+
+---
+
+## 4. Sequencing — three waves
+
+| Wave | Game | Maps | Blocker |
+| --- | --- | --- | --- |
+| **1 (now)** | BO4 Zombies | 8 | install only |
+| **2 (week 3)** | BOCW Zombies | 5 | install only |
+| **3 (at sale)** | BO3 Zombies | 9–14 | ₹5,399 purchase |
+
+**Start with BO4.** Highest per-upload demand in the catalogue, 5 unclaimed maps, already owned.
+
+---
+
+## 5. First 20 uploads
+
+Everything in rows 1–13 is **recordable the day the install finishes.** No purchase, no waiting.
+
+| # | Game | Title |
 | --- | --- | --- |
-| `Black Ops 4 zombies no commentary` | **80,952** | 2,625,218 |
-| `BO4 zombies high round no commentary` | 80,952 | 5,940,712 |
-| `black ops 4 zombies round 100` | 135,734 | 2,440,708 |
-| `black ops 4 zombies solo gameplay` | 525,320 | 2,625,218 |
+| 1 | BO4 | `BLACK OPS 4 ZOMBIES: BLOOD OF THE DEAD GAMEPLAY! (NO COMMENTARY)` |
+| 2 | BO4 | `BLACK OPS 4 ZOMBIES: IX GAMEPLAY! (NO COMMENTARY)` |
+| 3 | BO4 | `BLACK OPS 4 ZOMBIES: VOYAGE OF DESPAIR GAMEPLAY! (NO COMMENTARY)` |
+| 4 | BO4 | `BLACK OPS 4 ZOMBIES: TAG DER TOTEN GAMEPLAY! (NO COMMENTARY)` |
+| 5 | BO4 | `BLACK OPS 4 ZOMBIES: ALPHA OMEGA GAMEPLAY! (NO COMMENTARY)` |
+| 6 | BO4 | `BLACK OPS 4 ZOMBIES: ANCIENT EVIL GAMEPLAY! (NO COMMENTARY)` |
+| 7 | BO4 | `BLACK OPS 4 ZOMBIES: CLASSIFIED GAMEPLAY! (NO COMMENTARY)` |
+| 8 | BO4 | `BLACK OPS 4 ZOMBIES: DEAD OF THE NIGHT GAMEPLAY! (NO COMMENTARY)` |
+| 9 | BOCW | `BLACK OPS COLD WAR ZOMBIES: OUTBREAK GAMEPLAY! (NO COMMENTARY)` |
+| 10 | BOCW | `BLACK OPS COLD WAR ZOMBIES: DIE MASCHINE GAMEPLAY! (NO COMMENTARY)` |
+| 11 | BOCW | `BLACK OPS COLD WAR ZOMBIES: FIREBASE Z GAMEPLAY! (NO COMMENTARY)` |
+| 12 | BOCW | `BLACK OPS COLD WAR ZOMBIES: MAUER DER TOTEN GAMEPLAY! (NO COMMENTARY)` |
+| 13 | BOCW | `BLACK OPS COLD WAR ZOMBIES: FORSAKEN GAMEPLAY! (NO COMMENTARY)` |
+| 14 | BO4 | `BLACK OPS 4 ZOMBIES: BLOOD OF THE DEAD GAMEPLAY! (NO COMMENTARY)` |
+| 15 | BOCW | `BLACK OPS COLD WAR ZOMBIES: OUTBREAK GAMEPLAY! (NO COMMENTARY)` |
+| 16 | BO4 | `BLACK OPS 4 ZOMBIES: IX GAMEPLAY! (NO COMMENTARY)` |
+| 17 | BO3* | `BLACK OPS 3 ZOMBIES: KINO DER TOTEN GAMEPLAY! (NO COMMENTARY)` |
+| 18 | BO3* | `BLACK OPS 3 ZOMBIES: ORIGINS GAMEPLAY! (NO COMMENTARY)` |
+| 19 | BO3* | `BLACK OPS 3 ZOMBIES: SHADOWS OF EVIL GAMEPLAY! (NO COMMENTARY)` |
+| 20 | BO3* | `BLACK OPS 3 ZOMBIES: MOON GAMEPLAY! (NO COMMENTARY)` |
 
-**Fresh uploads still move:** King Roberts (179K subs) did **135,734 views in 74
-days** and **260,004 in 106 days** (~1,800–2,500/day).
+\* BO3 rows slip to whenever the sale lands. If it hasn't happened by upload 17, **repeat the loop at 14–16** rather than introducing a new game.
 
-**Honest expectation at 21 subs: 100–1,000 views per map upload** in the first
-months. The floor is not 41,800 — that number took 825 days to accumulate. What
-makes this series worth running is that it has **proven per-map demand, ~8
-pre-packaged uploads, and zero production friction** for this creator.
+**Rows 14–16 are not repeats. They are the model.** Same map, different run, identical title pattern — exactly what NAC does with FIVE (×6 in 91 days). From upload 14 onward, vary the run, not the map list:
 
-## Series C — Killing Floor 2, live events only
+- `... GAMEPLAY! (NO COMMENTARY)` — plain full run
+- `... ROUND [X] GAMEPLAY! (NO COMMENTARY)` — only if the end screen shows it
+- `... NO DOWNS GAMEPLAY! (NO COMMENTARY)` — only if true
+- `... SOLO GAMEPLAY! (NO COMMENTARY)` — the solo framing
 
-**KF2 is installed (94.8 GB). Use it — but only while an event is live, and never
-with a `map + perk + difficulty` title.**
+**Never invent a round number or a "no downs" claim.** Read both off the end screen.
 
-The proof is in the same game: K1 (`Burning Paris · Commando · Normal`) got **6
-views**, while `Killing Floor 2 Abandon All Hope: Firebug Solo Airship` — a 2026
-weekly objective from the *Day of the Zed* update — is sitting on **36,588 views
-in 32.9 days (1,112/day) for a 2,720-subscriber channel**.
+---
 
-**Title formula:**
+## 6. Packaging templates
 
+### Title
 ```
-KILLING FLOOR 2 [LIVE EVENT / WEEKLY] SOLO [PERK] (NO COMMENTARY)
+<GAME> ZOMBIES: <MAP> GAMEPLAY! (NO COMMENTARY)
 ```
+- Upper case. Colon after the game. `!` and `(NO COMMENTARY)` on **every** title, no exceptions.
+- `<GAME>` is `BLACK OPS 4`, `BLACK OPS COLD WAR`, or `BLACK OPS 3`.
+- **No platform claim.** No `PS5 PRO`, no `4K` — you capture 1080p60 on PC. Non-negotiable.
+- Map name always in the same slot. Nothing else — no hooks, no questions, no "insane".
 
-**How to keep the calendar full:** KF2 rotates weekly objectives and seasonal
-events (`Abandon All Hope`, Halloween Cemetery, and future weeklies). Check the
-current event in-game, record a *won* run against it, and name it in the title.
-
-
-
-**Delta Force — filler only.** `delta force no commentary` median **2,646**;
-small-channel floor **48–500** (Delta Force Gameplays, 317 subs: 48–476 views);
-the one big number is MKIceAndFire's *Black Hawk Down* **campaign** (1,745,923 —
-a different product). 95.5 GB already installed, so it costs nothing to keep, but
-do not spend a growth slot on it. Title if used:
-`DELTA FORCE SOLO OPERATIONS GAMEPLAY (NO COMMENTARY)`.
-
-**Killing Floor 3 — buy on sale.** `killing floor 3 no commentary` median 441,
-but a **14,200-sub channel got 114,049 views** on plain KF3 solo, and the game's
-own past-month median is **36,588** with Halloween Horrors live. Same skill set as
-KF2 (already installed). Title:
-`KILLING FLOOR 3 [MODE/MAP] SOLO GAMEPLAY (NO COMMENTARY)`.
-
-**ECC: REDLINE (NetEase) — watchlist, prepare don't plan.** Revealed 2026-10-09;
-Steam "Coming Soon", global preregistration open, **no release date**; the first
-PC test (2026-10-15) is China-domestic, limited, with a data wipe. Reveal-week
-YouTube demand is already **1,969–49,592 views/day**. **Preregister now**; on a
-global beta or launch, publish day-one no-commentary — the highest-upside single
-upload available to this channel. Full detail:
-`reports/2026-10-15-game-pool-ranking.md`.
-
-## Capture setup (both series)
-
-The K2a VOD is the reference for what "clean" looks like: 1920×1080 @ **60.000
-fps** (zero dropped frames), NVENC, AAC stereo 48 kHz.
-
-> ### ⚠️ Measured capture risk on this laptop (2026-10-15)
-> Sampled with `scripts/gpu-sample.ps1` **while Delta Force was running**:
-> GPU utilisation **46%**, VRAM **2,777–3,123 MiB of 4,096**, free RAM **1.7 GB
-> of 15.4 GB**, and **committed memory 19.9 GB against a 21.3 GB commit limit
-> (93%)** with a system-managed pagefile of only **2.9 GB**.
->
-> **The bottleneck is memory, not the GPU.** "Sticky" movement in heavy games on
-> this machine is the system running out of commit space and VRAM mid-fight, so:
->
-> 1. **Enlarge the pagefile** (biggest single fix): fixed **16–24 GB** on C:
->    (System → Advanced system settings → Performance → Advanced → Virtual
->    memory). The drive has 355 GB free. Requires a reboot.
-> 2. **Free RAM before recording:** close Firefox (≈1 GB), Steam's webhelper
->    windows (≈1.1 GB), and the Riot/Vanguard client. Target **≥5 GB free RAM**.
-> 3. **Textures Low + DLSS/FSR Performance at 1080p, effects off, cap 60 fps.**
->    The 4 GB VRAM ceiling is the hard limit — texture quality is the lever.
-> 4. **Force the RTX 3050 Ti** for the game exe (Settings → System → Display →
->    Graphics → High performance); the registry shows no explicit pin today.
-> 5. **Armoury Crate → Performance/Turbo.** Windows only has a *Balanced* power
->    scheme installed, and GPU draw was swinging 46→82 W.
->
-> **Verify before committing to a series:** run REDSEC with the sampler for ~3
-> minutes. If VRAM pins at ~4096 MiB or free RAM drops under ~1 GB, REDSEC cannot
-> hold a clean 60 fps on this hardware and **BO4 Zombies becomes Series A**
-> (2018 title, runs maxed, proven per-map demand).
->
-> ```powershell
-> powershell -ExecutionPolicy Bypass -File scripts\gpu-sample.ps1 -Seconds 180
-> ```
-
-| Setting | Value | Why |
-| --- | --- | --- |
-| Resolution / fps | **1920×1080, 60 fps** | Native panel; 4K from a 1080p source adds nothing |
-| Encoder | **NVENC H.264** (as K2a) | Offloads from the CPU, which also runs the game |
-| Game settings | 1080p **low** + DLSS/FSR **Performance** | 4 GB VRAM — textures are the first thing to cut |
-| Frame cap | **60, in-game limiter + NVIDIA Reflex** | A hard cap gives consistent, non-stuttery footage |
-| OBS "Record" resolution | = canvas, 60 fps, don't rescale | Avoids scaling artefacts |
-| Mic | **disabled** (desktop audio only) | Brand is no-commentary; verify one track |
-| Audio target | **≈ −14 LUFS**, true peak ≤ −1 dBTP | YouTube's reference; the K2a VOD is −19.5 and sounds quiet |
-| Close before recording | **Riot Vanguard / Valorant, Firefox, Steam browser windows** | Javelin blocks with Valorant open; the rest is RAM |
-
-Record in **separate matches**, not one long session, so an upload is always a
-single self-contained match with a clean result to put on the thumbnail.
-
-## Thumbnail system
-
-- **REDSEC:** the match's own end screen / final-circle moment + a big result
-  badge (`WIN`, `[X] KILLS`) + the class icon. Red/dark accent to match REDSEC
-  branding.
-- **Delta Force:** the extraction moment + `EXTRACTED` / `LOST` badge.
-- Same font, size and corner position every upload so both series read as one
-  channel. Never ship a raw screenshot (34/35 legacy uploads did — the current
-  fix is `thumbnails/2026-10-14-kf2-elysium-commando.png` as the format model).
-
-## Description template
-
+### Tags (verbatim pattern from NAC's top video)
 ```
-<Primary keyword line: game + mode + result>. No commentary.
+cod zombies no commentary
+black ops zombies gameplay no commentary
+black ops zombies gameplay no commentary pc
+black ops zombies gameplay no commentary playstation
+black ops zombies gameplay no commentary xbox
+<game> zombies gameplay no commentary
+<game> zombies
+<map> gameplay
+<map> zombies
+cod zombies, call of duty zombies, black ops zombies
+zombies, zombie game, horror games, gaming, gameplay
+solo zombies, <n> rounds
+```
+Note the **four platform permutations** — they capture "pc"/"playstation"/"xbox" searches even though you only publish PC footage. And the map name ships as a tag on every upload.
 
-<1–2 sentences on the run: drop, the key fight, the result, honest numbers.>
+### Description
+```
+<same as title>
+#nocommentary #callofduty #zombies
+No commentary Call of Duty Zombies gameplay. One map, one full run, game audio only.
+Solo run, Round <n>, <x> downs, <k> kills.
 
-▶ Game: <Battlefield REDSEC / Black Ops 4 Zombies>
-▶ Mode: <Solos (80 players) / Zombies — solo>
-▶ Class / Map: <Assault / Engineer / Support / Recon  ·  IX / Blood of the Dead / ...>
-▶ Result: <Win / Top N ... X kills  ·  Round X reached>
+▶ Game: Black Ops 4 / Cold War / Black Ops 3
+▶ Map: <map>
+▶ Rounds: <n>
 ▶ Commentary: None
 
 ⏱ Chapters
-00:00 Best moment
-00:00 Drop
-<key circles / engagements / final circle>
+00:00 Start
+<add chapters>
 
-No-commentary FPS series — what should I run next? 👇
-
-#Battlefield #REDSEC #NoCommentary #FPS #BattleRoyale
+No-commentary Zombies library — what should I run next?
 ```
 
-## Tags (10–14)
+### Thumbnail
+The map's iconic art plus **the map name, big, ≤4 words, readable at 168 px.** That is the whole design. NAC puts the game name in the image on every upload. Never ship a raw screenshot — this is the failure that produced K2b's **0.9 % CTR** against ~1,650 impressions.
 
-- **REDSEC:** `battlefield redsec`, `redsec solos`, `battlefield 6 battle royale`,
-  `bf6 redsec`, `redsec no commentary`, `battle royale solo no commentary`,
-  `battlefield 6 gameplay`, `fort lyndon`, `no commentary gameplay`, `fps gameplay`,
-  `redsec solos win`, `battlefield solo`
-- **BO4 Zombies:** `black ops 4 zombies`, `bo4 zombies`, `bo4 zombies no commentary`,
-  `call of duty zombies`, `black ops 4 zombies gameplay`, `black ops 4 <map>`,
-  `zombies high round`, `cod zombies gameplay`, `no commentary gameplay`,
-  `zombie survival`, `bo4 round 100`, `black ops 4 ix`
+Template lives in `thumbnails/template-zombies.png` (to build).
 
-## First 10 uploads (titles locked from measured demand)
+---
 
-Order, not exact dates. Slot: Mon / Wed / Fri. **Record the win as soon as it
-happens — a first solo win is the hook that outperforms everything else.**
+## 7. Capture setup
 
-| # | Series | Title | Notes |
+BO4 (2018) and BOCW (2020) are far lighter than Battlefield 6, so frame rate is not the risk. **The measured risk on this machine is memory, not GPU** (2026-10-15 sample: committed memory 19.9 GB against a 21.3 GB limit at 93 %, system pagefile only 2.9 GB).
+
+1. **Fix the pagefile** — fixed **16–24 GB** on C: (System → Advanced → Performance → Advanced → Virtual memory). Requires a reboot. Do this first.
+2. **Close before recording:** Firefox (~1 GB), Steam webhelper windows (~1.1 GB), Riot/Vanguard.
+3. **Textures High, not Ultra** — 4 GB VRAM. BO4 and BOCW both hold 60 fps at 1080p otherwise.
+4. **Force the RTX 3050 Ti** for the game exe.
+5. **Armoury Crate → Turbo.**
+
+| Setting | Value | Why |
+| --- | --- | --- |
+| Resolution / fps | **1920×1080 / 60** | Native panel; 4K from 1080p adds nothing |
+| Encoder | **NVENC H.264, CQP ~20** | ~5 GB per 50-min run instead of ~15 |
+| Mic | **disabled** — desktop audio only | Brand is no-commentary |
+| Audio | **≈ −14 LUFS**, peak ≤ −1 dBTP | YouTube reference |
+| Raw retention | **delete after upload**, keep 2 | 9 raws ≈ 54 GB of dead weight |
+
+---
+
+## 8. Measurement
+
+Review after **8 BO4 uploads** (~3 weeks), then after the BOCW wave.
+
+| Metric | Baseline (catalogue) | Target | NAC reference |
 | --- | --- | --- | --- |
-| 1 | A · REDSEC | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` | First upload; any clean run |
-| 2 | B · BO4 | `BLACK OPS 4 ZOMBIES: IX GAMEPLAY! (NO COMMENTARY)` | Needs Battle.net + install |
-| 3 | A · REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` | **Promote the first win here, whenever it happens** |
-| 4 | B · BO4 | `BLACK OPS 4 ZOMBIES: VOYAGE OF DESPAIR GAMEPLAY! (NO COMMENTARY)` |  |
-| 5 | A · REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN — [X] KILLS (NO COMMENTARY)` | Only if kills ≥10 |
-| 6 | B · BO4 | `BLACK OPS 4 ZOMBIES: BLOOD OF THE DEAD GAMEPLAY! (NO COMMENTARY)` |  |
-| 7 | A · REDSEC | `BATTLEFIELD 6 REDSEC SOLO GAMEPLAY (NO COMMENTARY)` |  |
-| 8 | B · BO4 | `BLACK OPS 4 ZOMBIES: CLASSIFIED GAMEPLAY! (NO COMMENTARY)` |  |
-| 9 | C · KF2 | `KILLING FLOOR 2 [LIVE EVENT] SOLO [PERK] (NO COMMENTARY)` | Only while an event is live |
-| 10 | A · REDSEC | `BATTLEFIELD 6 REDSEC SOLO WIN GAMEPLAY (NO COMMENTARY)` |  |
+| Views / video, first 30 days | 0.86/day across whole channel | **≥ 100** | 4,000–9,000 |
+| Views / video / day | ~0.5 | **≥ 5** | 80–380 |
+| Like ratio | — | **≥ 1.5 %** | 1.5–2.6 % |
+| Length | 16:16 | **35–60 min** | 35–76 min |
+| Title pattern compliance | — | **100 %** | 100 % |
+| Cadence | 22-day gap | **3/week** | 1 per 2.3 days |
 
-Deliberate choice: **two main series alternating.** REDSEC is the growth bet (live
-free-to-play game, new Season 5 content); BO4 Zombies is the durable one (proven
-per-map demand, ~8 pre-packaged uploads, no production friction). Both use the
-same plain CAPS keyword-first title pattern as the niche leaders. **Every title
-names something live** (see the rule at the top).
+**If a video underperforms: change the thumbnail first, the title second, the map third, the game never.** Game-switching is what cost this channel 2022–2026.
 
-**Recordable right now:** the REDSEC rows (pending the Solos-mode check and the
-capture test). BO4 rows need Battle.net + the ~55 GB install; the KF2 row needs a
-live event in-game.
-
-## Measured demand (done — 2026-10-14)
-
-Full tables + sources: `reports/2026-10-14-phase2-demand-check.md` (6
-`searchVideos` queries, 60 videos, 27 channels, ~704 quota units).
-
-| Finding | Numbers |
-| --- | --- |
-| The format works; the old game didn't | `REDSEC Solos no commentary` median **28,020** vs K1's **6** |
-| Win-framing is 1.8× | win query median **49,485** vs **28,020** |
-| Fresh BF6 floor | past-month BF6 no-commentary min **5,965** |
-| **Comparable small-channel floor** | **100–400 views** (TAPFPS 9 subs → 100; DeeV 2.7K → 347; WanTeD 629 → 362) |
-| Proven ceiling | **716,824** (NoAnnoyingCommentary, same format, 23:42) |
-| Niche length | **20–36 min**, one match per upload |
-| No-commentary like rate | **1.2–2.3%** |
-| Delta Force | only **3/10** no-commentary — traction is commentary channels |
-| BO7 Zombies (blocked) | **4,121–80,892** per map upload — the best available lane if CoD is fixed |
-
-## Measurement (see `DASHBOARD.md`)
-
-Review after **5 REDSEC uploads + 3 BO4 map uploads** (~2–3 weeks):
-
-| Metric | K1 baseline (KF2) | Phase-2 target | Comparable no-name channels (measured) |
-| --- | --- | --- | --- |
-| Views / video | 6 | **≥ 300** | REDSEC 100–400 · BO4 1,162–41,800 (long-tail accumulation) |
-| Views / video / day | ~0.5 | **≥ 15** | ~1–4/day for no-name channels in both niches |
-| Like ratio | 40% on 5 views (noise) | **≥ 1%** | REDSEC 1.2–2.3% · BO4 0.7–3.8% |
-| Length | 16:16 | **20–40 min** (BO4 high rounds may run longer) | REDSEC 20–36 min |
-| Chapters present | 0 / 36 | **100%** | — |
-| Subs | 21 | **+30 in 90 days** | — |
-
-If a series is under target after 5 uploads, change the **hook and packaging**
-first (a win or a round number in the title, the result on the thumbnail, tighter
-cut), then the game — in that order.
+**The one thing that actually kills this:** stopping. The 22-day gap in October 2026 cost more than any packaging decision made in that window. NAC's 4–9 K floor is not talent — it is 1,360 videos.

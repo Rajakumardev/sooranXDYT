@@ -22,9 +22,9 @@ commands, and saved analysis. Treat it as an operating system for channel growth
 | Primary language | `en` (English) |
 | Category | Gaming (YouTube category ID `20`) |
 | Platform | **Windows** boot of the ASUS ROG Strix G513IE — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2. The Linux boot exists but the BR/anti-cheat titles only run on Windows |
-| Niche | FPS / shooter, no commentary. **Phase 2 (current): Battlefield REDSEC Solos + Delta Force — solo, no commentary.** Phase 1 (closed): Killing Floor 2 + Black Ops 4 Zombies. Legacy: CoD multiplayer + Shatterline |
-| Format | **"No commentary" FPS gameplay** — one self-contained match/run per upload, real result stated on screen and in the title. Not walkthroughs, not longplay |
-| Branding keywords | `live gaming`, `pc`, `shatterline`, `Call of duty`, `Modern warfare` |
+| Niche | **CoD Zombies no-commentary library — one map per upload.** Phase 3 (current, 2026-11-01): BO4 → BOCW → BO3, per-map, 3×/week, re-upload the same maps on rotation (the `@NoAnnoyingCommentaryZ` model). **One series only — no other game is mixed in.** Discarded: Battlefield/REDSEC, Delta Force, Arena Breakout, RoR2, Shatterline, KF2, KF3, ECC: REDLINE |
+| Format | **"No commentary" Zombies gameplay** — one map, one full run per upload, game audio only, real round/downs stated on screen and in the title. Not walkthroughs, not longplay, no editing |
+| Branding keywords | `Call of duty`, `zombies`, `no commentary`, `black ops`, `cod zombies` |
 | Channel description | _empty_ |
 | Audience | _TODO (confirm: Indian PC/console FPS players? English-speaking global?)_ |
 | Monetization / goals | _TODO_ |
