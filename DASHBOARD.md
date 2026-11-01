@@ -18,7 +18,8 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Platform | **Windows boot of the ASUS ROG Strix G513IE** — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2 · **355 GB free** |
 | Active series | **Phase 3 (2026-11-01): CoD Zombies library** — one map per upload. Wave 1 **BO4** (8 maps, owned) → Wave 2 **BOCW** (5, owned) → Wave 3 **BO3** (at Steam sale) |
 | Recommended pivot | **Done** — Phase 2 (REDSEC/Delta Force) **discarded 2026-11-01**. All non-Zombies plans closed; see `CONTENT-PLAN.md` |
-| Dropped | REDSEC/BF6 · Delta Force · Arena Breakout · PUBG · RoR2 · Shatterline · **KF2 as a series** · KF3 · ECC: REDLINE · legacy CoD multiplayer |
+| Dropped | REDSEC/BF6 · Delta Force · Arena Breakout · PUBG · RoR2 · Shatterline · KF3 · ECC: REDLINE · legacy CoD multiplayer |
+| Secondary lane | **KF2** — ~1 in 8–10 uploads, batched. NAC Z runs 13 KF2 videos at 2,371–3,178 views. Kept installed (94.8 GB) |
 | Install state (verified 2026-11-01) | CoD **not installed** — Steam `Call of Duty HQ` = **0.0 GB**, Battle.net has no `product.db`. BO4 + BOCW are **licensed, not downloaded** |
 
 ## North-star KPIs

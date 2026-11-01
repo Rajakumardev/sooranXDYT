@@ -120,7 +120,9 @@ So: the model is real and it is buildable, but it is a **2–3 year compounding 
 
 ### The blocking decision
 
-**Nothing here works without a CoD Zombies install.** NAC's entire 67 K subs sits on CoD Zombies nostalgia. KF2, Battlefield REDSEC, Delta Force and RoR2 are all *different channels* — don't mix them into this.
+**⚠️ CORRECTED 2026-11-01 — this paragraph was wrong.** NAC Z is **not** CoD-only: it also runs **13 Killing Floor 2 uploads** (latest 2026-10-11, at **2,371–3,178 views**), plus **Left 4 Dead 2** and **John Carpenter's Toxic Commando**. KF2 is therefore a legitimate secondary lane, not a different channel. See `CONTENT-PLAN.md` §1 for the corrected position.
+
+**What remains true:** a CoD Zombies install is the price of entry, because the CoD Zombies catalogue is the *spine* — the bigger map pool (22+ vs KF2's 10) and the higher measured ceiling (4,000–9,000 vs 2,371–3,178). Battlefield REDSEC, Delta Force and RoR2 remain out — those genuinely belong to different channels.
 
 Current disk state per `MEMORY.md`: 355 GB free as of 2026-10-15 (**re-verify**). Options:
 
@@ -290,4 +292,4 @@ It needs no personality, no commentary, no editing skill, no scripting, no thumb
 
 **The failure mode is already known:** 22 days of silence in Oct 2026 cost more than any title or thumbnail decision made in that window. NAC's 4–9 K floor is not talent — it is 1,360 videos. **The whole strategy is: don't stop.**
 
-**Do not do this:** split the channel between REDSEC, KF2, and CoD Zombies. A library works because every video reinforces the same query cluster. Two formats = two half-libraries = neither reaches floor.
+**Do not do this:** split the channel evenly between REDSEC, KF2, and CoD Zombies. A library works because most uploads reinforce the same query cluster. NAC's own ratio is the model — ~13 KF2 videos against 1,360 total (under 5%), batched rather than sprinkled. Two *equal* formats = two half-libraries = neither reaches floor.

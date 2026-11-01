@@ -2,8 +2,9 @@
 
 Living production board for the channel. Move cards right as they progress.
 
-**Phase 3 series (from 2026-11-01): CoD Zombies library — one map per upload.**
-Owned games: **BO4 Zombies** (8 maps) · **BOCW Zombies** (4 + Outbreak). To buy: **BO3 Zombies Chronicles** (9 maps, at Steam sale).
+**Phase 3 series (from 2026-11-01): zombie / co-op shooter library — one map per upload.**
+Spine: **CoD Zombies** — **BO4 Zombies** (8 maps, owned) · **BOCW Zombies** (4 + Outbreak, owned) · **BO3 Zombies** (9 maps, at Steam sale).
+Secondary lane: **KF2** (~1 in 8–10 uploads, batched).
 **Cadence:** 3×/week (Mon/Wed/Fri), slot ~13:00 UTC.
 Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md` · Model research: `reports/2026-11-01-noannoyingcommentaryz-model-teardown.md`
 
@@ -78,6 +79,22 @@ Do not add maps. Vary the run, keep the title pattern exact:
 
 ---
 
+## 🟡 Wave 4 — KF2 lane (secondary, batched, ~1 in 8–10 uploads)
+
+**Not parked.** NAC Z runs **13 KF2 videos** (latest 2026-10-11) at **2,371–3,178 views** — lower than CoD Zombies' 4,000–9,000 but the same order of magnitude, with a **2.4% like rate**. Title pattern is the same template, minus perk/difficulty:
+
+`KILLING FLOOR 2 <MAP> GAMEPLAY! (NO COMMENTARY)`
+
+| Card | Map / event | Stage |
+| --- | --- | --- |
+| KF1 | Elysium (**K2a — already recorded & edited**) | 🎨 Packaging |
+| KF2 | _batch 2–3 maps per session_ | 💡 Backlog |
+| KF3 | _live event, if one lands_ — best KF2 play on record: **36,588 views / 33 days** from a 2,720-sub channel | 💡 Backlog |
+
+**Rules:** batch 3 in a week then stop; never interleave with the first ~10 CoD uploads; no `Commando`/`Normal`/`Hell on Earth` in titles.
+
+---
+
 ## 🅿️ Parked / dropped (2026-11-01)
 
 - **Battlefield 6 / REDSEC Solos** — different genre, different query cluster.
@@ -85,7 +102,6 @@ Do not add maps. Vary the run, keep the title pattern exact:
 - **Arena Breakout: Infinite, PUBG** — installs only, never a series.
 - **Risk of Rain 2** — off-format; `eXFAFQxc6rc` did 27 views in 28.9 days.
 - **Shatterline / legacy CoD multiplayer** — dead keyword space.
-- **KF2 as a series** — zombie FPS, but not CoD Zombies; per-map keywords measured dead (top result 2,774 lifetime views; K1 = 20 views in 11.3 days). Breaks the cluster.
 - **KF3, ECC: REDLINE** — out of scope this cycle.
 - **Call of Duty HQ / BO6 / BO7 / Warzone** — the attestation block (`0x80072EE7`) still stands for these titles. **It does not affect BO4 or BOCW.**
 

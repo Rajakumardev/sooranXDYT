@@ -22,7 +22,7 @@ commands, and saved analysis. Treat it as an operating system for channel growth
 | Primary language | `en` (English) |
 | Category | Gaming (YouTube category ID `20`) |
 | Platform | **Windows** boot of the ASUS ROG Strix G513IE — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2. The Linux boot exists but the BR/anti-cheat titles only run on Windows |
-| Niche | **CoD Zombies no-commentary library — one map per upload.** Phase 3 (current, 2026-11-01): BO4 → BOCW → BO3, per-map, 3×/week, re-upload the same maps on rotation (the `@NoAnnoyingCommentaryZ` model). **One series only — no other game is mixed in.** Discarded: Battlefield/REDSEC, Delta Force, Arena Breakout, RoR2, Shatterline, KF2, KF3, ECC: REDLINE |
+| Niche | **No-commentary zombie / co-op shooter library, one map per upload.** Phase 3 (current, 2026-11-01): **CoD Zombies spine** — BO4 → BOCW → BO3, 3×/week, maps re-uploaded on rotation (the `@NoAnnoyingCommentaryZ` model) — **plus a secondary KF2 lane at ~1 in 8–10 uploads, batched.** NAC Z itself runs KF2, Left 4 Dead 2 and Toxic Commando alongside CoD Zombies; it is not a CoD-only channel. Discarded: Battlefield/REDSEC, Delta Force, Arena Breakout, RoR2, Shatterline, KF3, ECC: REDLINE |
 | Format | **"No commentary" Zombies gameplay** — one map, one full run per upload, game audio only, real round/downs stated on screen and in the title. Not walkthroughs, not longplay, no editing |
 | Branding keywords | `Call of duty`, `zombies`, `no commentary`, `black ops`, `cod zombies` |
 | Channel description | _empty_ |

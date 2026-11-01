@@ -1,8 +1,9 @@
-# SooranXD — Content Plan (Phase 3: the pure CoD Zombies library)
+# SooranXD — Content Plan (Phase 3: the zombie / co-op shooter library)
 
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-01 (revised — see §2a correction)
 - **Model:** `@NoAnnoyingCommentaryZ` — see `reports/2026-11-01-noannoyingcommentaryz-model-teardown.md`
-- **Format:** No-commentary CoD Zombies. **One map, one full run, one upload. Zero editing.**
+- **Format:** No-commentary zombie / co-op shooter. **One map, one full run, one upload. Zero editing.**
+- **Spine:** CoD Zombies (majority of uploads) · **Secondary:** Killing Floor 2 (~1 in 8–10, batched)
 - **Cadence:** 3×/week (Mon / Wed / Fri), slot ~**13:00 UTC**
 - **Tracker:** `KANBAN.md` · **Metrics:** `DASHBOARD.md`
 
@@ -10,7 +11,7 @@
 
 ## 1. The decision
 
-**The channel becomes a CoD Zombies library and nothing else.** One brand promise, one query cluster, one title pattern, forever.
+**The channel becomes a no-commentary zombie / co-op shooter library, with CoD Zombies as the spine.** One format, one title pattern, one thumbnail system — with a small, deliberate KF2 lane.
 
 ### Discarded — closed 2026-11-01, do not revisit
 
@@ -20,10 +21,36 @@
 | Delta Force | Only 3/10 results no-commentary; measured median 2,646 |
 | Risk of Rain 2 | Off-format, off-genre, 27 views in 28.9 days |
 | Shatterline / legacy CoD multiplayer | Dead keyword space (Galizma: ≈3 views/day at 23.9K subs) |
-| KF2 as a series | **Zombie FPS, but not CoD Zombies.** Per-map keywords measured dead: top result for "Burning Paris Commando" = 2,774 lifetime views; K1 = 20 views in 11.3 days. Breaks the cluster. |
 | KF3 purchase · ECC: REDLINE watchlist | Out of scope now |
 
-> **Why KF2 is out even though it *is* a zombie shooter:** a library works because every upload reinforces the same search cluster. NAC Z runs **only CoD Zombies** — their other genres live on separate channels (`@NoAnnoyingCommentary` = Warzone, `@NoAnnoyingCommentarySpecOps`). Mixing KF2 into the CoD Zombies feed means neither gets a coherent cluster.
+### ⚠️ Correction — KF2 stays (2026-11-01)
+
+An earlier version of this plan dropped KF2 entirely on the grounds that NAC Z "runs only CoD Zombies" and that KF2's per-map keywords are dead. **Both claims were wrong.**
+
+NAC Z's actual catalogue includes **13 Killing Floor 2 uploads** (latest **2026-10-11**), plus **Left 4 Dead 2** and **John Carpenter's Toxic Commando**. Measured KF2 performance:
+
+| Views | Published | Title |
+| --- | --- | --- |
+| **60,297** | 2025-06-24 | Killing Floor 2 SOLO Gameplay - No Commentary |
+| 22,635 | 2024-09-11 | KILLING FLOOR 2 SOLO GAMEPLAY! (NO COMMENTARY) |
+| 11,338 | 2024-06-12 | KILLING FLOOR 2 SOLO GAMEPLAY! (NO COMMENTARY) |
+| 9,686 | 2026-05-31 | KILLING FLOOR 2 GAMEPLAY! (NO COMMENTARY) |
+| 3,178 | 2026-10-11 | KILLING FLOOR 2 SURVIVAL PS5 PRO GAMEPLAY! |
+| 2,981 | 2026-09-09 | KILLING FLOOR 2 FARM HOUSE PS5 PRO GAMEPLAY! |
+| 2,834 | 2026-09-03 | KILLING FLOOR 2 PRISON GAMEPLAY! |
+| 2,371 | 2026-09-10 | KILLING FLOOR 2 ISLAND PS5 PRO GAMEPLAY! |
+
+Recent KF2 = **2,371–3,178 views** vs CoD Zombies' **4,000–9,000**. Lower, same order of magnitude, like rate **2.4%** (beats most of their CoD uploads).
+
+### 🔑 The insight that corrects the old model
+
+`KILLING FLOOR 2 PRISON GAMEPLAY! (NO COMMENTARY)` — a bare map-name title — did **2,834 views**.
+
+The same *style* of title on a 20-sub channel (K1: `KF2 Burning Paris Commando`) did **20 views in 11.3 days**.
+
+**Same pattern, ~140× different outcome. The variable is channel authority, not the game, not the title formula, not "is this keyword live".** This supersedes the old "publish against what is live NOW" rule in this workspace — that rule was derived from small-channel evidence and does not survive contact with NAC's actual catalogue.
+
+What it means practically: at 20 subs, **no** choice of game or title will produce big numbers. What you can control is **volume, consistency, and map coverage** — which is exactly why the library model is right and why the game choice is a secondary question.
 
 ### Owned vs. needed
 
@@ -125,15 +152,31 @@ Do **not** buy Deluxe (₹8,900) — it adds only The Giant, Eisendrache, Zetsub
 
 ---
 
-## 4. Sequencing — three waves
+## 4. Sequencing — four waves
 
 | Wave | Game | Maps | Blocker |
 | --- | --- | --- | --- |
 | **1 (now)** | BO4 Zombies | 8 | install only |
 | **2 (week 3)** | BOCW Zombies | 5 | install only |
 | **3 (at sale)** | BO3 Zombies | 9–14 | ₹5,399 purchase |
+| **4 (interleaved)** | **KF2** — secondary lane | 10 maps + live events | **none — already installed** |
 
 **Start with BO4.** Highest per-upload demand in the catalogue, 5 unclaimed maps, already owned.
+
+**Why KF2 is Wave 4 and not Wave 1:** the first ~10 uploads tell YouTube what the channel *is* and drive the recommendation engine. Opening with KF2 runs would label the channel non-CoD. Build the CoD spine first, then diversify — which is the order NAC appears to have followed too (their KF2 uploads sit on top of a large CoD catalogue, not underneath it).
+
+### Wave 4 — the KF2 lane (rules)
+
+- **Ratio: 1 in 8–10 uploads.** NAC has ~13 KF2 videos against 1,360 total — well under 5% of the library.
+- **Batch, don't sprinkle.** NAC ran three KF2 uploads in eight days (2026-09-03, 09-09, 09-10) then none for a month. Batch-recording is also how you keep it frictionless — one 45-min session yields one upload either way.
+- **Title pattern is the same template** — this is proven on their channel:
+  ```
+  KILLING FLOOR 2 <MAP> GAMEPLAY! (NO COMMENTARY)
+  ```
+  Real, working examples: `KILLING FLOOR 2 PRISON GAMEPLAY!` (2,834) · `KILLING FLOOR 2 FARM HOUSE PS5 PRO GAMEPLAY!` (2,981) · `KILLING FLOOR 2 SURVIVAL PS5 PRO GAMEPLAY!` (3,178).
+- **Live events are the best KF2 play:** a 2026 weekly from the *Day of the Zed* update got **36,588 views in 33 days from a 2,720-sub channel** (1,112/day). Name the event.
+- **No perk/difficulty in the title.** `Commando`, `Normal`, `Hell on Earth` add nothing to search and risk overclaiming. Map or event only.
+- **K2a (KF2 Elysium, recorded 2026-10-14) is now a legitimate card** — it goes in this lane after the BO4 block, not as the channel opener.
 
 ---
 
@@ -165,6 +208,8 @@ Everything in rows 1–13 is **recordable the day the install finishes.** No pur
 | 20 | BO3* | `BLACK OPS 3 ZOMBIES: MOON GAMEPLAY! (NO COMMENTARY)` |
 
 \* BO3 rows slip to whenever the sale lands. If it hasn't happened by upload 17, **repeat the loop at 14–16** rather than introducing a new game.
+
+**Where KF2 slots in:** from **upload 21 onward**, one KF2 card per 8–10 uploads, batched. First KF2 card is **K2a (Elysium, already recorded)** — no recording needed. After that, batch 2–3 KF2 maps in a single session and release them together, the way NAC does.
 
 **Rows 14–16 are not repeats. They are the model.** Same map, different run, identical title pattern — exactly what NAC does with FIVE (×6 in 91 days). From upload 14 onward, vary the run, not the map list:
 
