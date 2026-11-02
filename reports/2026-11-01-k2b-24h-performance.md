@@ -47,7 +47,16 @@ Read it in order:
 | Matriarch is small and centre-frame | The payoff named in the title ("MATRIARCH DOWN") is not visually obvious. It reads as a distant red blob. |
 | Generic hype line | "Still good in 2026" is a *review* hook, and the video is a *boss kill*. Different audience. |
 
-Lane evidence (`reports/2026-10-31-kf2-blackforest-metadata.md`): the KF2 uploads actually moving right now — NoAnnoyingCommentary Z (66.7 K subs) at 2,975–3,154 views and 2.4 % like rate — all put **the game name in the thumbnail**. That pattern is the one to copy, not the hype line.
+Lane evidence — **corrected 2026-11-02 after actually viewing the thumbnails** (`i.ytimg.com/vi/<id>/maxresdefault.jpg` for `0HclYUtRXIU`, `qH0wEyFsTHc`, `wXhuVu2onAA`, `A-SZMJ_PH98`):
+
+The earlier claim here — "lane leaders put the game name in the thumbnail" — was **wrong, and it was an inference from titles, not from images.** NoAnnoyingCommentary Z's thumbnails (66.7 K subs, 2,975–3,154 views, 2.4 % like rate) contain **no text at all**. Every one is a raw first-person frame with the same three-part structure:
+
+1. **The weapon is a large foreground object entering from bottom-right and filling ~40 % of the frame** — lit, close to camera, pointed into the scene (the "gun inspection" look).
+2. **One to four enemies at mid-left, facing the camera, eyes glowing** (orange), close enough to read as a threat.
+3. **Bright, saturated single-colour environment** — lit mall (warm), burning Nuketown (teal/orange), golden desert, cyan lighthouse. High-key, not dark.
+
+No arrows, no circles, no faces, no hype text. The thumbnails are evidence of *gameplay*, not posters. That is the pattern to copy — and it is the **opposite** of what v2-A does (dark frame, boss facing away, three text blocks).
+
 
 ## 4. Do this now (30 min)
 
