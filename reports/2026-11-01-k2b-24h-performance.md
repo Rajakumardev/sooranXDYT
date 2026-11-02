@@ -74,6 +74,28 @@ Source frames already extracted in `thumbnails/2026-10-31-kf2-blackforest/frames
 3. Views from subscribers vs non-subscribers.
 4. Subs gained from the video.
 
-## 5. Honest expectation
+## 5. Second read — 42.3 h (2026-11-02 14:40 UTC)
+
+Tool calls: `getChannelStatistics` + `getVideoDetails(["s55NY7In3A4","IK5br0lhOBA"])` + `getVideoComments` — ~3 units.
+
+| Metric | 19.9 h | 42.3 h | Δ (16.9 h) |
+| --- | --- | --- | --- |
+| Views | 15 | **25** | **+10** |
+| Likes | 3 | **4** | +1 |
+| Like rate | 20.0 % | **16.0 %** | — |
+| Comments | 0 | 0 | — |
+| Pace | 18.1 /day | **14.2 /day lifetime** · **14.2 /day over the Δ** | **−22 %** |
+
+Channel: **3,532 views · 37 videos · 20 subs.** `videoCount` still 37 → **K2b is still the newest upload.** K1 is flat at **28 views / 3 likes**, so K2b accounted for essentially all channel movement (**channel +14 vs video +10** — the rollup lags video-level counts by a few).
+
+**What the second read changes:**
+
+1. **It is holding, not collapsing.** 18.1/day → 14.2/day is a −22 % softening, i.e. ordinary day-one-to-day-two drift. Compare K1: ~5 in its first 24 h → **1.29/day lifetime**. K2b is at **14.2/day** at 42 h and will **pass K1's lifetime 28 views within hours** (K1 took 23 days).
+2. **Impressions are still being served.** 25 views at the same 0.9 % CTR implies ≈**2,780 impressions**, up from ≈1,650. A genuinely dead CTR usually stops the test batch dead by hour 24; this one is still feeding, which hints CTR ticked up — **only the Studio number can confirm**.
+3. **Projection:** flat at 14.2/day → **~99 views at day 7**. Decaying at K1's rate → **~50–60**. Anything ≥60 beats every upload since 2023 except the 2023 CoD TDM outlier.
+
+**Still open from §3:** the thumbnail. If it has not been swapped yet, this is the moment — half the test batch is already spent at ~1 % CTR. If it *was* swapped, tell me the time and I will split the impressions before/after in the next read.
+
+## 6. Honest expectation
 
 This is a **cadence bridge, not a growth upload** — it names no live event, which the operating rule says caps it. Realistic lifetime: **60–120 views** if the thumbnail swap lifts CTR to ~2 %; ~40 if it doesn't. Either way it beats K1 (28) and every post-2023 upload. It does not, and cannot, test the REDSEC thesis. R1 still does.

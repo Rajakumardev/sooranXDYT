@@ -10,10 +10,10 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Metric | Value |
 | --- | --- |
 | Subscribers | 20 (flat for 5 weeks) |
-| Total views | **3,518** (channel rollup lags video-level counts; K2b alone already shows **15** views) |
-| Videos | **37** — K2b published **2026-10-31 14:50 UTC** (first upload in 22 days) |
+| Total views | **3,532** (K2b = ~all of the movement; rollup lags video-level counts) |
+| Videos | **37** — K2b published **2026-10-31 14:50 UTC**, still the newest |
 | Created | 2019-05-27 |
-| Live check | `getChannelStatistics` + `getVideoDetails` **2026-11-01 16:15 UTC** — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
+| Live check | `getChannelStatistics` + `getVideoDetails` **2026-11-02 14:40 UTC** — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
 | Region / language | India (IN) / English (`en`) |
 | Platform | **Windows boot of the ASUS ROG Strix G513IE** — RTX 3050 Ti Laptop (3,962 MB VRAM), 15.4 GB RAM, 1080p, OBS 32.2.2 · **355 GB free** |
 | Active series | **Phase 3 (2026-11-01): CoD Zombies library** — one map per upload. Wave 1 **BO4** (8 maps, owned) → Wave 2 **BOCW** (5, owned) → Wave 3 **BO3** (at Steam sale) |
@@ -26,9 +26,9 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
 | KPI | Baseline (CoD era) | Phase-3 target | Current |
 | --- | --- | --- | --- |
-| Views / video | ~10–50 | **≥ 100 in 30 days** | **15** (K2b, 20 h — pace **18.1/day**) · K1 **28** lifetime |
-| Views / video / day | ~0–3 | **≥ 5** | **18.1** (K2b, 20 h) vs K1 **1.29** lifetime · channel **0.86/day** before K2b |
-| Like ratio | volatile (1–9%) | **≥ 1.5 %** (NAC 1.5–2.6 %) | **20.0%** (3 / 15, K2b 20 h) · K1 10.7% — small samples |
+| Views / video | ~10–50 | **≥ 100 in 30 days** | **25** (K2b, 42 h — pace **14.2/day**) · K1 **28** lifetime |
+| Views / video / day | ~0–3 | **≥ 5** | **14.2** (K2b, 42 h) vs K1 **1.29** lifetime · channel **0.86/day** before K2b |
+| Like ratio | volatile (1–9%) | **≥ 1.5 %** (NAC 1.5–2.6 %) | **16.0%** (4 / 25, K2b 42 h) · K1 10.7% |
 | Subscribers | 20 | **+30 in 90 days** | **20** (flat since 2026-10-14) |
 | CTR (impressions) | — | **≥ 2%** | **0.9%** (K2b 24 h, creator-reported) — **the failure point** |
 | Cadence compliance | — | **3 / week (Mon/Wed/Fri) @ ~13:00 UTC** | **2** uploads in 23 days — **0 / 13 Phase-3 slots filled** |
@@ -49,7 +49,7 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | 🎨 Packaging | 0 |
 | 📅 Scheduled | 0 |
 | 🚀 Published | **2** (K1, K2b — both legacy, both off-strategy) |
-| 📊 Reviewed | 1 (K2b — 24 h read in `reports/2026-11-01-k2b-24h-performance.md`) |
+| 📊 Reviewed | 1 (K2b — 24 h + 42 h reads in `reports/2026-11-01-k2b-24h-performance.md`) |
 | 📱 Shorts | **2 rendered, 0 published** — S1 KF2 Matriarch (28 s, Wed 11-04) · S2 BOCW Game Over (15.5 s, Fri 11-06). `shorts/README.md` |
 
 ## Publication log
@@ -58,7 +58,7 @@ Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 
 | ID | Series / map-perk | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `s55NY7In3A4` (**K2b**) | KF2 Black Forest — Commando (solo, Normal, 7 waves, Matriarch down, victory) | 2026-10-31 14:50 | **15** (at 19.9 h) | — | — | **3** | **0.9 %** | — | 0 | **Best opening since 2023: 18.1 views/day = 3.6× K1 day-one, 21× the channel's prior 0.86/day.** Like rate **20 %** (3/15) → the click-through is the problem, not the video. **CTR 0.9 %** implies ≈**1,650 impressions** in 20 h (~83/h) — real distribution, weak packaging. Cause: thumbnail says "THIS GAME IS STILL GOOD IN 2026" — no game identity, dark frame, mismatched with a boss-kill title. Fix = swap thumbnail (variants specced in the report). Chapters present. Cadence bridge only — names no live event |
+| `s55NY7In3A4` (**K2b**) | KF2 Black Forest — Commando (solo, Normal, 7 waves, Matriarch down, victory) | 2026-10-31 14:50 | **15** (at 19.9 h) | — | — | **4** | **0.9 %** | — | 0 | **25 views at 42.3 h (14.2/day) — will pass K1's lifetime 28 within hours.** Pace softened 18.1 → 14.2/day (−22 %, normal drift); K1 was 1.29/day lifetime. Like rate **16 %** (4/25) → click-through is the problem, not the video. **CTR 0.9 %** implies ≈**1,650 → 2,780 impressions** (still being served at 42 h). Cause: thumbnail says "THIS GAME IS STILL GOOD IN 2026" — no game identity, dark frame, mismatched with a boss-kill title. Chapters present. Cadence bridge only |
 | `IK5br0lhOBA` (**K1**) | KF2 Burning Paris — Commando (solo, Normal, victory) | 2026-10-09 17:56 | 5 | — | — | 3 | — | — | +1 | **28 views / 3 likes / 0 comments in 21.7 days (1.29/day lifetime), 10.7% like rate.** Trajectory: 24 at 10-24 → 28 at 10-31 = **+4 in 6.7 days (0.60/day)** — velocity roughly halved. **Missing chapters** |
 | `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 11:17 | 23 | — | — | 1 | — | — | 0 | **27 views / 1 like in 28.9 days (0.93/day lifetime), 3.7% like rate.** +2 in the last week (0.31/day) — decelerating. Off-series; unlist pending |
 | **K2a** | KF2 Elysium — Commando (solo, Normal, 7 waves, Patriarch down) | _editing_ | | | | | | | | Recorded 2026-10-14; packaging ready; cadence bridge only |
@@ -154,6 +154,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | 2026-10-14 | 0 | K2a review — done entirely from local files + KF2 logs |
 | 2026-10-31 | **~2** | `/track` analytics refresh — `getChannelStatistics` + `getVideoDetails` (2 IDs). No searches, so the cheapest refresh yet |
 | 2026-11-01 | **~103** | K2b 24 h read — `getChannelStatistics` (1) + `searchVideos` channel-by-date to find the new upload (100) + `getVideoDetails` 2 IDs (1) + `getVideoComments` (1) → `reports/2026-11-01-k2b-24h-performance.md` |
+| 2026-11-02 | **~3** | K2b second read at 42.3 h — stats + 2 video IDs + comments. No searches |
 | 2026-11-02 | **~102** | Shorts benchmark — `searchVideos` (`cold war zombies no commentary`, short, pastMonth) **100** + `getVideoDetails` 6 IDs (1) + `getChannelStatistics` 5 channels (1) → **1,039–1,228 views** on shorts from 4–382-sub channels vs **11** for long-form no-commentary → `reports/2026-11-02-shorts-from-library.md` |
 
 ---
