@@ -1,0 +1,6 @@
+[0:v]split=2[bg0][fg0];
+[bg0]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=30:2,eq=brightness=-0.12:saturation=0.9[bg];
+[fg0]scale=1080:-2:flags=lanczos,eq=contrast=1.06:brightness=0.02:saturation=1.06[fg];
+[bg][fg]overlay=0:656[base];
+[base]drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='BLACK OPS COLD WAR':x=(w-text_w)/2:y=372:fontsize=46:fontcolor=white:borderw=3:bordercolor=black@0.9,drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='GAME OVER':x=(w-text_w)/2:y=436:fontsize=112:fontcolor=0xFF2D2D:borderw=6:bordercolor=black@0.9,drawtext=fontfile='C\:/Windows/Fonts/arialbd.ttf':text='8 ROUNDS - 152 KILLS':x=(w-text_w)/2:y=574:fontsize=38:fontcolor=0xE6E6E6:borderw=3:bordercolor=black@0.9[vout];
+[0:a]loudnorm=I=-14:TP=-1.5:LRA=11,aformat=sample_rates=48000:channel_layouts=stereo[aout]

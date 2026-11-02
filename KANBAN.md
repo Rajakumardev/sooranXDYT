@@ -95,6 +95,29 @@ Do not add maps. Vary the run, keep the title pattern exact:
 
 ---
 
+## 📱 Shorts lane — cut from the library, 1–2 per week
+
+Rendered files + copy-paste metadata: `shorts/README.md`. Reasoning and measurements:
+`reports/2026-11-02-shorts-from-library.md`.
+
+| Card | Video | Length | Stage |
+| --- | --- | --- | --- |
+| S1 | **KF2 Black Forest — Matriarch down** (`shorts/kf2-matriarch-down-BlackForest-NoCommentary.mp4`) | 28 s | 🎨 Packaging — upload Wed 11-04 |
+| S2 | **BOCW Die Maschine — Game Over, 8 rounds** (`shorts/bocw-gameover-DieMaschine-NoCommentary.mp4`) | 15.5 s | 🎨 Packaging — upload Fri 11-06 |
+
+**Measured floor: ~1,000 views** — four Cold War Zombies Shorts from 4-, 9-, 117- and 382-sub
+channels did 1,039 / 1,094 / 1,140 / 1,228 in the past month, vs **11 views** for no-commentary
+long-form from a 1,650-sub channel. **The short-form title rule is NOT the long-form template** —
+hook first ("funny death", "8 rounds, 152 kills, game over"), map name optional.
+⚠️ Views ≠ subs (Skoll_8: 6,426 lifetime views, **4 subs**). Post for reach and for teaching
+YouTube what the channel is. Only 3 Shorts exist on the channel today.
+
+**From the next recording session, capture 3–4 of these per session:** the horde 30 s after every
+round-10+ transition, the end-of-run scoreboard (never quit at the death), and any Pack-a-Punch /
+wonder-weapon moment with its timestamp.
+
+---
+
 ## 🅿️ Parked / dropped (2026-11-01)
 
 - **Battlefield 6 / REDSEC Solos** — different genre, different query cluster.

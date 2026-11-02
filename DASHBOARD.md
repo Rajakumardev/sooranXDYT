@@ -3,7 +3,7 @@
 Single source of truth for channel and series performance.
 Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
-> **Last updated:** 2026-11-01 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
+> **Last updated:** 2026-11-02 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
 
 ## Channel snapshot
 
@@ -20,7 +20,7 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Recommended pivot | **Done** — Phase 2 (REDSEC/Delta Force) **discarded 2026-11-01**. All non-Zombies plans closed; see `CONTENT-PLAN.md` |
 | Dropped | REDSEC/BF6 · Delta Force · Arena Breakout · PUBG · RoR2 · Shatterline · KF3 · ECC: REDLINE · legacy CoD multiplayer |
 | Secondary lane | **KF2** — ~1 in 8–10 uploads, batched. NAC Z runs 13 KF2 videos at 2,371–3,178 views. Kept installed (94.8 GB) |
-| Install state (verified 2026-11-01) | CoD **not installed** — Steam `Call of Duty HQ` = **0.0 GB**, Battle.net has no `product.db`. BO4 + BOCW are **licensed, not downloaded** |
+| Install state (verified 2026-11-02) | **BOCW Zombies INSTALLED and running** — `C:\Program Files (x86)\Call of Duty Black Ops Cold War`, **58.5 GB** (Zombies pack only), recorded Die Maschine 2026-11-01. **BO4 not installed** (~100–130 GB). C: free **272.0 GB**. Steam `Call of Duty HQ` still a 0.0 GB stub |
 
 ## North-star KPIs
 
@@ -50,6 +50,7 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | 📅 Scheduled | 0 |
 | 🚀 Published | **2** (K1, K2b — both legacy, both off-strategy) |
 | 📊 Reviewed | 1 (K2b — 24 h read in `reports/2026-11-01-k2b-24h-performance.md`) |
+| 📱 Shorts | **2 rendered, 0 published** — S1 KF2 Matriarch (28 s, Wed 11-04) · S2 BOCW Game Over (15.5 s, Fri 11-06). `shorts/README.md` |
 
 ## Publication log
 
@@ -125,6 +126,8 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 ## Open issues
 
+- **🟢 SHORT-FORM IS THE ONLY ~1,000-VIEW SURFACE (2026-11-02).** Four Cold War Zombies Shorts (13–32 s) from channels with **9 / 4 / 117 / 382 subs** did **1,039 / 1,094 / 1,140 / 1,228 views** in the past month, while no-commentary **long-form** from a **1,650-sub** channel did **11**. The feed supplies ~1 K views regardless of channel authority — **~70× this channel's per-upload long-form**. Two Shorts are rendered and ready (`shorts/README.md`). ⚠️ Views did **not** buy subs for those channels (Skoll_8: 6,426 lifetime views, 4 subs), so this is reach and identity, not subscriber growth. Report: `reports/2026-11-02-shorts-from-library.md`.
+
 - **🔴 CADENCE PARTLY BROKEN — K2b is the proof both ways.** 2026-11-01: **37 videos, 3,518 views, 20 subs.** K2b (first upload in 22 days) did **15 views / 20 h = 18.1/day**, i.e. **21× the 0.86/day** the 36-video catalogue was earning, so output is still the lever. But its **CTR is 0.9 %** vs ≈1,650 implied impressions → distribution arrived and the **thumbnail** wasted it (20 % like rate says the video satisfied everyone who clicked). **Diagnosis: thumbnail packaging, not niche, not retention.** See `reports/2026-11-01-k2b-24h-performance.md`. K1's "accelerating" read stays superseded (1.33/day → 0.60/day).
 - **🟢 DEMAND CONFIRMED — REDSEC Solos (A) and BO4 Zombies (B).** REDSEC: median **28,020** / win-framed **49,485**. BO4: median **80,952**, but see the 2026-10-23 refresh — the 41,800 small-channel case does not reproduce, so BO4 is a **cheap test only**. Titles are locked from this data.
 - **🔑 THE OPERATING RULE — name something live in every title** (season / update / event / launch). KF2 proves it in one game: `Burning Paris Commando (Normal)` = **20 views in 11.3 days** vs the live `Abandon All Hope` weekly = **36,588 views in 33 days from a 2,720-sub channel**.
@@ -151,6 +154,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | 2026-10-14 | 0 | K2a review — done entirely from local files + KF2 logs |
 | 2026-10-31 | **~2** | `/track` analytics refresh — `getChannelStatistics` + `getVideoDetails` (2 IDs). No searches, so the cheapest refresh yet |
 | 2026-11-01 | **~103** | K2b 24 h read — `getChannelStatistics` (1) + `searchVideos` channel-by-date to find the new upload (100) + `getVideoDetails` 2 IDs (1) + `getVideoComments` (1) → `reports/2026-11-01-k2b-24h-performance.md` |
+| 2026-11-02 | **~102** | Shorts benchmark — `searchVideos` (`cold war zombies no commentary`, short, pastMonth) **100** + `getVideoDetails` 6 IDs (1) + `getChannelStatistics` 5 channels (1) → **1,039–1,228 views** on shorts from 4–382-sub channels vs **11** for long-form no-commentary → `reports/2026-11-02-shorts-from-library.md` |
 
 ---
 
