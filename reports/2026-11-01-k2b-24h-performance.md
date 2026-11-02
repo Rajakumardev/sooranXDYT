@@ -54,13 +54,18 @@ Lane evidence (`reports/2026-10-31-kf2-blackforest-metadata.md`): the KF2 upload
 **A. Swap the thumbnail — today, while impressions still flow (~83/h).**
 Source frames already extracted in `thumbnails/2026-10-31-kf2-blackforest/frames/`.
 
-- **Variant A — game identity (recommended):**
-  `KILLING FLOOR 2` wordmark (white, Impact) top-left over the dark sky,
-  tight crop of `05-1915-matriarch-reveal.png` so the Matriarch head fills the right third,
-  **`MATRIARCH`** in `#ffd400` bottom-left, and a small `NO COMMENTARY` chip.
-  Max 4 words of body text — it must be readable at 168 px.
-- **Variant B — result/proof:** use `06-2108-matriarch-death-gore.png`, text `7 WAVES · 0 DEATHS` + `KILLING FLOOR 2` wordmark.
-- The XCF is editable (`…-thumb.xcf`), so the outline/text layer stack already exists — only the string and the crop change.
+**Built 2026-11-02** (GIMP 3.2.6, 1920×1080, editable XCFs kept):
+
+| File | Design | Size |
+| --- | --- | --- |
+| `…-thumb-v2-A-kf2-payoff.jpg` | frame `05-1915-matriarch-reveal` + S-curve · **`KILLING FLOOR 2`** white top-left, **`MATRIARCH DOWN`** `#ffd400` bottom-left, `NO COMMENTARY` chip top-right | 394 KB |
+| `…-thumb-v2-B-victory.jpg` | frame `06-2108-matriarch-death-gore`, HUD cropped out, scaled 1.37× · **`KILLING FLOOR 2`** white, **`0 DEATHS`** yellow, the game's own **VICTORY** banner left visible | 422 KB |
+| `thumb-v2-A.xcf` / `thumb-v2-B.xcf` | layer sources (base + 3 text layers, editable) | — |
+
+Both checked at **320 px wide** — the two lines stay readable at feed size, which the old generic line did not.
+
+- **A is the primary** — the boss's green eyes and the game's own "Matriarch" label make it identifiable in under a second.
+- **B is the A/B test** — proof-of-result framing, but it reads as a red/black mass at 320 px, so treat it as the challenger, not the default.
 
 **B. Judge each variant on ≥500 impressions (~6 h at current rate), not on clicks.** Studio → *Reach* → impressions CTR, and use the per-thumbnail breakdown so the old 0.9 % doesn't poison the comparison. 500 impressions is the smallest sample that separates 1 % from 3 %.
 
