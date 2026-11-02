@@ -21,15 +21,15 @@ Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md` · Model research: `reports/2
 
 ## ⛔ Blocked on the creator
 
-- **[uninstall, 10 min] Delta Force (95.5 GB) + Arena Breakout Infinite (91.5 GB) = 187 GB back.**
-  Both belong to discarded plans. Takes free space to **~541 GB**, which funds every CoD install plus years of raw footage.
-- **[install, free] BOCW Zombies — Zombies pack only.** E.g. **35–50 GB**, modular (skip campaign + MP).
-  The TPM 2.0 / Secure Boot attestation block does **not** apply — that belongs to BO7/Warzone.
-- **[install, free] BO4 — full install, ~100–130 GB.** No modular install on this title.
-- **[fix, 15 min + reboot] Pagefile → fixed 16–24 GB on C:.**
-  Measured 2026-10-15: committed memory hit **19.9 GB of a 21.3 GB limit (93 %)** with a 2.9 GB pagefile. Memory is this machine's real bottleneck, not the GPU. Do this before the first recording session.
-- **[buy, when on sale] BO3 Zombies Chronicles Edition — ₹5,399 / 100 GB.** Wishlist it.
-  **Do not buy Deluxe (₹8,900).** It adds only The Giant, Eisendrache, Zetsubou, Gorod Krovi, Revelations — 2 of NAC's top-50 map-slots. Eisendrache alone is ₹719 if the channel proves out.
+- ~~[uninstall, 10 min] Delta Force (95.5 GB) + Arena Breakout Infinite (91.5 GB) = 187 GB back.~~
+  **Optional now** — 233.3 GB free covers BO3's 100 GB. Still worth doing for headroom.
+- ~~[install, free] BOCW Zombies~~ ✅ **DONE 2026-11-01** — 58.5 GB (Zombies pack only). ⚠️ It crashed 2:53 into a run — see `reports/2026-11-01-bocw-crash-memory-diagnosis.md`.
+- ~~[install, free] BO4~~ ✅ **DONE 2026-11-02** — **141.6 GB** at `C:\Program Files (x86)\Call of Duty Black Ops 4`.
+- **[verify, 2 min] Does the account own the BO4 Black Ops Pass?**
+  Base game = **4 maps only** (IX, Voyage of Despair, Blood of the Dead, Classified). Dead of the Night / Ancient Evil / Alpha Omega / Tag der Toten are **paid DLC**. Check the Zombies map-select — this decides whether Wave 1 is 8 cards or 4.
+- **[fix, 15 min + reboot] Pagefile → fixed 16–24 GB on C:. STILL OUTSTANDING.**
+  BOCW died 2:53 into a run with **755 MB free RAM**; WER also shows **Kernel-Power 41** unclean shutdowns and repeated **Kernel_141** GPU reports. Memory + stability are the real blockers now, not installs.
+- **[test, 20 min] One BO4 stability run before any session.** BO4 is DX11/2018 and much lighter than BOCW — good probe. If it holds 20 min clean, bank the maps.
 
 ---
 
