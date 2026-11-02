@@ -35,9 +35,17 @@ Plan: `CONTENT-PLAN.md` · Metrics: `DASHBOARD.md` · Model research: `reports/2
 
 ## 🎬 Wave 1 — BO4 (record all 8 in one session, then bank the releases)
 
+> **🎥 Banked footage — 2026-11-02, NOT published (deliberate).**
+> `C:\Users\rk\Videos\2026-11-02 20-34-54.mp4` — **Blood of the Dead**, solo, 1080p60, **14:07**, 3.49 GB.
+> End screen: **GAME OVER — survived 9 rounds (died on round 10) · 190 kills · 36 headshots · 3 downs · score 21,520**.
+> **Held on purpose:** Z1 must be a **35–45 min / round 20+** run so the channel's BO4 debut demonstrates the format's watch time. This 14-minute round-10 death is ~⅓ of the niche's length norm (NAC 35–76 min) and is not the card to open the series with.
+> **It is still usable:** round 9–10 horde + death + GAME OVER screen = Shorts material (the only surface measured at ~1,000 views).
+> ⚠️ **Audio peaks at 0.0 dB** (−15.8 dB mean) — it is clipping. Drop ~2–3 dB at capture next time (OBS desktop-audio gain / Windows mixer), or −2 dB in any editor before this file is ever uploaded.
+> ✅ **Stability datapoint:** BO4 held **14:07 clean** at 1080p60 — the BOCW 2:53 crash is not reproducing here, but 14 min is too short to call memory fixed. **Pagefile is still outstanding.**
+
 | Card | Map | Title | Stage |
 | --- | --- | --- | --- |
-| Z1 | Blood of the Dead | `BLACK OPS 4 ZOMBIES: BLOOD OF THE DEAD GAMEPLAY! (NO COMMENTARY)` | 📝 Planned |
+| Z1 | Blood of the Dead | `BLACK OPS 4 ZOMBIES: BLOOD OF THE DEAD GAMEPLAY! (NO COMMENTARY)` | 📝 Planned — **needs a round 20+ run (14:07 R10 run banked, not used)** |
 | Z2 | IX | `BLACK OPS 4 ZOMBIES: IX GAMEPLAY! (NO COMMENTARY)` | 📝 Planned |
 | Z3 | Voyage of Despair | `BLACK OPS 4 ZOMBIES: VOYAGE OF DESPAIR GAMEPLAY! (NO COMMENTARY)` | 📝 Planned |
 | Z4 | Tag der Toten | `BLACK OPS 4 ZOMBIES: TAG DER TOTEN GAMEPLAY! (NO COMMENTARY)` | 💡 Backlog |

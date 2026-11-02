@@ -20,7 +20,7 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Recommended pivot | **Done** — Phase 2 (REDSEC/Delta Force) **discarded 2026-11-01**. All non-Zombies plans closed; see `CONTENT-PLAN.md` |
 | Dropped | REDSEC/BF6 · Delta Force · Arena Breakout · PUBG · RoR2 · Shatterline · KF3 · ECC: REDLINE · legacy CoD multiplayer |
 | Secondary lane | **KF2** — ~1 in 8–10 uploads, batched. NAC Z runs 13 KF2 videos at 2,371–3,178 views. Kept installed (94.8 GB) |
-| Install state (verified 2026-11-02) | **BOCW Zombies INSTALLED and running** — `C:\Program Files (x86)\Call of Duty Black Ops Cold War`, **58.5 GB** (Zombies pack only), recorded Die Maschine 2026-11-01. **BO4 not installed** (~100–130 GB). C: free **272.0 GB**. Steam `Call of Duty HQ` still a 0.0 GB stub |
+| Install state (verified 2026-11-02) | **BOCW Zombies INSTALLED** — `C:\Program Files (x86)\Call of Duty Black Ops Cold War`, **58.5 GB** (Zombies pack only). **BO4 INSTALLED 2026-11-02** — `C:\Program Files (x86)\Call of Duty Black Ops 4`, **141.6 GB**; first run recorded (BotD, 14:07, died R10). C: free **233.3 GB**. Steam `Call of Duty HQ` still a 0.0 GB stub |
 
 ## North-star KPIs
 
@@ -34,7 +34,7 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 | Cadence compliance | — | **3 / week (Mon/Wed/Fri) @ ~13:00 UTC** | **2** uploads in 23 days — **0 / 13 Phase-3 slots filled** |
 | Title-template compliance | — | **100 %** | **0 / 0** — no Zombies upload yet |
 | Contains chapters | 0 / 35 | **100%** of new | **1 / 1** (K1 still missing) |
-| Zombies uploads banked | — | **13** (8 BO4 + 5 BOCW) | **0** — blocked on install |
+| Zombies uploads banked | — | **13** (8 BO4 + 5 BOCW) | **0 publishable** — BO4 installed, 1 run recorded (BotD, 14:07, died R10) but **held**: too short for Z1. Pagefile still outstanding |
 
 ## Pipeline (from `KANBAN.md`)
 
@@ -75,7 +75,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | W1 (Oct 12–16) | ❌ | — | ❌ | — | ⏳ K2a? | **off cadence** — platform pivot week; K2a optional bridge |
 | W2 (Oct 19–23) | ❌ | — | ❌ | — | ❌ | **0 / 3** — Phase-2 week never produced an upload |
 | W3 (Oct 26–30) | ❌ | — | ❌ | — | ❌ | **1 / 3** — K2b went out **Sat Oct 31**, off-slot (first upload in 22 days) |
-| W4 (Nov 2–6) | ⏳ **Z1** | — | ⏳ Z2 | — | ⏳ Z3 | **Phase 3 opener** — requires the BO4 install; if it isn't ready, **do not publish filler**. Nothing goes up that isn't a Zombies map |
+| W4 (Nov 2–6) | ⏳ **Z1** | — | ⏳ Z2 | — | ⏳ Z3 | **Phase 3 opener — install done, footage in hand but held.** The 2026-11-02 BotD run (14:07, died R10) is **not** the opener; Z1 needs a **35–45 min / R20+** BotD run. If that isn't recorded, **slip the slot rather than publish a 14-minute round-10 death as the series debut** |
 
 ## Benchmark reference
 
