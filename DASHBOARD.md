@@ -3,15 +3,15 @@
 Single source of truth for channel and series performance.
 Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
-> **Last updated:** 2026-11-02 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
+> **Last updated:** 2026-11-05 · **Refresh with:** `/track` (pulls live YouTube data and updates this file)
 
 ## Channel snapshot
 
 | Metric | Value |
 | --- | --- |
-| Subscribers | 20 (flat for 5 weeks) |
-| Total views | **3,532** (K2b = ~all of the movement; rollup lags video-level counts) |
-| Videos | **37** — K2b published **2026-10-31 14:50 UTC**, still the newest |
+| Subscribers | 20 (flat 22 days, since 2026-10-14) |
+| Total views | **3,543** (+11 in 3 days; K2b +4, rest is catalogue rollup) |
+| Videos | **37** — K2b published **2026-10-31 14:50 UTC**, still the newest (**5.0 days**, no upload since) |
 | Created | 2019-05-27 |
 | Live check | `getChannelStatistics` + `getVideoDetails` **2026-11-02 14:40 UTC** — SooranXD `UCFrZFDmccrELUQSJlUToW9Q` |
 | Region / language | India (IN) / English (`en`) |
@@ -26,12 +26,12 @@ Plan: `CONTENT-PLAN.md` · Board: `KANBAN.md` · Analyses: `reports/`
 
 | KPI | Baseline (CoD era) | Phase-3 target | Current |
 | --- | --- | --- | --- |
-| Views / video | ~10–50 | **≥ 100 in 30 days** | **25** (K2b, 42 h — pace **14.2/day**) · K1 **28** lifetime |
-| Views / video / day | ~0–3 | **≥ 5** | **14.2** (K2b, 42 h) vs K1 **1.29** lifetime · channel **0.86/day** before K2b |
-| Like ratio | volatile (1–9%) | **≥ 1.5 %** (NAC 1.5–2.6 %) | **16.0%** (4 / 25, K2b 42 h) · K1 10.7% |
+| Views / video | ~10–50 | **≥ 100 in 30 days** | **29** (K2b, 5.0 d — **tracks to ~31 at day 7**) · K1 **28** lifetime · RoR2 **27** |
+| Views / video / day | ~0–3 | **≥ 5** | **5.77** lifetime (K2b) but **1.23/day** in the last 78 h — the 18.1/day opening did not hold |
+| Like ratio | volatile (1–9%) | **≥ 1.5 %** (NAC 1.5–2.6 %) | **13.8 %** (4 / 29, K2b 5.0 d) · K1 10.7 % — **no new likes in the last 78 h** |
 | Subscribers | 20 | **+30 in 90 days** | **20** (flat since 2026-10-14) |
 | CTR (impressions) | — | **≥ 2%** | **0.9%** (K2b 24 h, creator-reported) — **the failure point** |
-| Cadence compliance | — | **3 / week (Mon/Wed/Fri) @ ~13:00 UTC** | **2** uploads in 23 days — **0 / 13 Phase-3 slots filled** |
+| Cadence compliance | — | **3 / week (Mon/Wed/Fri) @ ~13:00 UTC** | **2** uploads in 27 days, **none since 2026-10-31** — **0 / 13 Phase-3 slots filled** |
 | Title-template compliance | — | **100 %** | **0 / 0** — no Zombies upload yet |
 | Contains chapters | 0 / 35 | **100%** of new | **1 / 1** (K1 still missing) |
 | Zombies uploads banked | — | **13** (8 BO4 + 5 BOCW) | **0 publishable** — BO4 installed, 1 run recorded (BotD, 14:07, died R10) but **held**: too short for Z1. Pagefile still outstanding |
@@ -58,7 +58,7 @@ Log 24 h CTR + average view duration, then 7-day and 30-day views/likes.
 
 | ID | Series / map-perk | Published | Views 24h | Views 7d | Views 30d | Likes | CTR | AVD % | Subs + | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `s55NY7In3A4` (**K2b**) | KF2 Black Forest — Commando (solo, Normal, 7 waves, Matriarch down, victory) | 2026-10-31 14:50 | **15** (at 19.9 h) | — | — | **4** | **0.9 %** | — | 0 | **25 views at 42.3 h (14.2/day) — will pass K1's lifetime 28 within hours.** Pace softened 18.1 → 14.2/day (−22 %, normal drift); K1 was 1.29/day lifetime. Like rate **16 %** (4/25) → click-through is the problem, not the video. **CTR 0.9 %** implies ≈**1,650 → 2,780 impressions** (still being served at 42 h). Cause: thumbnail says "THIS GAME IS STILL GOOD IN 2026" — no game identity, dark frame, mismatched with a boss-kill title. Chapters present. Cadence bridge only. **Thumbnail v2 built 2026-11-02** (`…-thumb-v2-A-kf2-payoff.jpg`, primary; `…-v2-B-victory.jpg`, test) — awaiting creator upload |
+| `s55NY7In3A4` (**K2b**) | KF2 Black Forest — Commando (solo, Normal, 7 waves, Matriarch down, victory) | 2026-10-31 14:50 | **15** (at 19.9 h) | — | — | **4** | **0.9 %** | — | 0 | **FLATLINED at 120.6 h: 29 views (5.77/day lifetime), but only +4 in the last 78 h = 1.23/day (−88 %).** Curve: 18.1 → 10.7 → 1.23/day. Likes frozen at 4 (0 new in 78 h) → 13.8 % like rate, video is fine. Implied impressions 2,780 → 3,220 at 0.9 % CTR, i.e. **serving fell ~93 % while CTR stayed 0.9 % — YouTube stopped the test, it did not get pickier.** **Day-7 track ~31, below both prior bands (99 flat / 50–60 decay).** Cause unchanged: thumbnail has **never** been swapped — v2-A is still only on disk. Read: `reports/2026-11-05-k2b-flatline-read.md` |
 | `IK5br0lhOBA` (**K1**) | KF2 Burning Paris — Commando (solo, Normal, victory) | 2026-10-09 17:56 | 5 | — | — | 3 | — | — | +1 | **28 views / 3 likes / 0 comments in 21.7 days (1.29/day lifetime), 10.7% like rate.** Trajectory: 24 at 10-24 → 28 at 10-31 = **+4 in 6.7 days (0.60/day)** — velocity roughly halved. **Missing chapters** |
 | `eXFAFQxc6rc` | RoR2 *(off-series)* | 2026-10-02 11:17 | 23 | — | — | 1 | — | — | 0 | **27 views / 1 like in 28.9 days (0.93/day lifetime), 3.7% like rate.** +2 in the last week (0.31/day) — decelerating. Off-series; unlist pending |
 | **K2a** | KF2 Elysium — Commando (solo, Normal, 7 waves, Patriarch down) | _editing_ | | | | | | | | Recorded 2026-10-14; packaging ready; cadence bridge only |
@@ -75,7 +75,8 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | W1 (Oct 12–16) | ❌ | — | ❌ | — | ⏳ K2a? | **off cadence** — platform pivot week; K2a optional bridge |
 | W2 (Oct 19–23) | ❌ | — | ❌ | — | ❌ | **0 / 3** — Phase-2 week never produced an upload |
 | W3 (Oct 26–30) | ❌ | — | ❌ | — | ❌ | **1 / 3** — K2b went out **Sat Oct 31**, off-slot (first upload in 22 days) |
-| W4 (Nov 2–6) | ⏳ **Z1** | — | ⏳ Z2 | — | ⏳ Z3 | **Phase 3 opener — install done, footage in hand but held.** The 2026-11-02 BotD run (14:07, died R10) is **not** the opener; Z1 needs a **35–45 min / R20+** BotD run. If that isn't recorded, **slip the slot rather than publish a 14-minute round-10 death as the series debut** |
+| W4 (Nov 2–6) | ❌ | — | ❌ | — | ⏳ Z1 | **0 / 3 — Phase 3 has published nothing.** No upload since K2b (10-31, now **5.0 days**). **S1 Short also missed its Wed 11-04 slot.** Z1 still needs a **35–45 min / R20+** BotD run; the 14:07 R10 run stays banked as Shorts material |
+| W5 (Nov 9–13) | ⏳ | — | ⏳ | — | ⏳ | **First real Phase-3 test.** If Z1 is not recorded by 11-08, publish the banked cards rather than slip a third week |
 
 ## Benchmark reference
 
@@ -126,6 +127,9 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 
 ## Open issues
 
+- **🔴 K2B FLATLINED AT DAY 5 — and the fix is unshipped (2026-11-05).** 29 views / 120.6 h. Curve **18.1 → 10.7 → 1.23/day**; likes frozen at 4; implied impressions 2,780 → 3,220 at the 0.9 % CTR ⇒ **serving fell ~93 % while CTR held at 0.9 %**: YouTube ended the test, it did not get pickier. Tracks to **~31 at day 7**, below both prior bands. **Thumbnail v2-A has never been uploaded, S1's Wed slot passed unused, S2 is still queued — three finished assets sitting on disk.** Read: `reports/2026-11-05-k2b-flatline-read.md`.
+- **🔑 THE FLOOR IS 29 / 28 / 27 (2026-11-05).** K2b 29 (KF2, 5.0 d) · K1 28 (KF2, 27 d) · RoR2 27 (RoR2, 34 d). Three games, three title styles, **2 views of spread**. The opening batch is the only thing cadence buys (18.1/day vs 0.86/day catalogue = 21×), and it is spent in 48 h. **Do not switch games again — a fourth game buys nothing.**
+
 - **🟢 SHORT-FORM IS THE ONLY ~1,000-VIEW SURFACE (2026-11-02).** Four Cold War Zombies Shorts (13–32 s) from channels with **9 / 4 / 117 / 382 subs** did **1,039 / 1,094 / 1,140 / 1,228 views** in the past month, while no-commentary **long-form** from a **1,650-sub** channel did **11**. The feed supplies ~1 K views regardless of channel authority — **~70× this channel's per-upload long-form**. Two Shorts are rendered and ready (`shorts/README.md`). ⚠️ Views did **not** buy subs for those channels (Skoll_8: 6,426 lifetime views, 4 subs), so this is reach and identity, not subscriber growth. Report: `reports/2026-11-02-shorts-from-library.md`.
 
 - **🔴 CADENCE PARTLY BROKEN — K2b is the proof both ways.** 2026-11-01: **37 videos, 3,518 views, 20 subs.** K2b (first upload in 22 days) did **15 views / 20 h = 18.1/day**, i.e. **21× the 0.86/day** the 36-video catalogue was earning, so output is still the lever. But its **CTR is 0.9 %** vs ≈1,650 implied impressions → distribution arrived and the **thumbnail** wasted it (20 % like rate says the video satisfied everyone who clicked). **Diagnosis: thumbnail packaging, not niche, not retention.** See `reports/2026-11-01-k2b-24h-performance.md`. K1's "accelerating" read stays superseded (1.33/day → 0.60/day).
@@ -156,6 +160,7 @@ Fixed slots: **Mon / Wed / Fri**, publish for US/EU afternoon.
 | 2026-11-01 | **~103** | K2b 24 h read — `getChannelStatistics` (1) + `searchVideos` channel-by-date to find the new upload (100) + `getVideoDetails` 2 IDs (1) + `getVideoComments` (1) → `reports/2026-11-01-k2b-24h-performance.md` |
 | 2026-11-02 | **~3** | K2b second read at 42.3 h — stats + 2 video IDs + comments. No searches |
 | 2026-11-02 | **~102** | Shorts benchmark — `searchVideos` (`cold war zombies no commentary`, short, pastMonth) **100** + `getVideoDetails` 6 IDs (1) + `getChannelStatistics` 5 channels (1) → **1,039–1,228 views** on shorts from 4–382-sub channels vs **11** for long-form no-commentary → `reports/2026-11-02-shorts-from-library.md` |
+| 2026-11-05 | **~2** | K2b day-5 flatline read — `getChannelStatistics` (1) + `getVideoDetails` 3 IDs (1). Uploads RSS feed = 0 units. No searches → `reports/2026-11-05-k2b-flatline-read.md` |
 
 ---
 
